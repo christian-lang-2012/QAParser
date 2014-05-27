@@ -1,0 +1,224 @@
+Verify/VB if/IN the/DT user/NN clicks/VBZ the/DT 'X/NN '/POS in/IN the/DT upper/JJ right/NN corner/NN ,/, the/DT 'Add/NN Documents/NNS from/IN Widen/NNP '/POS lightbox/NN is/VBZ closed/VBN ,/, the/DT user/NN is/VBZ returned/VBN to/TO the/DT Documents/NNP tab/NN ,/, and/CC no/DT actions/NNS are/VBP taken/VBN
+Verify/VB clicking/NN Export/NN >/SYM PDF/NNP >/SYM Letter/NN -/: Portrait/NN when/WRB no/DT portfolios/NNS are/VBP selected/VBN creates/VBZ a/DT portrait/NN PDF/NNP file/NN with/IN all/DT portfolios/NNS
+With/IN no/DT programs/NNS selected/VBN ,/, verify/VB a/DT program/NN list/NN is/VBZ in/IN the/DT same/JJ order/NN when/WRB exported/VBN as/IN an/DT Excel/NNP (/( xlsx/NNP )/) file/NN as/IN on/IN the/DT computer/NN
+Verify/VB when/WRB a/DT custom/NN View/NN is/VBZ applied/VBN with/IN custom/NN fields/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) ,/, custom/NN fields/NNS match/VBP those/DT in/IN AtTask/NNP portfolio/NN list/NN
+Verify/VB applied/VBN Filter/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN Excel/NNP (/( xlsx/NNP )/) portfolios/NNS list/NN
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP when/WRB no/DT programs/NNS are/VBP selected/VBN creates/VBZ an/DT xls/NNP file/NN with/IN all/DT programs/NNS
+Verify/VB applied/VBN Filter/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN tsv/NNP portfolios/NNS list/NN
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN custom/JJ fields/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP ,/, custom/JJ fields/NNS match/VBP those/DT in/IN AtTask/NNP portfolio/NN list/NN
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN calculated/VBN field/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP ,/, calculated/VBN field/NN matches/NNS that/WDT in/IN AtTask/NNP portfolio/NN list/NN
+With/IN no/DT portfolios/NNS selected/VBN ,/, verify/VB a/DT portfolio/NN list/NN is/VBZ in/IN the/DT same/JJ oder/NNP when/WRB exported/VBN to/TO Excel/NNP (/( xlsx/NNP )/) file/NN as/IN on/IN the/DT computer/NN
+Verify/VB applied/VBN Grouping/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN Excel/NNP (/( xlsx/NNP )/) programs/NNS list/NN
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP when/WRB a/DT few/JJ programs/NNS are/VBP selected/VBN creates/VBZ an/DT xls/NNP file/NN with/IN only/RB the/DT selected/VBN programs/NNS
+Verify/VB applied/VBN View/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM A4/. -/: Portrait/NN programs/NNS list/NN
+Verify/VB applied/VBN Filter/NN is/VBZ persistent/JJ in/IN exported/VBN tsv/NNP programs/NNS list/NN
+Verify/VB when/WRB a/DT custom/JJ View/NNP is/VBZ applied/VBN with/IN calculated/VBN field/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO PDF/NNP >/SYM Letter/NN -/: Portrait/NN ,/, calculated/VBN field/NN matches/VBZ that/WDT in/IN AtTask/NNP program/NN list/NN
+Verify/VB clicking/VBG Export/NN >/SYM Tab/NN Delimited/IN when/WRB no/DT portfolios/NNS are/VBP selected/VBN creates/VBZ a/DT tsv/NNP file/NN with/IN all/DT portfolios/NNS
+Verify/VB when/WRB a/DT portfolio/NN list/NN is/VBZ exported/VBN to/TO Excel/NNP ,/, there/EX is/VBZ no/DT missing/JJ data/NNS
+Verify/VB clicking/VBG Export/NN >/SYM PDF/NNP >/SYM Letter/NN -/: Landscape/NN when/IN a/DT few/JJ portfolios/NNS are/VBP selected/VBN creates/VBZ a/DT landscape/NN PDF/NNP file/NN with/IN only/RB the/DT selected/VBN portfolios/NNS
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP when/WRB no/DT portfolios/NNS are/VBP selected/VBN creates/VBZ an/DT xls/NNP file/NN with/IN all/DT portfolios/NNS
+With/IN no/DT programs/NNS selected/VBN ,/, verify/VB a/DT program/NN list/NN is/VBZ in/IN the/DT same/JJ order/NN when/WRB exported/VBN as/IN a/DT Tab/NN Delimited/NN file/NN as/IN on/IN the/DT computer/NN
+With/IN no/DT portfolios/NNS selected/VBN ,/, verify/VB a/DT portfolio/NN list/NN is/VBZ in/IN the/DT same/JJ order/NN when/WRB exported/VBN to/TO Tab/NN Delimited/NN file/NN as/IN on/IN the/DT computer/NN
+Verify/VB applied/VBN Grouping/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Ledger/NN -/: Portrait/NN programs/NNS list/NN
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP (/( xlsx/NNP )/) when/IN a/DT few/JJ portfolios/NNS are/VBP selected/VBN creates/VBZ an/DT xlsx/NNP file/NN with/IN only/RB the/DT selected/VBN portfolios/NNS
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN custom/JJ fields/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP ,/, custom/JJ fields/NNS match/VBP those/DT in/IN AtTask/NNP program/NN list/NN
+Verify/VB clicking/VBG Export/NN >/SYM PDF/NNP >/SYM Letter/NN -/: Landscape/NN when/IN a/DT few/JJ programs/NNS are/VBP selected/VBN creates/VBZ a/DT landscape/NN PDF/NNP file/NN with/IN only/RB the/DT selected/VBN programs/NNS
+Verify/VB applied/VBN Filter/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Legal/JJ -/: Landscape/NN programs/NNS list/NN
+Verify/VB applied/VBN View/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN Excel/NNP portfolios/NNS list/NN
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP when/WRB a/DT few/JJ portfolios/NNS are/VBP selected/VBN creates/VBZ an/DT xls/NNP file/NN with/IN only/RB the/DT selected/VBN portfolios/NNS
+Verify/VB when/WRB a/DT portfolio/NN list/NN is/VBZ exported/VBN to/TO tsv/NNP ,/, only/RB the/DT columns/NNS that/WP are/VBP displayed/VBN in/IN the/DT AtTask/NNP portfolio/NN list/NN are/VBP exported/VBN
+Verify/VB when/WRB applied/VBN View/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM A4/. -/: Portrait/NN portfolios/NNS list/NN
+Verify/VB when/WRB Grouping/NN is/VBZ applied/VBN and/CC exported/VBN to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Ledger/NN -/: Landscape/NN ,/, the/DT grouping/NN color/NN in/IN the/DT export/NN matches/VBZ the/DT color/NN in/IN AtTask/NNP project/NN list/NN
+Verify/VB when/WRB a/DT portfolio/NN list/NN is/VBZ exported/VBN to/TO Excel/NNP ,/, only/RB those/DT columns/NNS displayed/VBD in/IN AtTask/NNP portfolio/NN list/NN are/VBP exported/VBN
+Verify/VB when/WRB a/DT portfolio/NN list/NN is/VBZ exported/VBN to/TO PDF/NNP >/SYM Letter/NN -/: Landscape/NN ,/, only/RB the/DT columns/NNS displayed/VBD in/IN AtTask/NNP portfolio/NN list/NN are/VBP exported/VBN
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP (/( xlsx/NNP )/) when/IN a/DT few/JJ programs/NNS are/VBP selected/VBN creates/VBZ an/DT xlsx/NNP file/NN with/IN only/RB the/DT selected/VBN programs/NNS
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN calculated/VBN field/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) ,/, calculated/VBN field/NN matches/NNS that/WDT in/IN AtTask/NNP portfolio/NN list/NN
+Verify/VB applied/VBN Grouping/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN Excel/NNP portfolios/NNS list/NN
+Verify/VB when/WRB a/DT program/NN list/NN is/VBZ exported/VBN to/TO Excel/NNP ,/, there/EX is/VBZ no/DT missing/JJ data/NNS
+Verify/VB when/WRB a/DT program/NN list/NN is/VBZ exported/VBN to/TO tsv/NNP ,/, there/EX is/VBZ no/DT extra/JJ data/NNS
+Verify/VB when/WRB a/DT custom/NN View/NNP is/VBZ applied/VBN with/IN calculated/VBN field/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO tsv/NNP ,/, calculated/VBN field/NN matches/NNS that/WDT in/IN AtTask/NNP program/NN list/NN
+Verify/VB when/WRB a/DT program/NN list/NN is/VBZ exported/VBN to/TO tsv/NNP ,/, there/EX is/VBZ no/DT missing/JJ data/NNS
+Verify/VB when/WRB a/DT program/NN list/NN is/VBZ exported/VBN to/TO tsv/NNP ,/, only/RB those/DT columns/NNS that/WP are/VBP displayed/VBN in/IN AtTask/NNP program/NN list/NN are/VBP exported/VBN
+Verify/VB applied/VBN Filter/NNP is/VBZ persistent/JJ in/IN the/DT exported/VBN PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Legal/NN -/: Landscape/NN portfolios/NNS list/NN
+Verify/VB applied/VBN View/NNP is/VBZ persistent/JJ in/IN the/DT exported/VBN tsv/NNP portfolios/NNS list/NN
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN calculated/VBN field/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO tsv/NNP ,/, calculated/VBN field/NN matches/NNS that/WDT in/IN AtTask/NNP portfolio/NN list/NN
+Verify/VB when/WRB a/DT portfolio/NN list/NN is/VBZ exported/VBN to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Legal/NN -/: Portrait/NN ,/, there/EX is/VBZ no/DT missing/JJ data/NNS
+Verify/VB applied/VBN View/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN Excel/NNP (/( xlsx/NNP )/) programs/NNS list/VBP
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP (/( xlsx/NNP )/) when/IN no/DT programs/NNS selected/VBN creates/VBZ an/DT xlsx/NNP file/NN with/IN all/DT programs/NNS
+Verify/VB when/WRB a/DT program/NN list/NN is/VBZ exported/VBN to/TO Excel/NNP ,/, only/RB the/DT columns/NNS that/WP are/VBP displayed/VBN in/IN AtTask/NNP program/NN list/NN are/VBP exported/VBN
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN calculated/VBN field/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP ,/, calculated/VBN field/NN matches/NNS that/WDT in/IN AtTask/NNP program/NN list/NN
+Verify/VB clicking/VBG Export/NN >/SYM Tab/NN Delimited/NN when/WRB no/DT programs/NNS are/VBP selected/VBN creates/VBZ a/DT tsv/NNP file/NN with/IN all/DT programs/NNS
+Verify/VB when/WRB a/DT program/NN list/NN is/VBZ exported/VBN to/TO PDF/NNP >/SYM Letter/NN -/: Landscape/NN ,/, only/RB those/DT columns/NNS that/WP are/VBP displayed/VBN in/IN AtTask/NNP program/NN list/NN are/VBP exported/VBN
+Verify/VB when/WRB Grouping/NN is/VBZ applied/VBN and/CC exported/VBN to/TO Excel/NNP ,/, the/DT grouping/NN color/NN in/IN the/DT export/NN matches/VBZ that/IN in/IN AtTask/NNP portfolio/NN list/NN
+Verify/VB when/WRB a/DT portfolio/NN list/NN is/VBZ exported/VBN to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Legal/NN -/: Landscape/NN ,/, there/EX is/VBZ no/DT extra/JJ data/NNS
+Verify/VB when/WRB a/DT program/NN list/NN is/VBZ exported/VBN to/TO Excel/NNP ,/, there/EX is/VBZ no/DT extra/JJ data/NNS
+Verify/VB applied/VBN View/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN Excel/NNP programs/NNS list/NN
+Verify/VB clicking/VBG Export/NN >/SYM Tab/NN Delimited/NN when/WRB a/DT few/JJ programs/NNS are/VBP selected/VBN creates/VBZ a/DT tsv/NNP file/NN with/IN only/RB the/DT selected/VBN programs/NNS
+Verify/VB clicking/VBG Export/NN >/SYM Tab/NN Delimited/NN when/WRB a/DT few/JJ portfolios/NNS are/VBP selected/VBN creates/VBZ a/DT tsv/NNP file/NN with/IN only/RB the/DT selected/VBN portfolios/NNS
+Verify/VB when/WRB a/DT portfolio/NN list/NN is/VBZ exported/VBN to/TO tsv/NNP ,/, there/EX is/VBZ no/DT extra/JJ data/NNS
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN custom/NN fields/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO tsv/NNP ,/, custom/NN fields/NNS match/VBP those/DT in/IN AtTask/NNP portfolio/NN list/NN
+Verify/VB applied/VBN Grouping/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN Excel/NNP (/( xlsx/NNP )/) portfolios/NNS list/VBP
+With/IN no/DT programs/NNS selected/VBN ,/, verify/VB a/DT program/NN list/NN is/VBZ in/IN the/DT same/JJ order/NN when/WRB exported/VBN as/IN PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Legal/NN -/: Portrait/NN file/NN as/IN on/IN the/DT computer/NN
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN calculated/VBN field/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) ,/, calculated/VBN field/NN matches/NNS that/WDT in/IN AtTask/NNP program/NN list/NN
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN custom/NN fields/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) ,/, custom/NN fields/NNS match/VBP those/DT in/IN AtTask/NNP program/NN list/NN
+Verify/VB applied/VBN Filter/NNP is/VBZ persistent/JJ in/IN the/DT exported/VBN Excel/NNP (/( xlsx/NNP )/) programs/NNS list/VBP
+Verify/VB when/WRB Grouping/NN is/VBZ applied/VBN and/CC exported/VBN to/TO Excel/NNP ,/, the/DT grouping/NN color/NN in/IN the/DT export/NN matches/VBZ the/DT color/NN in/IN AtTask/NNP program/NN list/NN
+Verify/VB when/WRB a/DT program/NN list/NN is/VBZ exported/VBN ,/, there/EX is/VBZ no/DT extra/JJ data/NNS
+Verify/VB when/WRB a/DT program/NN list/NN is/VBZ exported/VBN ,/, there/EX is/VBZ no/DT missing/JJ data/NNS
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN custom/NN fields/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM A4/NN -/: Landscape/NN ,/, custom/JJ fields/NNS match/VBP those/DT in/IN AtTask/NNP portfolio/NN list/NN
+With/IN no/DT portfolios/NNS selected/VBN ,/, verify/VB a/DT portfolio/NN list/NN is/VBZ in/IN the/DT same/JJ order/NN when/WRB exported/VBN as/IN PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Legal/NN -/: Portrait/NN file/NN as/IN on/IN the/DT computer/NN
+Verify/VB applied/VBN View/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN Excel/NNP (/( xlsx/NNP )/) portfolios/NNS list/VBP
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP (/( xlsx/NNP )/) when/IN no/DT portfolios/NNS are/VBP selected/VBN creates/VBZ an/DT xlsx/NNP file/NN with/IN all/DT portfolios/NNS
+Verify/VB applied/VBN Grouping/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Ledger/NN -/: Portrait/NN portfolios/NNS list/NN
+Verify/VB applied/VBN Filter/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN Excel/NNP programs/NNS list/NN
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN custom/NN fields/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO tsv/NNP ,/, custom/JJ fields/NNS match/VBP those/DT in/IN AtTask/NNP program/NN list/NN
+Verify/VB when/WRB Grouping/NN is/VBZ applied/VBN and/CC exported/VBN to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Ledger/NN -/: Landscape/NN ,/, the/DT grouping/NN color/NN in/IN the/DT export/NN matches/VBZ the/DT color/NN in/IN AtTask/NNP program/NN list/NN
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN custom/JJ fields/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM A4/NN -/: Landscape/NN ,/, custom/JJ fields/NNS match/VBP those/DT in/IN AtTask/NNP program/NN list/NN
+Verify/VB when/WRB a/DT portfolio/NN list/NN is/VBZ exported/VBN to/TO Excel/NNP ,/, there/EX is/VBZ no/DT extra/JJ data/NNS
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN calculated/VBN field/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO PDF/NNP >/SYM Letter/NN -/: Portrait/NN ,/, calculated/VBN field/NN matches/NNS that/WDT in/IN AtTask/NNP portfolio/NN list/NN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN currency/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP ,/, currency/NN format/NN is/VBZ retained/VBN
+Verify/VB when/WRB a/DT View/NNP is/VBZ applied/VBN with/IN user/NN avatars/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP there/RB is/VBZ a/DT Yes/UH if/IN user/NN has/VBZ user/NN avatar/NN in/IN AtTask/NNP project/NN users/NNS list/NN ,/, and/CC No/UH if/IN user/NN does/VBZ not/RB have/VB user/NN avatar/NN in/IN AtTask/NNP project/NN users/NNS list/NN
+Verify/VB when/WRB a/DT View/NNP is/VBZ applied/VBN with/IN user/NN avatars/, in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) there/RB is/VBZ a/DT Yes/UH if/IN user/NN has/VBZ user/NN avatar/IN in/IN AtTask/DT project/NN users/NNS list/NN ,/, and/CC No/UH if/IN user/NN does/VBZ not/RB have/VB user/NN avatar/IN in/IN AtTask/DT project/NN users/NNS list/NNVerify when a View is applied with Date in it, when exported to tsv, date format is retained
+Verify/VB after/IN clicking/VBG Export/NN >/SYM Excel/NNP (/( xlsx/NNP )/) when/IN no/DT project/NN users/NNS are/VBP selected/VBN creates/VBZ an/DT xlsx/NNP file/NN with/IN all/DT project/NN users/NNS
+Verify/VB that/DT when/WRB project/NN Users/NNS list/NN is/VBZ exported/VBN to/TO Excel/NNP ,/, only/RB the/DT columns/NNS that/WP are/VBP displayed/VBN in/IN AtTask/NNP project/NN users/NNS list/NN are/VBP exported/VBN
+Verify/VB that/DT when/WRB project/NN Users/NNS list/NN is/VBZ exported/VBN to/TO Excel/NNP ,/, there/EX is/VBZ no/DT extra/JJ data/NNS
+Verify/VB applied/VBN Grouping/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN Excel/NNP project/NN users/NNS list/NN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN phone/NN numbers/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Ledger/NN -/: Portrait/NN ,/, phone/NN number/NN format/NN is/VBZ retained/VBN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN currency/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO tsv/NNP ,/, currency/NN format/NN is/VBZ retained/VBN
+Verify/VB when/WRB Hours/NNS list/VBP is/VBZ exported/VBN to/TO tsv/NNP ,/, there/EX is/VBZ no/DT extra/JJ data/NNS
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP (/( xlsx/NNP )/) when/IN no/DT hours/NNS are/VBP selected/VBN creates/VBZ an/DT xlsx/NNP file/NN with/IN all/DT hours/NNS
+Verify/VB when/WRB Grouping/NN is/VBZ applied/VBN and/CC exported/VBN to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM A4/NN -/: Portrait/NN ,/, the/DT grouping/NN color/NN in/IN the/DT export/NN matches/VBZ the/DT color/NN in/IN AtTask/NNP hours/NNS list/NN
+Verify/VB applied/VBN Filter/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Legal/NN -/: Landscape/NN hours/NNS list/NN
+Verify/VB applied/VBN View/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN tsv/NNP billing/NN records/NNS list/NN
+With/IN no/DT billing/NN records/NNS selected/VBN ,/, verify/VB billing/NN records/NNS list/NN is/VBZ in/IN the/DT same/JJ order/NN when/WRB exported/VBN to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Legal/NN -/: Portrait/NN file/NN as/IN on/IN the/DT computer/NN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN currency/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO PDF/NNP >/SYM Letter/NN -/: Landscape/NN ,/, currency/NN format/NN is/VBZ retained/VBN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN currency/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP ,/, currency/NN format/NN is/VBZ retained/VBN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN currency/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) ,/, currency/NN format/NN is/VBZ retained/VBN
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP (/( xlsx/NNP )/) when/IN no/DT billing/NN records/NNS are/VBP selected/VBN creates/VBZ an/DT xlsx/NNP file/NN with/IN all/DT project/NN billing/NN records/NNS
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN decimal/JJ in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP ,/, decimal/NN format/NN is/VBZ retained/VBN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN decimal/JJ in/IN it/PRP ,/, when/WRB exported/VBD to/TO PDF/NNP >/SYM Letter/NN -/: Landscape/NN ,/, decimal/NN format/NN is/VBZ retained/VBN
+With/IN no/DT baselines/NNS selected/VBN ,/, verify/VB baselines/NNS list/NN is/VBZ in/IN the/DT same/JJ order/NN when/WRB exported/VBN to/TO Excel/NNP file/NN as/IN on/IN the/DT computer/NN
+Verify/VB applied/VBN View/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Ledger/NN -/: Portrait/NN risks/NNS list/NN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN currency/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP ,/, currency/NN format/NN is/VBZ retained/VBN
+Verify/VB clicking/VBG Export/NN >/SYM Tab/NN Delimited/NN when/WRB a/DT few/JJ risks/NNS are/VBP selected/VBN creates/VBZ a/DT tsv/NNP file/NN with/IN only/RB the/DT selected/VBN risks/NNS
+Verify/VB clicking/VBG Export/NN >/SYM Tab/NN Delimited/NN when/WRB no/DT risks/NNS are/VBP selected/VBN creates/VBZ a/DT tsv/NNP file/NN with/IN all/DT project/NN risks/NNS
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN percentage/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) ,/, percentage/NN format/NN is/VBZ retained/VBN
+Verify/VB applied/VBN Grouping/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Ledger/NN -/: Landscape/NN risks/NNS list/NN
+Verify/VB applied/VBN Grouping/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN Excel/NNP (/( xlsx/NNP )/) risks/NNS list/VBP
+Verify/VB clicking/VBG Export/NN >/SYM PDF/NNP >/SYM Letter/NN -/: Portrait/NN when/WRB no/DT risks/NNS are/VBP selected/VBN creates/VBZ a/DT portrait/NN PDF/NNP file/NN with/IN all/DT project/NN risks/NNS
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN decimal/JJ in/IN it/PRP ,/, when/WRB exported/VBD to/TO PDF/NNP >/SYM Letter/NN -/: Landscape/NN ,/, decimal/NN format/NN is/VBZ retained/VBN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN currency/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO PDF/NNP >/SYM Letter/NN -/: Portrait/NN ,/, currency/NN format/NN is/VBZ retained/VBN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN Currency/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) ,/, currency/NN format/NN is/VBZ retained/VBN
+Verify/VB clicking/VBG Export/NN >/SYM PDF/NNP >/SYM Letter/NN -/: Landscape/NN when/IN a/DT few/JJ issues/NNS are/VBP selected/VBN creates/VBZ a/DT landscape/NN PDF/NNP file/NN with/IN only/RB the/DT selected/VBN issues/NNS
+Verify/VB applied/VBN Grouping/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN Excel/NNP (/( xlsx/NNP )/) issues/NNS list/VBP
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP (/( xlsx/NNP )/) when/IN a/DT few/JJ issues/NNS are/VBP selected/VBN creates/VBZ an/DT xlsx/NNP file/NN with/IN only/RB the/DT selected/VBN issues/NNS
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN calculated/VBN field/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) ,/, calculated/VBN field/NN matches/NNS that/WDT in/IN AtTask/NNP issue/NN list/NN
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN that/IN has/VBZ custom/JJ fields/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO tsv/NNP ,/, custom/NN fields/NNS match/VBP those/DT in/IN AtTask/NNP issue/NN list/NN
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN that/WDT has/VBZ calculated/VBN field/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO tsv/NNP ,/, calculated/VBN field/NN matches/NNS that/WDT in/IN AtTask/NNP issue/NN list/NN
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN calculated/VBN field/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP ,/, calculated/VBN field/NN matches/NNS that/WDT in/IN AtTask/NNP issue/NN list/NN
+With/IN no/DT issues/NNS selected/VBN ,/, verify/VB completed/VBN issue/NN list/NN is/VBZ in/IN the/DT same/JJ order/NN when/WRB exported/VBN as/IN an/DT Excel/NNP file/NN as/IN on/IN the/DT computer/NN
+With/IN no/DT issues/NNS selected/VBN ,/, verify/VB completed/VBN issues/NNS list/NN is/VBZ in/IN the/DT same/JJ order/NN when/WRB exported/VBN as/IN a/DT Tab/NN Delimited/IN filter/NN as/IN on/IN the/DT computer/NN
+Verify/VB clicking/VBG Export/NN >/SYM PDF/NNP >/SYM Letter/NN -/: Portrait/NN when/WRB no/DT issues/NNS are/VBP selected/VBN creates/VBZ a/DT portrait/NN PDF/NNP file/NN with/IN all/DT completed/VBN issues/NNS
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN calculated/VBN field/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) ,/, calculated/VBN field/NN matches/NNS that/WDT in/IN AtTask/NNP completed/JJ issue/NN list/NN
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN custom/JJ fields/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) ,/, custom/JJ fields/NNS match/VBP those/DT in/IN AtTask/NNP completed/JJ issue/NN list/NN
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN custom/JJ fields/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO tsv/VB ,/, custom/JJ fields/NNS match/VBP those/DT in/IN AtTask/NNP completed/JJ issue/NN list/NN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN Currency/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) ,/, currency/NN format/NN is/VBZ retained/VBN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN decimals/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Legal/NN -/: Portrait/NN ,/, decimal/NN format/NN is/VBZ retained/VBN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN Duration/NN ,/, when/WRB exported/VBD to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Ledger/NN -/: Portrait/NN ,/, duration/NN matches/VBZ that/IN in/IN the/DT AtTask/NNP open/JJ issue/NN list/NN
+With/IN no/DT issues/NNS selected/VBN ,/, verify/VB open/JJ issue/NN list/NN is/VBZ in/IN the/DT same/JJ order/NN when/WRB exported/VBN as/IN an/DT Excel/NNP (/( xlsx/NNP )/) file/NN as/IN on/IN the/DT computer/NN
+Verify/VB applied/VBN Filter/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Legal/NN -/: Landscape/NN open/JJ issues/NNS list/NN
+Verify/VB when/WRB an/DT open/JJ issue/NN list/NN is/VBZ exported/VBN to/TO tsv/NNP ,/, there/EX is/VBZ no/DT extra/JJ data/NNS
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN decimals/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP ,/, decimal/NN format/NN is/VBZ retained/VBN
+Verify/VB when/WRB a/DT task/NN list/NN is/VBZ exported/VBN to/TO Excel/NNP ,/, only/RB the/DT displayed/VBN columns/NNS in/IN AtTask/NNP task/NN list/NN are/VBP exported/VBN
+Verify/VB issues/NNS export/VB from/IN the/DT Issues/NNS tab/NN wo/MD n't/RB export/VB parent/NN task/NN in/IN the/DT tsv/NNP list/NN
+Verify/VB applied/VBN Filter/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN tsv/NNP tasks/NNS list/NN
+Verify/VB subtasks/NNS exported/VBN from/IN the/DT Subtasks/NNS tab/NN wo/MD n't/RB export/VB the/DT parent/NN task/NN in/IN the/DT PDF/NNP >/SYM Letter/NN -/: Portrait/NN list/NN
+Verify/VB clicking/VBG Export/NN >/SYM Tab/NN Delimited/NN when/WRB a/DT few/JJ tasks/NNS are/VBP selected/VBN creates/VBZ a/DT tsv/NNP file/NN with/IN only/RB the/DT selected/VBN tasks/NNS
+Verify/VB issues/NNS exported/VBN from/IN the/DT Issues/NNS tab/NN wo/MD n't/RB export/VB the/DT parent/NN task/NN in/IN the/DT PDF/NNP >/SYM Letter/NN -/: Landscape/NN list/NN
+Verify/VB when/WRB a/DT custom/NN View/NN is/VBZ applied/VBN with/IN custom/NN form/NN fields/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Ledger/NN -/: Landscape/NN ,/, custom/NN form/NN fields/NNS match/VBP that/IN in/IN AtTask/NNP project/NN list/NN
+Verify/VB when/WRB a/DT project/NN list/NN is/VBZ exported/VBN to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM A4/NN -/: Landscape/NN ,/, only/RB the/DT columns/NNS displayed/VBD in/IN AtTask/NNP project/NN list/NN are/VBP exported/VBN
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP when/WRB no/DT projects/NNS are/VBP selected/VBN creates/VBZ an/DT xls/NNP file/NN with/IN all/DT projects/NNS
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP when/WRB a/DT few/JJ projects/NNS are/VBP selected/VBN creates/VBZ an/DT xls/NNP file/NN with/IN only/RB the/DT selected/VBN projects/NNS
+Verify/VB applied/VBN View/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN tsv/NNP expenses/NNS list/NN
+Verify/VB clicking/VBG Export/NN >/SYM Tab/NN Delimited/NN when/WRB a/DT few/JJ expenses/NNS are/VBP selected/VBN creates/VBZ a/DT tsv/NNP file/NN with/IN only/RB the/DT selected/VBN expenses/NNS
+With/IN no/DT expenses/NNS selected/VBN ,/, verify/VB expenses/NNS list/NN is/VBZ in/IN the/DT same/JJ order/NN when/WRB exported/VBN as/IN Excel/NNP file/NN as/IN on/IN the/DT computer/NN
+Verify/VB when/WRB Expenses/NNS list/VBP is/VBZ exported/VBN to/TO Excel/NNP ,/, only/RB those/DT columns/NNS that/WP are/VBP displayed/VBN in/IN AtTask/NNP expenses/NNS list/NN are/VBP exported/VBN
+Verify/VB when/WRB Expenses/NNS list/VBP is/VBZ exported/VBN to/TO Excel/NNP ,/, there/EX is/VBZ no/DT missing/JJ data/NNS
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP when/WRB no/DT expenses/NNS are/VBP selected/VBN creates/VBZ an/DT xls/NNP file/NN with/IN all/DT expenses/NNS
+With/IN no/DT expenses/NNS selected/VBN ,/, verify/VB expenses/NNS list/NN is/VBZ in/IN the/DT same/JJ order/NN when/WRB exported/VBN as/IN PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Legal/NN -/: Portrait/NN file/NN as/IN on/IN the/DT computer/NN
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN custom/JJ fields/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Legal/NN -/: Landscape/NN ,/, custom/JJ fields/NNS match/VBP those/DT in/IN AtTask/NNP expenses/NNS list/NN
+Verify/VB applied/VBN View/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Ledger/NN -/: Portrait/NN expenses/NNS list/NN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN phone/NN numbers/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO tsv/NNP ,/, phone/NN number/NN format/NN is/VBZ retained/VBN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN phone/NN numbers/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) ,/, phone/NN number/NN format/NN is/VBZ retained/VBN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN email/NN addresses/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) ,/, email/NN address/NN format/NN is/VBZ retained/VBN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN flags/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) ,/, flags/NNS match/VBP those/DT in/IN AtTask/NNP project/NN users/NNS list/NN
+With/IN no/DT project/NN users/NNS selected/VBN ,/, verify/VB project/NN users/NNS list/NN is/VBZ in/IN the/DT same/JJ order/NN when/WRB exported/VBN to/TO Excel/NNP (/( xlsx/NNP )/) file/NN as/IN on/IN the/DT computer/NN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN phone/NN numbers/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP ,/, phone/NN number/NN format/NN is/VBZ retained/VBN
+Verify/VB applied/VBN View/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN Excel/NNP project/NN users/NNS list/NN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN Date/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM A4/NN -/: Landscape/NN ,/, date/NN format/NN is/VBZ retained/VBN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN user/NN avatars/, in/IN it/PRP ,/, when/WRB exported/VBD to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Legal/NN -/: Portrait/NN ,/, user/NN avatars/NNS match/VB those/DT in/IN AtTask/NNP project/NN users/NNS list/NN
+Verify/VB applied/VBN View/NN is/VBZ persistent/JJ in/IN exported/VBN tsv/NNP hours/NNS list/NN
+Verify/VB applied/VBN View/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN Excel/NNP (/( xlsx/NNP )/) hours/NNS list/VBP
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP (/( xlsx/NNP )/) when/IN a/DT few/JJ hours/NNS are/VBP selected/VBN creates/VBZ an/DT xlsx/NNP file/NN with/IN only/RB the/DT selected/VBN hours/NNS
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN decimal/JJ in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) ,/, decimal/NN format/NN is/VBZ retained/VBN
+Verify/VB applied/VBN Filter/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN Excel/NNP hours/NNS list/NN
+Verify/VB applied/VBN Grouping/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN Excel/NNP hours/NNS list/NN
+Verify/VB applied/VBN View/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Ledger/NN -/: Portrait/NN hours/NNS list/NN
+Verify/VB when/WRB Hours/NNS list/VBP is/VBZ exported/VBN to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Legal/NN -/: Landscape/NN ,/, there/EX is/VBZ no/DT missing/JJ data/NNS
+Verify/VB when/WRB Hours/NNS list/VBP is/VBZ exported/VBN to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Legal/NN -/: Portrait/NN ,/, only/RB the/DT columns/NNS that/WP are/VBP displayed/VBN in/IN AtTask/NNP hours/NNS list/NN are/VBP exported/VBN
+Verify/VB clicking/VBG Export/NN >/SYM Tab/NN Delimited/IN when/WRB a/DT few/JJ billing/NN records/NNS are/VBP selected/VBN creates/VBZ a/DT tsv/NNP file/NN with/IN only/RB the/DT selected/VBN billing/NN records/NNS
+Verify/VB when/WRB Billing/NN Records/NNS list/NN is/VBZ exported/VBN to/TO tsv/NNP ,/, there/EX is/VBZ no/DT extra/JJ data/NNS
+Verify/VB applied/VBN Grouping/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN Excel/NNP billing/NN records/NNS list/NN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN currency/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO tsv/NNP ,/, currency/NN format/NN is/VBZ retained/VBN
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP when/WRB no/DT billing/NN records/NNS are/VBP selected/VBN creates/VBZ an/DT xls/NNP file/NN with/IN all/DT project/NN billing/NN records/NNS
+Verify/VB applied/VBN Grouping/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN Excel/NNP (/( xlsx/NNP )/) billing/NN records/NNS list/NN
+Verify/VB applied/VBN Grouping/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Ledger/NN -/: Landscape/NN billing/NN records/NNS list/NN
+Verify/VB when/WRB Billing/NN Records/NNS list/NN is/VBZ exported/VBN to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Legal/NN -/: Landscape/NN ,/, there/EX is/VBZ no/DT missing/JJ data/NNS
+Verify/VB when/WRB Grouping/NN is/VBZ applied/VBN and/CC exported/VBN to/TO Excel/NNP ,/, the/DT grouping/NN color/NN in/IN the/DT export/NN matches/VBZ the/DT color/NN in/IN AtTask/NNP billing/NN records/NNS list/NN
+Verify/VB applied/VBN Filter/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Legal/NN -/: Landscape/NN baselines/NNS list/NN
+Verify/VB applied/VBN Filter/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN Excel/NNP baselines/NNS list/NN
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP when/WRB a/DT few/JJ baselines/NNS are/VBP selected/VBN creates/VBZ an/DT xls/NNP file/NN with/IN only/RB the/DT selected/VBN baselines/NNS
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN decimals/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) ,/, decimal/NN format/NN is/VBZ retained/VBN
+Verify/VB clicking/VBG Export/NN >/SYM PDF/NNP >/SYM Letter/NN -/: Portrait/NN when/WRB no/DT baselines/NNS are/VBP selected/VBN creates/VBZ a/DT portrait/NN PDF/NNP file/NN with/IN all/DT project/NN baselines/NNS
+Verify/VB when/WRB Risks/NNS list/VBP is/VBZ exported/VBN to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Legal/NN -/: Landscape/NN ,/, only/RB the/DT columns/NNS displayed/VBD in/IN AtTask/NNP risks/NNS list/NN are/VBP exported/VBN
+Verify/VB when/WRB Grouping/NN is/VBZ applied/VBN and/CC exported/VBN to/TO Excel/NNP ,/, the/DT grouping/NN color/NN in/IN the/DT export/NN matches/VBZ the/DT color/NN in/IN AtTask/NNP risk/NN list/NN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN currency/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO tsv/NNP ,/, currency/NN format/NN is/VBZ retained/VBN
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN date/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP ,/, date/NN format/NN is/VBZ retained/VBN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN percentage/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP ,/, percentage/NN format/NN is/VBZ retained/VBN
+Verify/VB when/WRB Risks/NNS list/VBP is/VBZ exported/VBN to/TO Excel/NNP ,/, there/EX is/VBZ no/DT extra/JJ data/NNS
+Verify/VB when/WRB Risks/NNS list/VBP is/VBZ exported/VBN to/TO Excel/NNP ,/, there/EX is/VBZ no/DT missing/JJ data/NNS
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN custom/JJ fields/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Ledger/NN -/: Landscape/NN ,/, custom/JJ fields/NNS match/VBP those/DT in/IN AtTask/NNP issue/NN list/NN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN decimals/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) ,/, decimal/NN format/NN is/VBZ retained/VBN
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN calculated/VBN field/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM A4/NN -/: Portrait/NN ,/, calculated/VBN field/NN matches/NNS that/WDT in/IN AtTask/NNP completed/JJ issue/NN list/NN
+Verify/VB when/WRB a/DT completed/JJ issue/NN list/NN is/VBZ exported/VBN to/TO tsv/NNP ,/, only/RB the/DT columns/NNS displayed/VBD in/IN AtTask/NNP completed/JJ issue/NN list/NN are/VBP exported/VBN
+Verify/VB applied/VBN View/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Ledger/NN -/: Landscape/NN completed/JJ issues/NNS list/NN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN decimals/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Legal/NN -/: Portrait/NN ,/, decimal/NN format/NN is/VBZ retained/VBN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN Currency/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO PDF/NNP >/SYM Letter-/NN Landscape/NN ,/, currency/NN format/NN is/VBZ retained/VBN
+Verify/VB applied/VBN Grouping/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Ledger/NN -/: Portrait/NN completed/JJ issues/NNS list/NN
+Verify/VB when/WRB an/DT open/JJ issue/NN list/NN is/VBZ exported/VBN to/TO Excel/NNP ,/, only/RB the/DT columns/NNS that/WP are/VBP displayed/VBN in/IN AtTask/NNP open/JJ issue/NN list/NN are/VBP exported/VBN
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP when/WRB a/DT few/JJ issues/NNS are/VBP selected/VBN creates/VBZ an/DT xls/NNP file/NN with/IN only/RB the/DT selected/VBN open/JJ issues/NNS
+Verify/VB applied/VBN View/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Ledger/NN -/: Landscape/NN open/JJ issues/NNS list/NN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN decimals/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP ,/, decimal/NN format/NN is/VBZ retained/VBN
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN custom/JJ fields/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) ,/, custom/JJ fields/NNS match/VBP those/DT in/IN AtTask/NNP open/JJ issue/NN list/NN
+Verify/VB when/WRB an/DT open/JJ issue/NN list/NN is/VBZ exported/VBN to/TO Excel/NNP ,/, there/EX is/VBZ no/DT missing/JJ data/NNS
+Verify/VB applied/VBN View/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN tsv/NNP issues/NNS list/NN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN Duration/NN ,/, when/WRB exported/VBD to/TO Excel/NNP ,/, duration/NN matches/VBZ that/IN in/IN AtTask/NNP open/JJ issue/NN list/NN
+Verify/VB when/WRB a/DT custom/JJ View/NN is/VBZ applied/VBN with/IN custom/JJ fields/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP ,/, custom/JJ fields/NNS match/VBP those/DT in/IN AtTask/NNP open/JJ issue/NN list/NN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN custom/JJ number/NN field/NN that/WDT contains/VBZ numbers/NNS ,/, when/WRB exported/VBD to/TO Excel/NNP ,/, custom/JJ data/NNS number/NN fields/NNS are/VBP of/IN Number/NN type/NN
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP (/( xlsx/NNP )/) when/IN no/DT tasks/NNS are/VBP selected/VBN creates/VBZ an/DT xlsx/NNP file/NN with/IN all/DT project/NN tasks/NNS
+Verify/VB issues/NNS export/VB from/IN the/DT Issues/NNS tab/NN wo/MD n't/RB export/VB parent/NN task/NN in/IN the/DT Excel/NNP list/NN
+Verify/VB subtasks/NNS will/MD be/VB exported/VBN to/TO the/DT tsv/NNP tasks/NNS list/NN when/WRB parent/NN task/NN arrow/NN button/NN is/VBZ collapsed/VBN
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP when/WRB a/DT few/JJ tasks/NNS are/VBP selected/VBN creates/VBZ an/DT xls/NNP file/NN with/IN only/RB the/DT selected/VBN tasks/NNS
+Verify/VB applied/VBN Filter/NN is/VBZ persistent/JJ in/IN the/DT exported/VBN Excel/NNP tasks/NNS list/NN
+Verify/VB when/WRB a/DT task/NN list/NN is/VBZ exported/VBN to/TO Excel/NNP ,/, there/EX is/VBZ no/DT extra/JJ data/NNS
+Verify/VB when/WRB a/DT task/NN list/NN is/VBZ exported/VBN to/TO tsv/NNP ,/, there/EX is/VBZ no/DT extra/JJ data/NNS
+With/IN no/DT tasks/NNS selected/VBN ,/, verify/VB a/DT projects/NNS task/NN list/NN is/VBZ in/IN the/DT same/JJ order/NN when/WRB exported/VBN as/IN a/DT PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Legal/NN -/: Landscape/NN file/NN as/IN on/IN the/DT computer/NN
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN %/SYM Complete/JJ bar/NN ,/, when/WRB exported/VBD to/TO PDF/NNP >/SYM Other/JJ Sizes/NNS >/SYM Legal/JJ -/: Landscape/NN ,/, %/SYM complete/JJ bar/NN matches/VBZ that/IN in/IN AtTask/NNP project/NN list/NN
+Verify/VB when/WRB a/DT project/NN list/NN is/VBZ exported/VBN to/TO PDF/NNP >/SYM Letter/NN -/: Landscape/NN ,/, there/EX is/VBZ no/DT extra/JJ data/NNS
+Verify/VB clicking/VBG Export/NN >/SYM Tab/NN Delimited/NN when/WRB no/DT projects/NNS are/VBP selected/VBN creates/VBZ a/DT tsv/NNP file/NN with/IN all/DT projects/NNS
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN decimals/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP ,/, decimal/NN format/NN is/VBZ retained/VBN
+Verify/VB clicking/VBG Export/NN >/SYM Tab/NN Delimited/NN when/WRB no/DT expenses/NNS are/VBP selected/VBN creates/VBZ a/DT tsv/NNP file/NN with/IN all/DT expenses/NNS
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN flags/NNS in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) ,/, flags/NNS match/VBP those/DT in/IN AtTask/NNP expenses/NNS list/NN
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP (/( xlsx/NNP )/) when/IN no/DT expenses/NNS are/VBP selected/VBN creates/VBZ an/DT xlsx/NNP file/NN with/IN all/DT expenses/NNS
+Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN currency/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) ,/, currency/NN format/NN is/VBZ retained/VBN
+Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP when/WRB a/DT few/JJ expenses/NNS are/VBP selected/VBN creates/VBZ an/DT xls/NNP file/NN with/IN only/RB the/DT selected/VBN expenses/NNS

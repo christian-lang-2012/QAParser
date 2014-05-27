@@ -1,0 +1,247 @@
+Verify if the user clicks the 'X' in the upper right corner, the 'Add Documents from Widen' lightbox is closed, the user is returned to the Documents tab, and no actions are taken
+Verify clicking Export > PDF >Letter - Portrait when no portfolios are selected creates a portrait PDF file with all portfolios
+With no programs selected, verify a program list is in the same order when exported as an Excel (xlsx) file as on the computer
+Verify when a portfolio list is exported to Excel (xlsx), there is no missing data
+Verify when a portfolio list is exported to Excel (xlsx), only the columns displayed in the AtTask portfolio list are exported
+Verify when a custom View is applied with custom fields in it, when exported to Excel (xlsx), custom fields match those in AtTask portfolio list
+Verify applied Filter is persistent in the exported Excel (xlsx) portfolios list
+Verify clicking Export > Excel when no programs are selected creates an xls file with all programs
+Verify clicking Export > PDF > Letter - Portrait, when no programs are selected creates a portrait PDF file with all programs
+Verify applied Filter is persistent in the exported tsv portfolios list
+Verify when a custom View is applied with custom fields in it, when exported to Excel, custom fields match those in AtTask portfolio list
+Verify when a custom View is applied with calculated field in it, when exported to Excel, calculated field matches that in AtTask portfolio list
+With no portfolios selected, verify a portfolio list is in the same oder when exported to Excel (xlsx) file as on the computer
+Verify applied Grouping is persistent in the exported Excel (xlsx) programs list
+Verify clicking Export > Excel when a few programs are selected creates an xls file with only the selected programs
+Verify applied View is persistent in the exported PDF > Other Sizes > A4 - Portrait programs list
+Verify applied View is persistent in the exported tsv programs list
+Verify applied Filter is persistent in exported tsv programs list
+Verify when a custom View is applied with calculated field in it, when exported to PDF > Letter - Portrait, calculated field matches that in AtTask program list
+Verify clicking Export > Tab Delimited when no portfolios are selected creates a tsv file with all portfolios
+Verify applied Filter is persistent in the exported Excel portfolios list
+Verify when a portfolio list is exported to Excel, there is no missing data
+Verify clicking Export > PDF > Letter - Landscape when a few portfolios are selected creates a landscape PDF file with only the selected portfolios
+Verify clicking Export > Excel when no portfolios are selected creates an xls file with all portfolios
+With no programs selected, verify a program list is in the same order when exported as a Tab Delimited file as on the computer
+With no programs selected, verify a program list is in the same order when exported as an Excel file as on the computer
+With no portfolios selected, verify a portfolio list is in the same order when exported to Tab Delimited file as on the computer
+Verify applied Grouping is persistent in the exported PDF > Other Sizes > Ledger - Portrait programs list
+Verify clicking Export > Excel (xlsx) when a few portfolios are selected creates an xlsx file with only the selected portfolios
+Verify when a custom View is applied with custom fields in it, when exported to Excel, custom fields match those in AtTask program list
+Verify clicking Export > PDF > Letter - Landscape when a few programs are selected creates a landscape PDF file with only the selected programs
+Verify applied Filter is persistent in the exported PDF > Other Sizes > Legal - Landscape programs list
+Verify applied View is persistent in the exported Excel portfolios list
+Verify clicking Export > Excel when a few portfolios are selected creates an xls file with only the selected portfolios
+Verify when a portfolio list is exported to tsv, only the columns that are displayed in the AtTask portfolio list are exported
+Verify when applied View is persistent in the exported PDF > Other Sizes > A4 - Portrait portfolios list
+Verify when Grouping is applied and exported to PDF > Other Sizes > Ledger - Landscape, the grouping color in the export matches the color in AtTask project list
+Verify when a portfolio list is exported to Excel, only those columns displayed in AtTask portfolio list are exported
+Verify when a portfolio list is exported to PDF > Letter - Landscape, only the columns displayed in AtTask portfolio list are exported
+Verify clicking Export > Excel (xlsx) when a few programs are selected creates an xlsx file with only the selected programs
+Verify when a portfolio list is exported to Excel (xlsx), there is no extra data
+Verify when a custom View is applied with calculated field in it, when exported to Excel (xlsx), calculated field matches that in AtTask portfolio list
+Verify applied Grouping is persistent in the exported Excel portfolios list
+Verify when a program list is exported to Excel, there is no missing data
+Verify when a program list is exported to tsv, there is no extra data
+Verify when a custom View is applied with calculated field in it, when exported to tsv, calculated field matches that in AtTask program list
+Verify when a program list is exported to tsv, there is no missing data
+Verify when a program list is exported to tsv, only those columns that are displayed in AtTask program list are exported
+Verify applied Filter is persistent in the exported PDF > Other Sizes > Legal - Landscape portfolios list
+Verify applied View is persistent in the exported tsv portfolios list
+Verify when a custom View is applied with calculated field in it, when exported to tsv, calculated field matches that in AtTask portfolio list
+Verify when a portfolio list is exported to PDF > Other Sizes > Legal - Portrait, there is no missing data
+Verify when a program list is exported to Excel (xlsx), there is no extra data
+Verify when a program list is exported to Excel (xlsx), there is no missing data
+Verify applied View is persistent in the exported Excel (xlsx) programs list
+Verify clicking Export > Excel (xlsx) when no programs selected creates an xlsx file with all programs
+Verify when a program list is exported to Excel, only the columns that are displayed in AtTask program list are exported
+Verify when a custom View is applied with calculated field in it, when exported to Excel, calculated field matches that in AtTask program list
+Verify clicking Export > Tab Delimited when no programs are selected creates a tsv file with all programs
+Verify when a program list is exported to PDF > Letter - Landscape, only those columns that are displayed in AtTask program list are exported
+Verify when Grouping is applied and exported to Excel, the grouping color in the export matches that in AtTask portfolio list
+Verify when a portfolio list is exported to PDF > Other Sizes > Legal - Landscape, there is no extra data
+Verify when a program list is exported to Excel (xlsx), only those columns displayed in AtTask program list are exported
+Verify when a Grouping is applied and exported to Excel (xlsx), the grouping color in the export matches the color in AtTask portfolio list
+Verify when a program list is exported to Excel, there is no extra data
+Verify applied View is persistent in the exported Excel programs list
+Verify clicking Export > Tab Delimited when a few programs are selected creates a tsv file with only the selected programs
+Verify clicking Export > Tab Delimited when a few portfolios are selected creates a tsv file with only the selected portfolios
+Verify when a portfolio list is exported to tsv, there is no extra data
+Verify when a custom View is applied with custom fields in it, when exported to tsv, custom fields match those in AtTask portfolio list
+Verify applied Grouping is persistent in the exported Excel (xlsx) portfolios list
+With no programs selected, verify a program list is in the same order when exported as PDF > Other Sizes > Legal - Portrait file as on the computer
+With no portfolios selected, verify a portfolio list is in the same order when exported as an Excel file as on the computer
+Verify when a custom View is applied with calculated field in it, when exported to Excel (xlsx), calculated field matches that in AtTask program list
+Verify when a custom View is applied with custom fields in it, when exported to Excel (xlsx), custom fields match those in AtTask program list
+Verify applied Filter is persistent in the exported Excel (xlsx) programs list
+Verify when Grouping is applied and exported to Excel, the grouping color in the export matches the color in AtTask program list
+Verify when a program list is exported, there is no extra data
+Verify when a program list is exported, there is no missing data
+Verify when a custom View is applied with custom fields in it, when exported to PDF > Other Sizes > A4 - Landscape, custom fields match those in AtTask portfolio list
+With no portfolios selected, verify a portfolio list is in the same order when exported as PDF > Other Sizes > Legal - Portrait file as on the computer
+Verify when Grouping is applied and exported to Excel (xlsx), the grouping color in the export matches the color in AtTask program list
+Verify applied View is persistent in the exported Excel (xlsx) portfolios list
+Verify clicking Export > Excel (xlsx) when no portfolios are selected creates an xlsx file with all portfolios
+Verify applied Grouping is persistent in the exported PDF > Other Sizes > Ledger - Portrait portfolios list
+Verify applied Filter is persistent in the exported Excel programs list
+Verify when a custom View is applied with custom fields in it, when exported to tsv, custom fields match those in AtTask program list
+Verify when Grouping is applied and exported to PDF > Other Sizes > Ledger - Landscape, the grouping color in the export matches the color in AtTask program list
+Verify when a custom View is applied with custom fields in it, when exported to PDF > Other Sizes > A4 - Landscape, custom fields match those in AtTask program list
+Verify when a portfolio list is exported to Excel, there is no extra data
+Verify when a custom View is applied with calculated field in it, when exported to PDF > Letter - Portrait, calculated field matches that in AtTask portfolio list
+Verify when a View is applied with currency in it, when exported to Excel, currency format is retained
+Verify when a View is applied with user avatars in it, when exported to Excel there is a Yes if user has user avatar in AtTask project users list, and No if user does not have user avatar in AtTask project users list
+Verify when a View is applied with user avatars in it, when exported to Excel (xlsx) there is a Yes if user has user avatar in AtTask project users list, and No if user does not have user avatar in AtTask project users list
+Verify when a View is applied with Date in it, when exported to tsv, date format is retained
+Verify that when project users list is exported to Excel (xlsx), export does NOT have additonal people the logged in user does NOT have permissions to see
+Verify after clicking Export > Excel (xlsx) when no project users are selected creates an xlsx file with all project users
+Verify that when project Users list is exported to Excel, only the columns that are displayed in AtTask project users list are exported
+Verify that when project Users list is exported to Excel, there is no extra data
+Verify applied Grouping is persistent in the exported Excel project users list
+Verify when a View is applied with phone numbers in it, when exported to PDF > Other Sizes > Ledger - Portrait, phone number format is retained
+Verify when a View is applied with currency in it, when exported to tsv, currency format is retained
+Verify when Hours list is exported to tsv, there is no extra data
+Verify clicking Export > Excel (xlsx) when no hours are selected creates an xlsx file with all hours
+Verify when Hours list is exported to Excel (xlsx), there is no extra data
+Verify when Grouping is applied and exported to PDF > Other Sizes > A4 - Portrait, the grouping color in the export matches the color in AtTask hours list
+Verify applied Filter is persistent in the exported PDF > Other Sizes > Legal - Landscape hours list
+Verify applied View is persistent in the exported tsv billing records list
+With no billing records selected, verify billing records list is in the same order when exported to PDF > Other Sizes > Legal - Portrait file as on the computer
+Verify when a View is applied with currency in it, when exported to PDF > Letter - Landscape, currency format is retained
+Verify when a View is applied with currency in it, when exported to Excel, currency format is retained
+Verify when a View is applied with currency in it, when exported to Excel (xlsx), currency format is retained
+Verify clicking Export > Excel (xlsx) when no billing records are selected creates an xlsx file with all project billing records
+Verify when a View is applied with decimal in it, when exported to Excel, decimal format is retained
+Verify when a View is applied with decimal in it, when exported to PDF > Letter - Landscape, decimal format is retained
+With no baselines selected, verify baselines list is in the same order when exported to Excel file as on the computer
+Verify applied View is persistent in the exported PDF > Other Sizes > Ledger - Portrait risks list
+Verify when a View is applied with currency in it, when exported to Excel, currency format is retained
+Verify clicking Export > Tab Delimited when a few risks are selected creates a tsv file with only the selected risks
+Verify clicking Export > Tab Delimited when no risks are selected creates a tsv file with all project risks
+Verify when a View is applied with percentage in it, when exported to Excel (xlsx), percentage format is retained
+Verify applied Grouping is persistent in the exported PDF > Other Sizes > Ledger - Landscape risks list
+Verify applied Grouping is persistent in the exported Excel (xlsx) risks list
+Verify clicking Export > PDF > Letter - Portrait when no risks are selected creates a portrait PDF file with all project risks
+Verify when a View is applied with decimal in it, when exported to PDF > Letter - Landscape, decimal format is retained
+Verify when a View is applied with currency in it, when exported to PDF > Letter - Portrait, currency format is retained
+Verify when a View is applied with Currency in it, when exported to Excel (xlsx), currency format is retained
+Verify clicking Export > PDF > Letter - Landscape when a few issues are selected creates a landscape PDF file with only the selected issues
+Verify applied Grouping is persistent in the exported Excel (xlsx) issues list
+Verify clicking Export > Excel (xlsx) when a few issues are selected creates an xlsx file with only the selected issues
+Verify when a custom View is applied with calculated field in it, when exported to Excel (xlsx), calculated field matches that in AtTask issue list
+Verify when a custom View is applied that has custom fields in it, when exported to tsv, custom fields match those in AtTask issue list
+Verify when an issue list is exported to Excel (xlsx), there is no extra data
+Verify when a custom View is applied that has calculated field in it, when exported to tsv, calculated field matches that in AtTask issue list
+Verify when a custom View is applied with calculated field in it, when exported to Excel, calculated field matches that in AtTask issue list.
+With no issues selected, verify completed issue list is in the same order when exported as an Excel file as on the computer
+With no issues selected, verify completed issues list is in the same order when exported as a Tab Delimited filter as on the computer
+Verify clicking Export > PDF > Letter - Portrait when no issues are selected creates a portrait PDF file with all completed issues
+Verify when a completed issue list is exported to Excel (xlsx), there is no extra data
+Verify when a custom View is applied with calculated field in it, when exported to Excel (xlsx), calculated field matches that in AtTask completed issue list
+Verify when a custom View is applied with custom fields in it, when exported to Excel (xlsx), custom fields match those in AtTask completed issue list
+Verify when a custom View is applied with custom fields in it, when exported to tsv, custom fields match those in AtTask completed issue list
+Verify when a View is applied with Currency in it, when exported to Excel (xlsx), currency format is retained
+Verify when a View is applied with decimals in it, when exported to PDF > Other Sizes > Legal - Portrait, decimal format is retained
+Verify when a View is applied with Duration, when exported to PDF > Other Sizes > Ledger - Portrait, duration matches that in the AtTask open issue list
+With no issues selected, verify open issue list is in the same order when exported as an Excel (xlsx) file as on the computer
+Verify applied Filter is persistent in the exported PDF > Other Sizes > Legal - Landscape open issues list
+Verify when an open issue list is exported to tsv, there is no extra data
+Verify when a View is applied with decimals in it, when exported to Excel, decimal format is retained
+Verify when a task list is exported to Excel, only the displayed columns in AtTask task list are exported
+Verify issues export from the Issues tab won't export parent task in the tsv list
+Verify applied Filter is persistent in the exported tsv tasks list
+Verify subtasks exported from the Subtasks tab won't export the parent task in the PDF > Letter - Portrait list
+Verify clicking Export >Tab Delimited when a few tasks are selected creates a tsv file with only the selected tasks
+Verify issues exported from the Issues tab won't export the parent task in the PDF > Letter - Landscape list
+Verify when a custom View is applied with custom form fields in it, when exported to PDF > Other Sizes > Ledger - Landscape, custom form fields match that in AtTask project list
+Verify when a project list is exported to PDF > Other Sizes > A4 - Landscape, only the columns displayed in AtTask project list are exported
+Verify clicking Export > Excel when no projects are selected creates an xls file with all projects
+Verify clicking Export > Excel when a few projects are selected creates an xls file with only the selected projects
+Verify applied View is persistent in the exported tsv expenses list
+Verify clicking Export > Tab Delimited when a few expenses are selected creates a tsv file with only the selected expenses
+With no expenses selected, verify expenses list is in the same order when exported as Excel file as on the computer
+Verify when Expenses list is exported to Excel, only those columns that are displayed in AtTask expenses list are exported
+Verify when Expenses list is exported to Excel, there is no missing data
+Verify clicking Export > Excel when no expenses are selected creates an xls file with all expenses
+With no expenses selected, verify expenses list is in the same order when exported as PDF > Other Sizes > Legal - Portrait file as on the computer
+Verify when a custom View is applied with custom fields in it, when exported to PDF > Other Sizes > Legal - Landscape, custom fields match those in AtTask expenses list\
+Verify applied View is persistent in the exported PDF > Other Sizes > Ledger - Portrait expenses list
+Verify when a View is applied with phone numbers in it, when exported to tsv, phone number format is retained
+Verify when a View is applied with phone numbers in it, when exported to Excel (xlsx), phone number format is retained
+Verify when a View is applied with email addresses in it, when exported to Excel (xlsx), email address format is retained
+Verify that when project Users list is exported to Excel (xlsx), only those columns that are displayed in AtTask project users list are exported
+Verify when a View is applied with flags in it, when exported to Excel (xlsx), flags match those in AtTask project users list
+With no project users selected, verify project users list is in the same order when exported to Excel (xlsx) file as on the computer
+Verify when a View is applied with phone numbers in it, when exported to Excel, phone number format is retained
+Verify applied View is persistent in the exported Excel project users list
+Verify when a View is applied with Date in it, when exported to PDF > Other Sizes > A4 - Landscape, date format is retained
+Verify when a View is applied with user avatars in it, when exported to PDF > Other Sizes > Legal - Portrait, user avatars match those in AtTask project users list
+Verify applied View is persistent in exported tsv hours list
+Verify applied View is persistent in the exported Excel (xlsx) hours list
+Verify clicking Export > Excel (xlsx) when a few hours are selected creates an xlsx file with only the selected hours
+Verify when Hours list is exported to Excel (xlsx), only the columns displayed in AtTask hours list are exported
+Verify when a View is applied with decimal in it, when exported to Excel (xlsx), decimal format is retained
+Verify applied Filter is persistent in the exported Excel hours list
+Verify applied Grouping is persistent in the exported Excel hours list
+Verify applied View is persistent in the exported PDF > Other Sizes > Ledger - Portrait hours list
+Verify when Hours list is exported to PDF > Other Sizes > Legal - Landscape, there is no missing data
+Verify when Hours list is exported to PDF > Other Sizes > Legal - Portrait, only the columns that are displayed in AtTask hours list are exported
+Verify clicking Export > Tab Delimited when a few billing records are selected creates a tsv file with only the selected billing records
+Verify when Billing Records list is exported to tsv, there is no extra data
+Verify applied Grouping is persistent in the exported Excel billing records list
+Verify when a View is applied with currency in it, when exported to tsv, currency format is retained
+Verify clicking Export > Excel when no billing records are selected creates an xls file with all project billing records
+Verify applied Grouping is persistent in the exported Excel (xlsx) billing records list
+Verify applied Grouping is persistent in the exported PDF > Other Sizes > Ledger - Landscape billing records list
+Verify when Billing Records list is exported to PDF > Other Sizes > Legal - Landscape, there is no missing data
+Verify when Grouping is applied and exported to Excel, the grouping color in the export matches the color in AtTask billing records list
+Verify applied Filter is persistent in the exported PDF > Other Sizes > Legal - Landscape baselines list
+Verify applied Filter is persistent in the exported Excel baselines list
+Verify when Baselines list is exported to Excel (xlsx), there is no extra data
+Verify clicking Export > Excel when a few baselines are selected creates an xls file with only the selected baselines
+Verify when a View is applied with decimals in it, when exported to Excel (xlsx), decimal format is retained
+Verify clicking Export > PDF > Letter - Portrait when no baselines are selected creates a portrait PDF file with all project baselines
+Verify when Risks list is exported to PDF > Other Sizes > Legal - Landscape, only the columns displayed in AtTask risks list are exported
+Verify when Grouping is applied and exported to Excel, the grouping color in the export matches the color in AtTask risk list
+Verify when a View is applied with currency in it, when exported to tsv, currency format is retained
+Verify when a custom View is applied with date in it, when exported to Excel, date format is retained
+Verify when a View is applied with percentage in it, when exported to Excel, percentage format is retained
+Verify when Risks list is exported to Excel, there is no extra data
+Verify when Risks list is exported to Excel, there is no missing data
+Verify when a custom View is applied with custom fields in it, when exported to PDF > Other Sizes > Ledger - Landscape, custom fields match those in AtTask issue list
+Verify when a View is applied with decimals in it, when exported to Excel (xlsx), decimal format is retained
+Verify when a custom View is applied with calculated field in it, when exported to PDF > Other Sizes > A4 - Portrait, calculated field matches that in AtTask completed issue list
+Verify when a completed issue list is exported to tsv, only the columns displayed in AtTask completed issue list are exported
+Verify applied View is persistent in the exported PDF > Other Sizes > Ledger - Landscape completed issues list
+Verify when a View is applied with decimals in it, when exported to PDF > Other Sizes > Legal - Portrait, decimal format is retained
+Verify when a View is applied with Currency in it, when exported to PDF > Letter- Landscape, currency format is retained
+Verify applied Grouping is persistent in the exported PDF > Other Sizes > Ledger - Portrait completed issues list
+Verify when an open issue list is exported to Excel, only the columns that are displayed in AtTask open issue list are exported
+Verify clicking Export > Excel when a few issues are selected creates an xls file with only the selected open issues
+Verify when Grouping is applied and exported to Excel (xlsx), the grouping color in the export matches the color in AtTask open issue list
+Verify applied View is persistent in the exported PDF > Other Sizes > Ledger - Landscape open issues list
+Verify when a View is applied with decimals in it, when exported to Excel, decimal format is retained
+Verify when a custom View is applied with custom fields in it, when exported to Excel (xlsx), custom fields match those in AtTask open issue list
+Verify when an open issue list is exported to Excel, there is no missing data
+Verify applied View is persistent in the exported tsv issues list
+Verify when a View is applied with Duration, when exported to Excel, duration matches that in AtTask open issue list
+Verify when a custom View is applied with custom fields in it, when exported to Excel, custom fields match those in AtTask open issue list
+Verify when a View is applied with custom number field that contains numbers, when exported to Excel, custom data number fields are of Number type
+Verify clicking Export > Excel (xlsx) when no tasks are selected creates an xlsx file with all project tasks
+Verify issues export from the Issues tab won't export parent task in the Excel list
+Verify subtasks will be exported to the tsv tasks list when parent task arrow button is collapsed
+Verify clicking Export > Excel when a few tasks are selected creates an xls file with only the selected tasks
+Verify applied Filter is persistent in the exported Excel tasks list
+Verify when a task list is exported to Excel (xlsx), only the columns displayed in AtTask task list are exported
+Verify when a task list is exported to Excel, there is no extra data
+Verify when a task list is exported to tsv, there is no extra data
+With no tasks selected, verify a projects task list is in the same order when exported as a PDF > Other Sizes > Legal - Landscape file as on the computer
+Verify when a View is applied with % Complete bar, when exported to PDF > Other Sizes > Legal - Landscape, % complete bar matches that in AtTask project list
+Verify when a project list is exported to PDF > Letter - Landscape, there is no extra data
+Verify clicking Export > Tab Delimited when no projects are selected creates a tsv file with all projects
+Verify when a View is applied with decimals in it, when exported to Excel, decimal format is retained
+Verify clicking Export > Tab Delimited when no expenses are selected creates a tsv file with all expenses
+Verify when a View is applied with flags in it, when exported to Excel (xlsx), flags match those in AtTask expenses list
+Verify clicking Export > Excel (xlsx) when no expenses are selected creates an xlsx file with all expenses
+Verify when a View is applied with currency in it, when exported to Excel (xlsx), currency format is retained
+Verify clicking Export > Excel when a few expenses are selected creates an xls file with only the selected expenses
