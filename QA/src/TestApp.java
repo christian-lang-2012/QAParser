@@ -21,6 +21,8 @@ import java.util.*;
 public class TestApp {
 
     public static void main(String[] args) {
+        ArrayList<Task> taskList = new ArrayList<Task>();
+
         PartOfSpeechTagger tagger = new PartOfSpeechTagger();
         tagger.parseSentence("Verify that if a user has received a survey, but canceled/closed without completing, the user doesn't get another survey for at least 30 days");
         List<WordTagPair> taggedWords = tagger.getTaggedWords();
@@ -40,7 +42,7 @@ public class TestApp {
 
 
         //Checking stream client stuff
-        StreamClient client = new StreamClient("https://hub.attask.com");
+        StreamClient client = new StreamClient("https://hub.attask.com/attask/api");
 
         try {
             // Login
@@ -48,46 +50,24 @@ public class TestApp {
             JSONObject session = client.login("christianlang", "inmelet13");
             System.out.println("done");
 
-            // Get user
-            System.out.print("Retrieving user...");
-            JSONObject user = client.get("user", session.getString("userID"), new String[]{"ID", "homeGroupID", "emailAddr"});
-            System.out.println("done");
+            //Searching for specific project
+            System.out.println("Getting project");
+            Set<String> fields = new HashSet<String>();
+            fields.add("tasks");
+            JSONObject proj = client.get("PROJ", "51def83c00048b66b5e345e4cf1cd6a5", fields);
 
-            // Search projects
-            System.out.print("Searching projects...");
-            Map<String, Object> map = new HashMap<String, Object>();
-            map.put("groupID", user.getString("homeGroupID"));
-            JSONArray results = client.search("proj", map, new String[]{"ID", "name"});
-            System.out.println("done");
 
-            for (int i = 0; i < Math.min(10, results.length()); i++) {
-                System.out.println(" - " + results.getJSONObject(i).getString("name"));
+            JSONArray array = proj.getJSONArray("tasks");
+            for(int i = 0; i < array.length(); i++){
+                String task = array.getJSONObject(i).getString("name");
+                String id = array.getJSONObject(i).getString("ID");
+                Task t = new Task(id, task);
+                taskList.add(t);
             }
 
-            // Create project
-            System.out.print("Creating project...");
-            map.clear();
-            map.put("name", "My Project");
-            map.put("groupID", user.getString("homeGroupID"));
-            JSONObject proj = client.post("proj", map);
-            System.out.println("done");
-
-            // Get project
-            System.out.print("Retrieving project...");
-            proj = client.get("proj", proj.getString("ID"));
-            System.out.println("done");
-
-            // Edit project
-            System.out.print("Editing project...");
-            map.clear();
-            map.put("name", "Your Project");
-            proj = client.put("proj", proj.getString("ID"), map);
-            System.out.println("done");
-
-            // Delete project
-            System.out.print("Deleting project...");
-            client.delete("proj", proj.getString("ID"));
-            System.out.println("done");
+            for(Task t: taskList){
+                System.out.println(t);
+            }
 
             // Logout
             System.out.print("Logging out...");

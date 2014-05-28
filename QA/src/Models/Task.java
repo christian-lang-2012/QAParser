@@ -9,7 +9,7 @@ public class Task {
     String id;
     String task;
 
-    Task(String id, String task){
+    public Task(String id, String task){
         this.id = id;
         this.task = task;
     }
