@@ -102,7 +102,7 @@ public class GatherForTraining implements ScanReportable {
     }
 
     private void writeTrainingFile() throws IOException{
-        OutputStream fs = new FileOutputStream(Config.Config.FILENAME_GOOD_TRAINING_TEXT);
+        OutputStream fs = new FileOutputStream(Config.FILENAME_GOOD_TRAINING_TEXT);
         PrintStream ps = new PrintStream(fs);
 
         for(String str : this.trainingDataGood){
@@ -112,7 +112,7 @@ public class GatherForTraining implements ScanReportable {
         ps.close();
         fs.close();
 
-        fs = new FileOutputStream(Config.Config.FILENAME_BAD_TRAINING_TEXT);
+        fs = new FileOutputStream(Config.FILENAME_BAD_TRAINING_TEXT);
         ps = new PrintStream(fs);
 
         for(String str: this.trainingDataBad){

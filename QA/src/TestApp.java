@@ -1,15 +1,19 @@
 import Models.*;
 import PhraseChunking.*;
 import PoSTagging.*;
+import commonIO.HTMLTag;
+import commonIO.ParseHTML;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.*;
 
 /**
  * Created with IntelliJ IDEA.
  * User: jacobdaniel
  * Date: 4/28/14
- * Time: 3:48 PM
- * To change this template use File | Settings | File Templates.
  */
 public class TestApp {
 
@@ -30,5 +34,28 @@ public class TestApp {
         System.out.println("----------Verb Phrases----------");
         for(String vp : pChunker.getVerbPhrases())
             System.out.println(vp);
+
+
+        try {
+            URL url = new URL("https://hub.attask.com/report/view?ID=510c18670013957025d385566ba21941");
+            InputStream is = url.openStream();
+
+            ParseHTML htmlParser = new ParseHTML(is);
+            int ch;
+
+            while((ch = htmlParser.read()) != -1)
+            {
+                System.out.print((char)ch);
+
+            }
+        } catch (MalformedURLException e) {
+            System.out.println("Malformed URL");
+            e.printStackTrace();
+        } catch (IOException e) {
+            System.out.println("IO Exception");
+            e.printStackTrace();
+        }
+
+
     }
 }

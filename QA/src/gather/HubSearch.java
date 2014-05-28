@@ -51,10 +51,7 @@ public class HubSearch {
 
     /**
      * This search is based entirely on you selecting a report, not a project.
-     * A report search will be added later
-     * @param searchID
-     * @return
-     * @throws java.io.IOException
+     * A project search will be added later
      */
     public Collection<URL> search(String searchID) throws IOException{
         Collection<URL> result = new ArrayList<URL>();
@@ -69,14 +66,16 @@ public class HubSearch {
             try {
                 result = doSearch(url);
                 done = true;
-            } catch (final IOException e) {
+            }
+            catch (IOException e) {
                 if (tries == 5) {
                     throw (e);
                 }
                 try {
                     Thread.sleep(5000);
                     //TODO: Stuff here
-                } catch (final InterruptedException e1) {
+                }
+                catch (InterruptedException e1) {
                 }
             }
             tries++;

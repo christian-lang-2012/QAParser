@@ -170,7 +170,7 @@ public class ParseHTML {
         }
     }
 
-    protected  String parseString() throws IOException{
+    protected String parseString() throws IOException{
         StringBuilder result = new StringBuilder();
         eatWhitespace();
         if("\"\"".indexOf(this.source.peek()) != -1){
