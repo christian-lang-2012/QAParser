@@ -32,6 +32,7 @@ public class PartOfSpeechTagger {
 	public void parseSentence(String sentence){
 	 	sentence = sentence.replace("!","").replace("?","").replace(".","").replace(",","")
                  .replace("-","").replace("(","").replace(")","").replace("/"," ").trim().toLowerCase();
+        sentence = sentence.replaceAll("\\s{2,}", " ");
 		words = sentence.split(" ");
 
 		ArrayList<String> wordsList = new ArrayList<String>();

@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38acffdf-a05f-4133-88ca-b49ab63a60e4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/taskRetriever/TaskRetriever.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PoSTagging/PartOfSpeechTagger.java" afterPath="$PROJECT_DIR$/src/PoSTagging/PartOfSpeechTagger.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/Task.java" afterPath="$PROJECT_DIR$/src/Models/Task.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestApp.java" afterPath="$PROJECT_DIR$/src/TestApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/AtTask Samples/manualRegressionTests.txt" afterPath="$PROJECT_DIR$/Data/AtTask Samples/manualRegressionTests.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="QA Parser.iws" />
@@ -27,8 +30,8 @@
     <file path="$USER_HOME$/.gconf/apps/gedit-2/plugins/%gconf.xml" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1398718978090" ignored="false" />
     <file path="$USER_HOME$/.gconf/apps/gedit-2/preferences/ui/statusbar/%gconf.xml" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1398718978090" ignored="false" />
     <file path="/TagTable.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1400877827022" ignored="false" />
-    <file path="/TestApp.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401314521100" ignored="false" />
-    <file path="/PartOfSpeechTagger.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1400882135645" ignored="false" />
+    <file path="/TestApp.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401391003339" ignored="false" />
+    <file path="/PartOfSpeechTagger.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401392955138" ignored="false" />
     <file path="/TagProbability.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1400537066550" ignored="false" />
     <file path="/fragment.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1398889602544" ignored="false" />
     <file path="/Tree.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1398974559155" ignored="false" />
@@ -49,11 +52,16 @@
     <file path="$PROJECT_DIR$/src/neural/activation/ActivationLinear.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401217538541" ignored="false" />
     <file path="$PROJECT_DIR$/src/neural/activation/ActivationTANH.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401217539019" ignored="false" />
     <file path="/HubSearch.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401219566676" ignored="false" />
-    <file path="/Task.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401314447434" ignored="false" />
-    <file path="/Dummy.txt" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401309206182" ignored="false" />
+    <file path="/Task.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401390189124" ignored="false" />
+    <file path="/Dummy.txt" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401389159455" ignored="false" />
     <file path="/JSONParser.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401303434670" ignored="false" />
     <file path="/Unzipper.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401304452862" ignored="false" />
     <file path="/StreamClient.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401311478213" ignored="false" />
+    <file path="/TasksManager.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401390324571" ignored="false" />
+    <file path="/Catch Statement Body.txt.ft" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401389652131" ignored="false" />
+    <file path="/Implemented Method Body.txt.ft" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401389676222" ignored="false" />
+    <file path="/New Method Body.txt.ft" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401389691100" ignored="false" />
+    <file path="/Overridden Method Body.txt.ft" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401389696148" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +111,22 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/PoSTagging/PartOfSpeechTagger.java" line="146" class="PoSTagging.PartOfSpeechTagger" package="PoSTagging">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -113,44 +136,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestApp.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TestApp.java">
+      <file leaf-file-name="TaskRetriever.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/taskRetriever/TaskRetriever.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="89" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.7830189">
+            <state line="75" column="34" selection-start="2007" selection-end="2007" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#562#568#0" expanded="true" />
-                <element signature="e#1868#1876#0" expanded="true" />
+                <element signature="e#1259#1267#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Models/Task.java">
+      <file leaf-file-name="TestApp.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="11" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+            <state line="39" column="7" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StreamClient.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/attask/api/StreamClient.java">
+      <file leaf-file-name="manualRegressionTests.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data/AtTask Samples/manualRegressionTests.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="151" column="0" selection-start="6145" selection-end="6145" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2478#2494#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JSONObject.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/json/JSONObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="577" column="0" selection-start="20600" selection-end="20600" vertical-scroll-proportion="0.0">
+            <state line="542" column="7" selection-start="84264" selection-end="84264" vertical-scroll-proportion="0.8427673">
               <folding />
             </state>
           </provider>
@@ -174,10 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/PoSTagging/TagTable.java" />
-        <option value="$PROJECT_DIR$/src/PoSTagging/PartOfSpeechTagger.java" />
-        <option value="$PROJECT_DIR$/src/neural/Matrix/MatrixMath.java" />
-        <option value="$PROJECT_DIR$/src/gather/HubSearch.java" />
         <option value="$PROJECT_DIR$/src/commonIO/ParseHTML.java" />
         <option value="$PROJECT_DIR$/src/gather/GatherForTraining.java" />
         <option value="$PROJECT_DIR$/src/Util/NetworkUtil.java" />
@@ -188,16 +194,20 @@
         <option value="$PROJECT_DIR$/src/JSONParser/zip/Keep.java" />
         <option value="$PROJECT_DIR$/src/JSONParser/zip/Zipper.java" />
         <option value="$PROJECT_DIR$/src/com/attask/api/StreamClient.java" />
+        <option value="$PROJECT_DIR$/src/TasksManager/TasksManager.java" />
         <option value="$PROJECT_DIR$/src/Models/Task.java" />
+        <option value="$PROJECT_DIR$/src/taskRetriever/TaskRetriever.java" />
+        <option value="$PROJECT_DIR$/src/PoSTagging/PartOfSpeechTagger.java" />
         <option value="$PROJECT_DIR$/src/TestApp.java" />
+        <option value="$PROJECT_DIR$/Data/AtTask Samples/manualRegressionTests.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="24" />
-    <option name="width" value="1631" />
-    <option name="height" value="1026" />
+    <option name="x" value="50" />
+    <option name="y" value="52" />
+    <option name="width" value="815" />
+    <option name="height" value="998" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -274,7 +284,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Models" />
+              <option name="myItemId" value="taskRetriever" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QA Parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QA Parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AtTask Samples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -288,7 +330,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="fileTemplates" />
     <property name="last_opened_file_path" value="$USER_HOME$/attask/src/attask" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -467,18 +509,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="24" width="1631" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="50" y="52" width="815" height="998" extended-state="4" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.372919" sideWeight="0.60721064" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.372919" sideWeight="0.6008855" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36403996" sideWeight="0.49778622" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3757159" sideWeight="0.5137255" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -488,10 +529,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17773561" sideWeight="0.63596004" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36403996" sideWeight="0.49778622" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36732027" sideWeight="0.6242841" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3757159" sideWeight="0.47712418" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -556,69 +598,34 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/json/zip/BitWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="233" selection-end="233" vertical-scroll-proportion="0.20547946">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/json/zip/Huff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="43" selection-end="43" vertical-scroll-proportion="0.051369864">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/json/zip/JSONzip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="22" selection-start="2169" selection-end="2169" vertical-scroll-proportion="1.2328767">
-          <folding />
-        </state>
+        <state line="48" column="22" selection-start="2169" selection-end="2169" vertical-scroll-proportion="1.2328767" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/json/zip/Keep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="70" selection-end="70" vertical-scroll-proportion="0.10273973">
-          <folding />
-        </state>
+        <state line="4" column="18" selection-start="70" selection-end="70" vertical-scroll-proportion="0.10273973" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/json/zip/None.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="314" selection-end="314" vertical-scroll-proportion="0.20547946">
-          <folding />
-        </state>
+        <state line="8" column="17" selection-start="314" selection-end="314" vertical-scroll-proportion="0.20547946" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/json/zip/PostMortem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="17" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.9503425">
-          <folding />
-        </state>
+        <state line="37" column="17" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.9503425" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/json/zip/Unzipper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="18" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/json/zip/Zipper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="29" selection-start="222" selection-end="222" vertical-scroll-proportion="0.28082192">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PoSTagging/PartOfSpeechTagger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="224" column="0" selection-start="8343" selection-end="8343" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="29" selection-start="222" selection-end="222" vertical-scroll-proportion="0.28082192" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/attask/api/StreamClientException.java">
@@ -630,50 +637,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Config/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="109" selection-end="109" vertical-scroll-proportion="0.19626169">
-          <folding />
-        </state>
+        <state line="7" column="13" selection-start="109" selection-end="109" vertical-scroll-proportion="0.19626169" />
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/java-7-oracle/jre/lib/rt.jar!/org/jcp/xml/dsig/internal/dom/XMLDSigRI.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="10" column="11" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/json/JSONObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="577" column="0" selection-start="20600" selection-end="20600" vertical-scroll-proportion="0.0">
+        <state line="577" column="0" selection-start="20600" selection-end="20600" vertical-scroll-proportion="0.029880479">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/attask/api/StreamClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="0" selection-start="6145" selection-end="6145" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2478#2494#0" expanded="true" />
-          </folding>
+        <state line="151" column="0" selection-start="6145" selection-end="6145" vertical-scroll-proportion="0.029880479">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+        <state line="38" column="21" selection-start="663" selection-end="663" vertical-scroll-proportion="0.9961165">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PoSTagging/PartOfSpeechTagger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="966" selection-end="966" vertical-scroll-proportion="0.36477986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/taskRetriever/TaskRetriever.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="34" selection-start="2007" selection-end="2007" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1259#1267#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="89" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.7830189">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#562#568#0" expanded="true" />
-            <element signature="e#1868#1876#0" expanded="true" />
-          </folding>
+        <state line="39" column="7" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/AtTask Samples/manualRegressionTests.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="542" column="7" selection-start="84264" selection-end="84264" vertical-scroll-proportion="0.8427673">
+          <folding />
         </state>
       </provider>
     </entry>
