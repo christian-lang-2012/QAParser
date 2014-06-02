@@ -398,148 +398,77 @@ Verify column sort order set in the report builder will persist in the delivered
 Verify report default columns sort order set in the report builder is retained when Refresh Report arrow button is pressed
 Verify report default columns sort order set in the report builder is retained when browser page is refreshed
 Verify report default columns sort order set in the report builder is retained when paginating in report pages (see under Description)
-Verify report default columns sort order set in the report builder is retained when 'Showing' is set to show more results (see under Description)
-Verify report default columns sort order set in the report builder is retained when 'Showing' is set to show All results (see under Description)
-Verify that report retains default sorting when navigating back to first page
-Verify report sort order set in a selected column in report details page is retained when Refresh Report arrow button is pressed
-Verify report sort order set in a selected column in report details page is reset to the default sort order set in the report builder when browser page is refreshed
-Verify report sort order set in a selected column in report details page is retianed when paginating in report pages (see under Description)
-Verify report order set in a selected column in report details page is retained when 'Showing' is set to show more results (see under Description)
-Verify report seot order set in a selected column in report details page is retianed when 'Showing' is set to show All results (see under Description)
-Verify sort order arrow icon in the column title is retained when paginating in report pages
-Verify sort order arrow icon in the column title is retained when showing more results
-Verify sort order arrow icon in the column title is retained when showing all results
-Verify sort order arrow icon in the column title is retained when Refresh button is pressed
-Verify in a large report with <2000 items, All<n> is displayed in the pagination control
-Verify report pagination control dropdown has 2000 option in a large report with over 2000 items
-Verify page number buttons and previous/next arrow buttons are displayed when 2000 items in a large report are displayed
-Verify user is able to navigate on pages in a large report using page buttons and each page will display 2000 items if that many are available in a large report
-Verify user is able to navigate on pages in a large report using previous/next arrow buttons and each page will display 2000 items if that many are available in a large report
-Verify column with custom parameter of currency type and aggregate set to COUNT will show correct summary value in the grouping bar on the report details page
-Verify column with custom parameter of currency type and aggregate set to SUM will show correct summary value in the grouping bar on the report details page
-Verify column with custom parameter of currency type and aggregate set to AVERAGE will show correct summary value in the grouping bar on the report details page
-Verify column with custom parameter of currency type and aggregate set to MINIMUM will show correct summary value in the grouping bar on the report details page
-Verify column with custom parameter of currency type and aggregate set to MAXIMUM will show correct summary value in the grouping bar on the report details page
-Verify if value in a custom parameter of currency type is left blank it's set to 0 and when aggregate is set to MINIMUM, zero will be displayed in the grouping bar on the report details page
-Verify column with number type field and aggregate set to COUNT will show correct summary value in the grouping bar on the report details page
-Tech Approach: Comment by Reply : Posting comments by replying system emails without POP accounts
-Complete Service Component Checklist
-Review infrastructure requirements
-Review Security requirements
-Review Datastore requirements
-Create load testing plan (if necessary)
-Logical Design Diagram
-Dev Maven Project & Repo
-QA Maven Project & Repo
-System Engineering Tasks (fill in subtasks)
-Bespin Jobs
-Provision test infrastructure/environments
-Provision production infrasctructure/environments
-Set up health check
-Final security / hardening review
-Feature Deployment
-Verify that in Setup > Email > Setup > Incoming Mail section has only 1 checkbox labeled"Enable users to post comments by replying to email notifications"
-Verify that if the customer has already setup POP Accont, POP settings section will still be displayed in Setup > Email > Setup
-Verify there is a warning message above POP email settings with blue background and outline, containing the info icon, switch suggestion message and Switch Now button to the right of the message (see desc)
-Verify that clicking on Switch Now button will pop-up "Remove POP Account" lightbox
-Verfy the lightbox has close 'x' button, warning icon and message (see desc), Switch Now and Cancel links
-Verify that selecting Switch Now button, all previous POP Email fields will no longer be available, and the user will only see"Enable users to post comments by replying to email notifications" checkbox under Incoming Email section
-Verify that selecting Cancel will close the lightbox and leave all POP Email fields and switch suggestion available for the customer
-Verify that selecting close 'x' will close the lightbox and leave all POP Email fields and the switch suggestion available for the customer.
-Verify that if the customer has enabled Incoming Email checkbox in setup, the redesigned event notifications will contain an indication that user can just reply to the email and the update will automatically be posted on the object (see desc).
-Verify that if the customer has deselected Incoming Email checkbox in setup, the sent notifications will NOT contain any indication about posting comments by replying
-Verify that sent emails will not have IDs appended to the end of the email subject, even when the incoming email checkbox is checked.
-Verify that when the user selects Reply from the sent notification, the "To" field will be populated with an alias and unique Email address (see desc)
-Verify that when Incoming Email checkbox is checked in setup, and a user replies to AtTask email, the relpied text will be added as an update/comment to the object for which the email was sent
-Verify that documents attached to the replied email will be attached to the replied items in AtTask
-Verify that if the reply email has large documents attached, those be attached to the appropriate objects in AtTask
-verify users will be able to attach different document types to objects by attaching the document to the replied email.
-Verify that avatars and other images from the email will not be posted as attachments to attask objects after replying to email
-Verify that when the replied text contains special characters, they will be displayed correctly in posted update
-Verify that if the replied text contains urls or email adrresses, those will be posted as links in posted updates.
-Verify that if Incoming Email checkbox is enabled in Setup, and an External license user replies to an email, the reply will be posted as an update/comment for the replied item
-Verify that if the update was added by External user via reply, then user's email address will be shown instead of update/comment's entered by user name
-Verify that added updates/comments will have timestamp, Like and Comment links.
-Verify that if a Help Desk Requestor user replies to an email, the reply will be posted as an update/comment for the corresponding object in AtTask
-Verify the posted update will contain only the replied text and no other details from the sent email
-Verify when an update is posted through replying via email, notifications will be sent to appropriate users about the new update/comment. (see desc)
-Verify that if the user has removed the field from Tracked Fields in Setup, the replied text will be posted as a separate update on object's Updates tab (see desc)
-Verify if there are several journal entries combined in one, and user replies to several of those journal entry emails, all replies will be posted under the combined journal entry, in the same thread (see desc).
-Verify that the user can reply several times to the same email and all replies will be posted as comments/updates.
-Verify that if the event for which email notification was sent to the user has a journal entry, and the user replies to that email, the replied text will be added as a comment to the journal entry on Updates tab (see desc)
-Verify that replying to a notification sent for "Calendar Share Add to Team" event handler, the replied text will NOT be added as an update on any object
-Verify that replying to an email sent for "Issue Assignment to Issue Assigned To" event handler will post the replied text as a comment to the assignment journal entry on the assigned task
-Verify that replying to an email sent for "Work Item Request to Team" event handler will post the replied text as a comment to the team assignment journal entry on the assigned work item
-Verify that replying to an email sent for "Work Item Request to Work Item Assignee" event handler will post the replied text as a comment on the assignment journal entry on the assigned work item
-Verify that replying to an email sent for "Task Assignment to Task Assigned To" event handler will post the replied text as a comment to the assignment journal entry on the assigned task
-Verify that replying to an email sent for "Document Approval Cancel to Approver" event handler will NOT post the replied text as an update on Document > Updates tab
-Verify that replying to an email sent for "Document Approval Status Change to Requestor" event handler will NOT post the replied text as an update on Document > Updates tab
-Verify that replying to an email sent for "Document Request Add to Requestee" event handler will NOT post the replied text as an update on the object to which the document is attached
-Verify that replying to an email sent for "Document Request Complete to Requestor" event handler will post the replied text as a comment for document upload journal entry on the object for which the document was uploaded
-Verify that replying to an email sent for "Document Request Cancel to Requestee" event handler will NOT post the replied text as an update on the object for which the document was requested
-Verify that replying to an email sent for "Document Share Add to Team" event handler will NOT post the replied text as an update on the shared document > Updates tab
-Verify that replying to an email sent for "A document is added to a project I own" event handler will post the replied text as a comment to the document upload journal entry on project's Updates tab
-Verify that replying to an email sent for "A document is changed or uploaded on an issue for which I am the primary contact" event handler will post the replied text as a comment on the document upload journal entry on issue's Updates tab
-Verify that replying to an email sent for "Documents are uploaded or changed on requests I'm assigned to" event handler for document upload, the replied text will be posted as a comment on the document upload journal entry on the issue
-Verify that replying to an email sent for "Documents are uploaded or changed on requests I'm assigned to" event handler for document edits, the replied text will be posted as an update on issue's Updates tab
-Verify that replying to an email sent for "A document is added to a project I'm on" event handler will post the replied text as a comment to the journal entry on project's Updates tab
-Verify that replying to an email sent for "A document is added to a project I sponsor" event handler will post the replied text as a comment to the document upload journal entry on project's Updates tab
-Verify that replying to an email sent for "Someone includes me on a directed update" event handler will post the replied text as a comment on the update directed to the user
-Verify that replying to an email sent for "Someone replies to my request" event handler will post the replied text as a comment to the reply on the request
-Verify that replying to an email sent for "Someone comments on one of my work items" event handler will post the replied text as a comment to the update/comment on the work item
-Verify that replying to an email sent for "Someone comments on a thread I'm in" event handler will post the replied text as a comment to the original update
-Verify that replying to an email sent for "Someone includes my team on a directed update" event handler will post the replied text as a comment on the directed update/comment
-Verify that replying to an email sent for "When a comment is posted on a request, email the issue primary contact" event handler will post the replied text as a comment on the update/comment on the work item
-Verify that replying to an email sent for "I need to approve an issue" event handler will post the replied text as a comment on approval journal entry on Issue's Updates tab
-Verify that replying to an email sent for "The due date changes on an issue I'm assigned to" event handler will post the replied text as a comment on due date change journal entry on issue's Updates tab
-Verify that replying to an email sent for "The status changes on one of my work items" event handler will post the replied text as a comment on status change journal entry on issue's Updates tab
-Verify that replying to an email sent for "An issue is completed on a project I'm on" event handler will post the replied text as a comment on status change journal entry on issue's Updates tab
-Verify that replying to an email sent for "An issue is completed on a project I sponsor" event handler will post the replied text as a comment to the status change journal entry on issue's Updates tab
-Verify that replying to an email sent for "An issue is completed on a project I own" event handler will post the replied text as a comment to the status change journal entry on issue's Updates tab
-Verify that replying to an email sent for "An issue for which I'm the primary contact is completed" event handler will post the replied text as a comment to the status change journal entry on issue's Updates tab
-Verify that replying to an email sent for "An issue I'm assigned to is completed" event handler will post the replied text as a comment to the status change journal entry on issue's Updates tab
-Verify that replying to an email sent for "The commit date changes for an issue on one of my projects" event handler will post the replied text as a comment on due date change journal entry on issue's Updates tab
-Verify that replying to an email sent for "An issue assignment change affects one of my people" event handler will post the replied text as a comment on asignment journal entry on issue's Updates tab
-Verify that replying to an email sent for "I become the primary assignee on the issue" event handler will post the replied text as a comment on assignment journal entry on issue's Updates tab
-Verify that replying to an email sent for "An issue I resolve is approved or rejected" event handler will post the replied text as a comment on approval decision journal entry on issue's Updates tab
-Verify that replying to an email sent for "An unassigned issue is added to a project I'm on" event handler will post the replied text as an update on the issue
-Verify that replying to an email sent for "An unassigned issue is added to a project I sponsor" event handler will post the replied text as an update on the issue
-Verify that replying to an email sent for "An unassigned issue is added to a project I own" event handler will post the replied text as an update on the issue
-Verify that replying to an email sent for "An issue is added to a project I'm on" event handler will post the replied text as an update on the issue
-Verify that replying to an email sent for "An issue is added to a project I sponsor" event handler will post the replied text as an update on the issue
-Verify that replying to an email sent for "An issue is added to a project I own" event handler will post the replied text as an update on the issue
-Verify that replying to an email sent for "I add an issue to a project" event handler will post the replied text as an update on the issue
-Verify that replying to an email sent for "The status changes on my request" event handler will post the replied text as a comment on assignment change journal entry on issue's Updates tab
-Verify that replying to an email sent for "My request is closed (confirmation)" event handler will post the replied text as a comment on status change journal entry on issue's Updates tab
-Verify that replying to an email sent for "I submit a request (confirmation)" event handler will post the replied text as an update on the issue.
-Verify that replying to an email sent for "I need to approve a project" event handler will post the replied text as a comment on status change jounral entry on project's Updates tab
-Verify that replying to an email sent for "A project I'm on becomes active" event handler will post the replied text as a comment on status change jounral entry on project's Updates tab
-Verify that replying to an email sent for "The status changes on a project I'm on" event handler will post the replied text as a comment on status change jounral entry on project's Updates tab
-Verify that replying to an email sent for "The status changes on a project I created" event handler will post the replied text as a comment on status change jounral entry on project's Updates tab
-Verify that replying to an email sent for "I'm set as the sponsor of a project" event handler will post the replied text as an update on project's Updates tab
-Verify that replying to an email sent for "I'm set as the owner of a new project" event handler will post the replied text as a comment on project owner journal entry on project's Updates tab
-Verify that replying to an email sent for "A project I sponsor gets behind" event handler will post the replied text as an update on the project
-Verify that replying to an email sent for "A project I own gets behind" event handler will post the replied text as an update on the project
-Verify that replying to an email sent for "A project I'm on is completed" event handler will post the replied text as a comment on status change jounral entry on project's Updates tab
-Verify that replying to an email sent for "One of my people is added to a project" event handler will NOT post the replied text as an update on the project
-Verify that replying to an email sent for "I'm added to a project" event handler will NOT post the replied text as an update on the project
-Verify that replying to an email sent for "I need to approve a task" event handler will post the replied text as a comment on the journal entry about pending approval status change on task's Updates tab
-Verify that replying to an email sent for "A milestone task is completed on a project I own" event handler will post the replied text as a comment on status change journal entry on task's Updates tab
-Verify that replying to an email sent for "A milestone task is completed on a project I sponsor" event handler will post the replied text as a comment on status change journal entry on task's Updates tab
-Verify that replying to an email sent for "A milestone task is completed on a project I'm on" event handler will post the replied text as a comment on status change journal entry on task's Updates tab
-Verify that replying to an email sent for "A task I complete is approved or rejected" event handler will post the replied text as a comment on approval decision journal entry on task's Updates tab
-Verify that replying to an email sent for "A task assignment change affects one of my people" event handler will post the replied text as a comment on assignment journal entry on task's Updates tabVerify that replying to an email sent for "The commit date changes for a task on one of my projects" event handler will post the replied text as a comment on commit date change journal entry on task's Updates tab
-Verify that replying to an email sent for "A predecessor of one of my tasks is completed" event handler will post the replied text as an update on the successor task
-Verify that replying to an email sent for "A task is completed on a project I own" event handler will post the replied text as a comment on status chagne journal entry on task's Updates tab
-Verify that replying to an email sent for "A task is completed on a project I sponsor" event handler will post the replied text as a comment on status chagne journal entry on task's Updates tab
-Verify that replying to an email sent for "A task I'm assigned to is completed" event handler will post the replied text as a comment on status chagne journal entry on task's Updates tab
-Verify that replying to an email sent for "A task is completed on a project I'm on" event handler will post the replied text as a comment on status chagne journal entry on task's Updates tab
-Verify that replying to an email sent for "The due date changes on a task I'm assigned to" event handler will post the replied text as a comment on due date chagne journal entry on task's Updates tab
-Verify that replying to an email sent for "A task on a project I own gets behind" event handler will post the replied text as an update on the task
-Verify that replying to an email sent for " A task on a project I sponsor gets behind" event handler will post the replied text as an update on the task
-Verify that replying to an email sent for "The status changes on a task I'm assigned to" event handler will post the replied text as a comment on status change journal entry on task's Updates tab
-Verify that replying to an email sent for "My timesheet is approved" event handler will post the replied text as a comment on approval decision journal entry on timesheet
-Verify that replying to an email sent for "My timesheet is rejected" event handler will post the replied text as a comment on approval decision journal entry on timesheet
-Verify that replying to an email sent for "My timesheet is re-opened" event handler will post the replied text as a comment on approval decision journal entry on timesheet
-Verify that replying to an email sent for I need to approve a timesheet" event handler will post the replied text as a comment on timesheet submission journal entry on the timesheet page
-Verify that replying to an email sent for "When a new user is created in attask, email the user" event handler will NOT post the replied text as an update on any object
+Verify/VB report/NN default/NN columns/NNS sort/RB order/VBP set/VBN in/IN the/DT report/NN builder/NN is/VBZ retained/VBN when/WRB 'Showing/PRP '/POS is/NNS set/VBD to/TO show/VB more/JJR results/NNS (/( see/VB under/IN Description/NNP )/)
+Verify/VB report/NN default/NN columns/NNS sort/RB order/VBP set/VBN in/IN the/DT report/NN builder/NN is/VBZ retained/VBN when/WRB 'Showing/PRP '/POS is/NNS set/VBD to/TO show/VB All/RB results/NNS (/( see/VB under/IN Description/NNP )/)
+Verify/VB that/DT report/NN retains/VBZ default/NN sorting/VBG when/WRB navigating/VBG back/RB to/TO first/JJ page/NN
+Verify/VB report/NN sort/RB order/NN set/VBN in/IN a/DT selected/JJ column/NN in/IN report/NN details/NNS page/NN is/VBZ retained/VBN when/WRB Refresh/VB Report/NNP arrow/NN button/NN is/VBZ pressed/VBN
+Verify/VB report/NN sort/RB order/NN set/VBN in/IN a/DT selected/JJ column/NN in/IN report/NN details/NNS page/NN is/VBZ reset/JJ to/TO the/DT default/NN sort/RB order/NN set/VBN in/IN the/DT report/NN builder/NN when/WRB browser/JJR page/NN is/VBZ refreshed/VBN
+Verify/VB report/NN sort/RB order/NN set/VBN in/IN a/DT selected/JJ column/NN in/IN report/NN details/NNS page/NN is/VBZ retained/VBN when/WRB paginating/PRP in/IN report/NN pages/NNS (/( see/VB under/IN Description/NNP )/)
+Verify/VB report/NN order/NN set/VBN in/IN a/DT selected/JJ column/NN in/IN report/NN details/NNS page/NN is/VBZ retained/VBN when/WRB 'Showing/PRP '/POS is/NNS set/VBD to/TO show/VB more/JJR results/NNS (/( see/VB under/IN Description/NNP )/)
+Verify/VB report/NN set/VBN order/NN set/VBN in/IN a/DT selected/JJ column/NN in/IN report/NN details/NNS page/NN is/VBZ retained/VBN when/WRB 'Showing/PRP '/POS is/NNS set/VBD to/TO show/VB All/RB results/NNS (/( see/VB under/IN Description/NNP )/)
+Verify/VB sort/RB order/NN arrow/NN icon/NN in/IN the/DT column/NN title/NN is/VBZ retained/VBN when/WRB paginating/PRP in/IN report/NN pages/NNS
+Verify/VB sort/RB order/NN arrow/NN icon/NN in/IN the/DT column/NN title/NN is/VBZ retained/VBN when/WRB showing/VBG more/RB results/NNS
+Verify/VB sort/RB order/NN arrow/NN icon/NN in/IN the/DT column/NN title/NN is/VBZ retained/VBN when/WRB showing/VBG all/DT results/NNS
+Verify/VB sort/RB order/NN arrow/NN icon/NN in/IN the/DT column/NN title/NN is/VBZ retained/VBN when/WRB Refresh/VB button/NN is/VBZ pressed/VBN
+Verify/VB in/IN a/DT large/JJ report/NN with/IN </SYM 2000/CD items/NNS ,/, All/DT </SYM n/SYM >/SYM is/NNS displayed/VBN in/IN the/DT pagination/NN control/NN
+Verify/VB report/NN pagination/IN control/NN dropdown/, has/VBZ 2000/CD option/NN in/IN a/DT large/JJ report/NN with/IN over/IN 2000/CD items/NNS
+Verify/VB page/NN number/NN buttons/NNS and/CC previous/next/NN arrow/NN buttons/NNS are/VBP displayed/VBN when/WRB 2000/CD items/NNS in/IN a/DT large/JJ report/NN are/VBP displayed/VBN
+Verify/VB user/NN is/VBZ able/JJ to/TO navigate/VB on/IN pages/NNS in/IN a/DT large/JJ report/NN using/VBG page/NN buttons/NNS and/CC each/DT page/NN will/MD display/VB 2000/CD items/NNS if/IN that/DT many/JJ are/VBP available/JJ in/IN a/DT large/JJ report/NN
+Verify/VB user/NN is/VBZ able/JJ to/TO navigate/VB on/IN pages/NNS in/IN a/DT large/JJ report/NN using/VBG previous/next/NN arrow/NN buttons/NNS and/CC each/DT page/NN will/MD display/VB 2000/CD items/NNS if/IN that/DT many/JJ are/VBP available/JJ in/IN a/DT large/JJ report/NN
+Verify/VB column/NN with/IN custom/NN parameter/NN of/IN currency/NN type/NN and/CC aggregate/JJ set/NN to/TO COUNT/VB will/MD show/VB correct/JJ summary/NN value/NN in/IN the/DT grouping/NN bar/NN on/IN the/DT report/NN details/NNS page/NN
+Verify/VB column/NN with/IN custom/NN parameter/NN of/IN currency/NN type/NN and/CC aggregate/JJ set/NN to/TO SUM/NN will/MD show/VB correct/JJ summary/NN value/NN in/IN the/DT grouping/NN bar/NN on/IN the/DT report/NN details/NNS page/NN
+Verify/VB column/NN with/IN custom/NN parameter/NN of/IN currency/NN type/NN and/CC aggregate/JJ set/NN to/TO AVERAGE/JJ will/NN show/NN correct/JJ summary/NN value/NN in/IN the/DT grouping/NN bar/NN on/IN the/DT report/NN details/NNS page/NN
+Verify/VB column/NN with/IN custom/NN parameter/NN of/IN currency/NN type/NN and/CC aggregate/JJ set/NN to/TO MINIMUM/JJ will/NN show/NN correct/JJ summary/NN value/NN in/IN the/DT grouping/NN bar/NN on/IN the/DT report/NN details/NNS page/NN
+Verify/VB column/NN with/IN custom/NN parameter/NN of/IN currency/NN type/NN and/CC aggregate/JJ set/NN to/TO MAXIMUM/JJ will/NN show/NN correct/JJ summary/NN value/NN in/IN the/DT grouping/NN bar/NN on/IN the/DT report/NN details/NNS page/NN
+Verify/VB if/IN value/NN in/IN a/DT custom/NN parameter/NN of/IN currency/NN type/NN is/VBZ left/VBN blank/JJ it/PRP 's/VBZ set/VBN to/TO 0/CD and/CC when/IN aggregate/JJ is/VBZ set/VBN to/TO MINIMUM/JJ ,/, zero/CD will/NN be/VB displayed/VBN in/IN the/DT grouping/NN bar/NN on/IN the/DT report/NN details/NNS page/NN
+Verify/VB column/NN with/IN number/NN type/NN field/NN and/CC aggregate/JJ set/NN to/TO COUNT/VB will/MD show/VB correct/JJ summary/NN value/NN in/IN the/DT grouping/NN bar/NN on/IN the/DT report/NN details/NNS page/NN
+Tech/NN Approach/NN :/: Comment/NN by/IN Reply/NN :/: Posting/VBG comments/NNS by/IN replying/VBG system/JJ emails/NNS without/IN POP/NNP accounts/NNS
+Complete/JJ Service/NNP Component/NN Checklist/NN
+Review/VB Security/NNP requirements/NNS
+Review/VB Datastore/NN requirements/NNS
+Create/VB load/NN testing/NN plan/NN (/( if/IN necessary/JJ )/)
+Logical/JJ Design/NN Diagram/NN
+Dev/VBD Maven/NN Project/NNP &/CC Repo/NNP
+QA/NN Maven/NN Project/NNP &/CC Repo/NNP
+System/NN Engineering/NN Tasks/NNS (/( fill/VB in/IN subtasks/NN )/)
+Bespin/NNP Jobs/NNS
+Provision/NN test/NN infrastructure/environments/NN
+Provision/NN production/NN infrasctructure/environments/NN
+Set/VB up/RP health/NN check/NN
+Feature/NN Deployment/NN
+Verify/VB that/DT in/IN Setup/NN >/SYM Email/NN >/SYM Setup/NN >/SYM Incoming/JJ Mail/NN section/NN has/VBZ only/RB 1/CD checkbox/NNS labeled/VBN "/" Enable/VB users/NNS to/TO post/VB comments/NNS by/IN replying/VBG to/TO email/NN notifications/NNS "/"
+Verify/VB that/DT if/NN the/DT customer/NN has/VBZ already/RB setup/VBN POP/NNP Accont/NNP ,/, POP/NNP settings/NNS section/NN will/MD still/RB be/VB displayed/VBN in/IN Setup/NN >/SYM Email/NN >/SYM Setup/NN
+Verify/VB there/RB is/VBZ a/DT warning/NN message/NN above/IN POP/NNP email/NN settings/NNS with/IN blue/JJ background/NN and/CC outline/NN ,/, containing/VBG the/DT info/NN icon/NN ,/, switch/NN suggestion/NN message/NN and/CC Switch/NN Now/RB button/NN to/TO the/DT right/NN of/IN the/DT message/NN (/( see/VB desc/NNP )/)
+Verify/VB that/DT clicking/NN on/IN Switch/NN Now/RB button/NN will/MD pop-up/NN "/" Remove/VB POP/NNP Account/NN "/" lightbox/NN
+Verify/VB the/DT lightbox/NN has/VBZ close/RB 'x/JJ '/'' button/NN ,/, warning/VBG icon/NN and/CC message/NN (/( see/VB desc/NNP )/) ,/, Switch/NN Now/RB and/CC Cancel/VB links/NNS
+Verify/VB that/DT selecting/VBG Switch/NN Now/RB button/NN ,/, all/DT previous/JJ POP/NNP Email/NN fields/NNS will/MD no/RB longer/RB be/VB available/JJ ,/, and/CC the/DT user/NN will/MD only/RB see/VB "/" Enable/VB users/NNS to/TO post/VB comments/NNS by/IN replying/VBG to/TO email/NN notifications/NNS "/" checkbox/NN under/IN Incoming/JJ Email/NN section/NN
+Verify/VB that/DT selecting/VBG Cancel/VB will/NN close/RB the/DT lightbox/MD and/CC leave/VB all/DT POP/NNP Email/NN fields/NNS and/CC switch/NN suggestion/NN available/JJ for/IN the/DT customer/NN
+Verify/VB that/DT selecting/VBG close/NN 'x/IN '/'' will/MD close/VB the/DT lightbox/MD and/CC leave/VB all/DT POP/NNP Email/NN fields/NNS and/CC the/DT switch/NN suggestion/NN available/JJ for/IN the/DT customer/NN ./.
+Verify/VB that/DT if/NN the/DT customer/NN has/VBZ deselected/NN Incoming/JJ Email/NN checkbox/NN in/IN setup/NN ,/, the/DT sent/VBN notifications/NNS will/MD NOT/RB contain/VB any/DT indication/NN about/IN posting/VBG comments/NNS by/IN replying/VBG
+Verify/VB that/DT sent/VBN emails/NNS will/MD not/RB have/VB IDs/RB appended/VBN to/TO the/DT end/NN of/IN the/DT email/NN subject/NN ,/, even/RB when/WRB the/DT incoming/JJ email/NN checkbox/NNP is/VBZ checked/VBN ./.
+Verify/VB that/DT when/WRB the/DT user/NN selects/VBZ Reply/NN from/IN the/DT sent/VBN notification/NN ,/, the/DT "/" To/TO "/" field/NN will/MD be/VB populated/VBN with/IN an/DT alias/NN and/CC unique/JJ Email/NN address/NN (/( see/VB desc/NNP)/)
+Verify/VB that/DT when/WRB Incoming/JJ Email/NN checkbox/NN is/VBZ checked/VBN in/IN setup/NN ,/, and/CC a/DT user/NN replies/VBZ to/TO AtTask/NNP email/NNP ,/, the/DT relpied/NN text/NN will/MD be/VB added/VBN as/IN an/DT update/comment/NN to/TO the/DT object/NN for/IN which/WDT the/DT email/NNP was/VBD sent/VBN
+Verify/VB that/DT documents/NNS attached/VBN to/TO the/DT replied/VBN email/NN will/MD be/VB attached/VBN to/TO the/DT replied/VBN items/NNS in/IN AtTask/NNP
+Verify/VB that/DT if/NN the/DT reply/NN email/NN has/VBZ large/JJ documents/NNS attached/VBN ,/, those/DT be/VB attached/VBN to/TO the/DT appropriate/JJ objects/NNS in/IN AtTask/NNP
+verify/VB users/NNS will/MD be/VB able/JJ to/TO attach/VB different/JJ document/NN types/NNS to/TO objects/NNS by/IN attaching/VBG the/DT document/NN to/TO the/DT replied/VBN email/NN ./.
+Verify/VB that/DT avatars/NN and/CC other/JJ images/NNS from/IN the/DT email/NN will/MD not/RB be/VB posted/VBN as/IN attachments/NNS to/TO attask/VB objects/NNS after/IN replying/VBG to/TO email/NN
+Verify/VB that/DT if/NN the/DT replied/VBD text/NN contains/VBZ urls/NNS or/CC email/NN adrresses/NNP ,/, those/DT will/MD be/VB posted/VBN as/IN links/NNS in/IN posted/VBN updates/NNS ./.
+Verify/VB that/DT if/NN Incoming/JJ Email/NN checkbox/NNP is/VBZ enabled/VBN in/IN Setup/NN ,/, and/CC an/DT External/NNP license/NN user/NN replies/VBZ to/TO an/DT email/NN ,/, the/DT reply/NN will/MD be/VB posted/VBN as/IN an/DT update/comment/NN for/IN the/DT replied/VBD item/NN
+Verify/VB that/DT if/NN the/DT update/NN was/VBD added/VBN by/IN External/NNP user/NN via/IN reply/NN ,/, then/RB user/NN 's/VBZ email/NN address/NN will/MD be/VB shown/VBN instead/RB of/IN update/comment/NN 's/POS entered/VBN by/IN user/NN name/NN
+Verify/VB that/DT added/VBN updates/comments/RB will/MD have/VB timestamp/VBN ,/, Like/IN and/CC Comment/NN links/NNS ./.
+Verify/VB that/DT if/NN a/DT Help/NN Desk/NN Requestor/NN user/NN replies/VBZ to/TO an/DT email/NN ,/, the/DT reply/NN will/MD be/VB posted/VBN as/IN an/DT update/comment/NN for/IN the/DT corresponding/JJ object/NN in/IN AtTask/DT
+Verify/VB the/DT posted/VBN update/NN will/MD contain/VB only/RB the/DT replied/VBD text/NN and/CC no/DT other/JJ details/NNS from/IN the/DT sent/VBN email/NN
+Verify/VB when/WRB an/DT update/NN is/VBZ posted/VBN through/IN replying/VBG via/IN email/NN ,/, notifications/NNS will/MD be/VB sent/VBN to/TO appropriate/JJ users/NNS about/IN the/DT new/JJ update/comment/NN ./. (/( see/VB desc/NNP )/)
+Verify/VB that/DT if/NN the/DT user/NN has/VBZ removed/VBN the/DT field/NN from/IN Tracked/VBN Fields/NNS in/IN Setup/NN ,/, the/DT replied/VBD text/NN will/MD be/VB posted/VBN as/IN a/DT separate/JJ update/NN on/IN object/NN 's/POS Updates/NNS tab/NN (/( see/VB desc/NNP )/)
+Verify/VB that/DT the/DT user/NN can/MD reply/VB several/JJ times/NNS to/TO the/DT same/JJ email/NN and/CC all/DT replies/NNS will/MD be/VB posted/VBN as/IN comments/updates/NN ./.
+Verify/VB that/DT if/NN the/DT event/NN for/IN which/WDT email/NN notification/NN was/VBD sent/VBN to/TO the/DT user/NN has/VBZ a/DT journal/NN entry/NN ,/, and/CC the/DT user/NN replies/VBZ to/TO that/DT email/NN ,/, the/DT replied/VBD text/NN will/MD be/VB added/VBN as/IN a/DT comment/NN to/TO the/DT journal/NN entry/NN on/IN Updates/NNS tab/NN (/( see/VB desc/NNP )/)
+Verify/VB that/DT replying/VBG to/TO a/DT notification/NN sent/VBD for/IN "/" Calendar/NN Share/NN Add/VB to/TO Team/NNP "/" event/NN handler/NN ,/, the/DT replied/VBD text/NN will/MD NOT/RB be/VB added/VBN as/IN an/DT update/NN on/IN any/DT object/NN
+Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" The/DT due/JJ date/NN changes/NNS on/IN a/DT task/NN I/PRP 'm/VBP assigned/VBN to/TO "/" event/NN handler/NN will/MD post/VB the/DT replied/VBD text/NN as/IN a/DT comment/NN on/IN due/JJ date/NN change/NN journal/NN entry/NN on/IN task/NN 's/POS Updates/NNS tab/NN
+Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" A/LS task/NN on/IN a/DT project/NN I/PRP own/VBP gets/VBZ behind/IN "/" event/NN handler/NN will/MD post/VB the/DT replied/VBD text/NN as/IN an/DT update/NN on/IN the/DT task/NN
+Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" A/LS task/NN on/IN a/DT project/NN I/PRP sponsor/VBP gets/VBZ behind/IN "/" event/NN handler/NN will/MD post/VB the/DT replied/VBD text/NN as/IN an/DT update/NN on/IN the/DT task/NN
+Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" The/DT status/FW changes/NNS on/IN a/DT task/NN I/PRP 'm/VBP assigned/VBN to/TO "/" event/NN handler/NN will/MD post/VB the/DT replied/VBD text/NN as/IN a/DT comment/NN on/IN status/NN change/NN journal/NN entry/NN on/IN task/NN 's/POS Updates/NNS tab/NN
+Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" My/PRP$ timesheet/NN is/VBZ approved/VBN "/" event/NN handler/NN will/MD post/VB the/DT replied/VBD text/NN as/IN a/DT comment/NN on/IN approval/NN decision/NN journal/NN entry/NN on/IN timesheet/NN
+Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" My/PRP$ timesheet/NN is/VBZ rejected/VBN "/" event/NN handler/NN will/MD post/VB the/DT replied/VBD text/NN as/IN a/DT comment/NN on/IN approval/NN decision/NN journal/NN entry/NN on/IN timesheet/NN
+Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" My/PRP$ timesheet/NN is/VBZ re-opened/NN "/" event/NN handler/NN will/MD post/VB the/DT replied/VBD text/NN as/IN a/DT comment/NN on/IN approval/NN decision/NN journal/NN entry/NN on/IN timesheet/NN
+Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN I/PRP need/VBP to/TO approve/VB a/DT timesheet/NN "/" event/NN handler/NN will/MD post/VB the/DT replied/VBD text/NN as/IN a/DT comment/NN on/IN timesheet/NN submission/NN journal/NN entry/NN on/IN the/DT timesheet/NN page/NN
+Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" When/WRB a/DT new/JJ user/NN is/VBZ created/VBN in/IN attask/NNP ,/, email/NN the/DT user/NN "/" event/NN handler/NN will/MD NOT/RB post/VB the/DT replied/VBD text/NN as/IN an/DT update/NN on/IN any/DT object/NN

@@ -41,6 +41,8 @@ public class TaskRetriever {
 
     public ArrayList<Task> getTaskListByProjectID(String id){
 
+        taskList.clear();
+
         try {
 
             login();

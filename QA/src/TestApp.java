@@ -46,12 +46,10 @@ public class TestApp {
             System.out.println(vp);
 */
 
-
-
         TaskRetriever tr = new TaskRetriever();
         ArrayList<Task> tasks = tr.getTaskListByProjectID(practiceID);
 
-        tr.report("Starting tagging...This may take a while");
+        System.out.println("Starting tagging...This may take a while");
 
         int i = 1;
         for(Task t : tasks){

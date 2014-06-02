@@ -24,7 +24,7 @@ public class FeedforwardNetwork {
     public FeedforwardNetwork() {
     }
 
-    public void addLayer(final FeedForwardLayer layer) {
+    public void addLayer(FeedForwardLayer layer) {
         // setup the forward and back pointer
         if (this.outputLayer != null) {
             layer.setPrevious(this.outputLayer);
@@ -44,7 +44,7 @@ public class FeedforwardNetwork {
 
     public double calculateError(double input[][], double ideal[][])
             throws NeuralNetworkError {
-        final ErrorCalculation errorCalculation = new ErrorCalculation();
+        ErrorCalculation errorCalculation = new ErrorCalculation();
 
         for (int i = 0; i < ideal.length; i++) {
             computeOutputs(input[i]);
@@ -56,7 +56,7 @@ public class FeedforwardNetwork {
 
     public int calculateNeuronCount() {
         int result = 0;
-        for (final FeedForwardLayer layer : this.layers) {
+        for (FeedForwardLayer layer : this.layers) {
             result += layer.getNeuronCount();
         }
         return result;
@@ -64,17 +64,17 @@ public class FeedforwardNetwork {
 
     @Override
     public Object clone() {
-        final FeedforwardNetwork result = cloneStructure();
-        final Double copy[] = MatrixCODEC.networkToArray(this);
+        FeedforwardNetwork result = cloneStructure();
+        Double copy[] = MatrixCODEC.networkToArray(this);
         MatrixCODEC.arrayToNetwork(copy, result);
         return result;
     }
 
     public FeedforwardNetwork cloneStructure() {
-        final FeedforwardNetwork result = new FeedforwardNetwork();
+        FeedforwardNetwork result = new FeedforwardNetwork();
 
-        for (final FeedForwardLayer layer : this.layers) {
-            final FeedForwardLayer clonedLayer = new FeedForwardLayer(layer
+        for (FeedForwardLayer layer : this.layers) {
+            FeedForwardLayer clonedLayer = new FeedForwardLayer(layer
                     .getNeuronCount());
             result.addLayer(clonedLayer);
         }
@@ -91,7 +91,7 @@ public class FeedforwardNetwork {
                             + this.inputLayer.getNeuronCount());
         }
 
-        for (final FeedForwardLayer layer : this.layers) {
+        for (FeedForwardLayer layer : this.layers) {
             if (layer.isInput()) {
                 layer.computeOutputs(input);
             } else if (layer.isHidden()) {
@@ -138,7 +138,7 @@ public class FeedforwardNetwork {
     }
 
     public Collection<FeedForwardLayer> getHiddenLayers() {
-        final Collection<FeedForwardLayer> result = new ArrayList<FeedForwardLayer>();
+        Collection<FeedForwardLayer> result = new ArrayList<FeedForwardLayer>();
         for (FeedForwardLayer layer : this.layers) {
             if (layer.isHidden()) {
                 result.add(layer);
