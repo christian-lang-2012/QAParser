@@ -222,253 +222,245 @@ Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN flags/NNS in/IN it/PR
 Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP (/( xlsx/NNP )/) when/IN no/DT expenses/NNS are/VBP selected/VBN creates/VBZ an/DT xlsx/NNP file/NN with/IN all/DT expenses/NNS
 Verify/VB when/WRB a/DT View/NN is/VBZ applied/VBN with/IN currency/NN in/IN it/PRP ,/, when/WRB exported/VBD to/TO Excel/NNP (/( xlsx/NNP )/) ,/, currency/NN format/NN is/VBZ retained/VBN
 Verify/VB clicking/VBG Export/NN >/SYM Excel/NNP when/WRB a/DT few/JJ expenses/NNS are/VBP selected/VBN creates/VBZ an/DT xls/NNP file/NN with/IN only/RB the/DT selected/VBN expenses/NNS
-Verify Title text is the Name of the Report
-Verify long report Title will wrap to fit the container
-Verify all type of characters can be used in the Title
-Verify report Title is displayed at the top container
-Verify Description with multiple lines is displayed below report title
-Verify long Description w/o CR will wrap to fit the container
-Verify in long Description ellipsis and More link will be added to fit the container
-Verify click on More link will display long descriptions in full in the container
-Verify More link will toggle to Less link when whole long description is displayed
-Verify all type of characters can be user in the Description
-Verify report description, if specified, is displayed below Title container
-Verify clicking Refresh button re-runs the report
-Verify clicking 'Show Filters' link will display the system filters selected in the report builder and the report description won't be removed
-Verify clicking 'Show Filters' link will display the custom made filters selected in the report builder and the report description won't be removed
-Verify applied ENUM filters are displayed with comma separator (The filter that have multiple values should be visible as coma separated)
-Verify 'Show Filters' link label will toggle to 'Hide Filters' label when applied filters are displayed
-Verify clicking 'Hide Filters' link will hide the filters seleted in the report builder and the report description won't be removed
-Verify 'Hide Filters' link label will toggle to 'Show Filters' label when applied filters are hidden
-Verify 'Show Filters' link is displayed only when filter is set in the report builder
-Verify multiple filter values entered in the text mode with modifier 'in' correctly displayed when 'Show Filters' link is selected
-Verify filter entered in the text mode with modifier 'notblank' correctly displayed when 'Show Filters' link is selected
-Verify HTML tags are escaped and not translated (e.g. <b>My Untitled Project</b> doesn't display 'My Untitled Project' bold in the details tab)
-Verify HTML tags are displayed as regular text and not omitted in the details tab (e.g. <b>My Untitled Project</b> should be displayed as <b>My Untitled Project</b>)
-Verify long filter name will have ellipsis to fit the size of the drop down header
-Verify long filter name will have ellipsis to fit the size of the drop down list
-Verify long name is wrapping and displayed in full in the tooltip on mouse over in the filter dropdown list
-Click opens a drop down box of available filters
-Clicking filter from list, applies filter to data, refreshes panel, shows new data
-Verify long view name will have ellipsis to fit the size of the drop down header
-Verify long view name will have ellipsis to fit the size of the drop down list
-Verify long name is wrapping and displayed in full in the tooltip on mouse over in the view dropdown list
-Click opens a drop down box of available views
-Click view from list, applies view to data, refreshes panel, shows new data
-Verify long grouping name will have ellipsis to fit the size of the drop down header
-Verify long grouping name will have ellipsis to fit the size of the drop down list
-Verify long name is wrapping and displayed in full in the tooltip on mouse over in the grouping dropdown list
-Click opens a a drop down box of available groupings
-Click grouping from list, applies grouping to data, refreshes panel, shows new data
-Select one item from the list, verify the Edit button appears in the toolbar if the user has edit rights for Projects
-Select one item from the list, if the user does not have edit rights for Projects, verify no Edit button appears
-Select one item from the list, click the Edit button, verify it opens the single edit lightbox
-Select more than one item from the list, verify the Edit button appears in the toolbar if the user has edit rights for Projects
-Select more than one item from the list, if the user does not have edit rights for Projects, verify no Edit button appears
-Select more than one item from the list, click the Edit button, verify it opens the bulk-edit lightbox
-Select one item from the list, verify the Edit button appears in the toolbar if the user has edit rights for Tasks
-Select one item from the list, if the user does not have edit rights for Tasks, verify no Edit button appears
-Select one item from the list, click the Edit button, verify it opens the single edit lightbox
-Select more than one item from the list, verify the Edit button appears in the toolbar if the user has edit rights for Tasks
-Select more than one item from the list, if the user does not have edit rights for Tasks, verify no Edit button appears
-Select more than one item from the list, click the Edit button, verify it opens the bulk-edit lightbox
-Select one item form the list, verify the Edit button appears in the toolbar if the user has edit rights for Issues
-Select one item form the list, if the user does no have edit rights for Issues, verify no Edit button appears
-Select one item form the list, click the Edit button, verify it opens the single edit lightbox
-Select more than one item from the list, verify Edit button appears in the toolbar if the user has edit rights for Issues
-Select more than one item from the list, if the user does not have edit rights for Issues, verify no Edit button appears
-Select more than one item from the list, click the Edit button, verify it opens the bulk-edit lightbox
-Select one item from the list, verify the Edit button appears in the toolbar if the user has edit rights for Hours
-Select one item from the list, if the user does not have edit rights for Hours, verify no Edit button appears
-Select one item from the list, click the Edit button, verify it opens the single edit lightbox
-Select more than one item from the list, verify the Edit button appears in the toolbar if the user has edit rights for Hours
-Select more than one item from the list, if the user does not have edit rights for Hours, verify no Edit button appears
-Select more than one item from the list, click the Edit button, verify it opens the bulk-edit lightbox
-Select one item from the list, verify the Edit button appears in the toolbar if the user has edit rights for Users
-Select one item from the list, if the user does not have edit rights for Users, verify no Edit button appears
-Select one item from the list, click the Edit button, verify it opens the single edit lightbox
-Select more than one item from the list, verify the Edit button appears in the toolbar if the user has edit rights for Users
-Select more than one item from the list, if the user does not have edit rights for Users, verify no Edit button appears
-Select more than one item from the list, click the Edit button, verify it opens the bulk-edit lightbox
-Select one item from the list, verify the Delete button appears in the toolbar if the user has delete rights for Projects
-Select one item from the list, if the user does not have delete rights for Projects, verify no Delete button appears
-Select one item from the list, click the Delete button, verify it opens 'Delete Project' popup box
-Select more than one item from the list, verify the Delete button appears in the toolbar if the user has delete rights for both Projects
-Select more than one item from the list, if the user does not have delete rights for both Projects, verify no Delete button appears
-Select more than one item from the list, click the Delete button, verify 'Delete Projects' popup box opens
-Select one item from the list, verify the Delete button appears in the toolbar if the user has delete rights for Tasks
-Select one item from the list, if the user does not have delete rights for Tasks, verify no Delete button appears
-Select one item from the list, click the Delete button, verify it opens 'Delete Task' popup box
-Select more than one item from the list, verify the Delete button appears in the toolbar if the user has delete rights for both Tasks
-Select more than one item from the list, if the user does not have delete rights for both Tasks, verify no Delete button appears
-Select more than one item from the list, click the Delete button, verify 'Delete Tasks' popup box opens
-Select one item from the list, verify the Delete button appears in the toolbar if the user has delete rights for Issues
-Select one item from the list, if the user does not have delete rights for Issues, verify no Delete button appears
-Select one item from the list, click the Delete button, verify it opens 'Delete Issue' popup box
-Select more than one item from the list, verify the Delete button appears in the toolbar if the user has delete rights for both Issues
-Select more than one item from the list, if the user does not have delete rights for both Issues, verify no Delete button appears
-Select more than one item from the list, click the Delete button, verify 'Delete Issues' popup box opens
-Select more than one item from the list, verify the Delete button appears in the toolbar if the user has delete rights for both Issues
-Select more than one item from the list, if the user does not have delete rights for both Issues, verify no Delete button appears
-Select more than one item from the list, click the Delete button, verify 'Delete Issues' popup box opens
-Select one item from the list, verify the Delete button appears in the toolbar if the user has delete rights for Hours
-Select one item from the list, if the user does not have delete rights for Hours, verify no Delete button appears
-Select one item from the list, click the Delete button, verify it opens 'Delete Hour' popup box
-Select more than one item from the list, verify the Delete button appears in the toolbar if the user has delete rights for both Hours
-Select more than one item from the list, click the Delete button, verify 'Delete Hours' popup box opens
-Select one item from the list, verify the Delete button appears in the toolbar if the user has delete rights for Users
-Select one item from the list, if the user does not have delete rights for Users, verify no Delete button appears
-Select one item from the list, click the Delete button, verify it opens 'Delete Person' popup box
-Select more than one item from the list, verify the Delete button appears in the toolbar if the user has delete rights for both Users
-Select more than one item from the list, if the user does not have delete rights for both Users, verify no Delete button appears
-Select more than one item from the list, click the Delete button, verify 'Delete People' popup box opens
-Verify clicking 'Cancel' button on the bottom of the Copy lightbox will NOT copy selected item(s) to the designated destination and close the lightbox
-Verify clicking 'Finish and Copy < object>' button on the bottom of the Copy lightbox will copy selected item(s) to the designated destination
-Verify that when lightbox opens, Destination Project type ahead has focus and parent project name is displayed if one child in the list was selected
-Verify that when lightbox opens, Destination Project type ahead has focus and parent project name is NOT displayed if more than one child in the list was selected
-Select one item from the list, click the 'Copy to' button under 'More' dropdown, verify it opens 'Copy Issue' lightbox
-Select more than one item from the list, verify the 'Copy to' button appears in the toolbar under 'More' dropdown
-Select more than one item from the list, click the 'Copy to' button under 'More' dropdown, verify 'Copy Issues' lightbox opens
-Select one item from the list, verify the 'Copy to' button appears in the toolbar under More dropdown
-Select one item from the list, click the 'Copy to' button under 'More' dropdown, verify it opens 'Copy Task' lightbox
-Select more than one item from the list, verify the 'Copy to' button appears in the toolbar under 'More' dropdown
-Select more than one item from the list, click the 'Copy to' button under 'More' dropdown, verify 'Copy Tasks' lightbox opens
-Verify clicking 'Cancel' button on the bottom of the Move lightbox will NOT move selected item(s) to the designated destination and close the lightbox
-Clicking More->Move will open Move lightbox with destination project type ahead having focus
-Verify clicking 'Finish and Move < object>' button on the bottom of the Move lightbox will move selected item(s) to the designated destination
-Select one item from the list, verify the 'Move to' button appears in the toolbar under More dropdown
-Select one item from the list, click the 'Move to' button under 'More' dropdown, verify it opens 'Move Issue' lightbox
-Select more than one item from the list, verify the 'Move to' button appears in the toolbar under 'More' dropdown
-Select one item from the list, verify the 'Move to' button appears in the toolbar under More dropdown
-Select one item from the list, click the 'Move to' button under 'More' dropdown, verify it opens 'Move Task' lightbox
-Select more than one item from the list, verify the 'Move to' button appears in the toolbar under 'More' dropdown
-Select more than one item from the list, click the 'Move to' button under 'More' dropdown, verify 'Move Tasks' lightbox opens
-Verify click on More button opens dropdown list with 'Copy To', 'Move To', and Delete options in the Task report
-Select one item in the Task report list, verify the More button appears in the toolbar if user has Add rights for Tasks
-Select one item in the Issue report list, verify the More button appears in the toolbar if user has Add rights for Issues
-Verify More button doesn't appear on the toolbar if user doesn't have Add rights and Delete is only one option
-Select more than one item from the list, click the Deactivate button, verify 'Deactivate' popup box opens
-Select more than one item from the list, verify the Deactivate button appears in the toolbar if the user has edit Users rights for both users
-Select more than one item from the list, verify the Deactivate button doesn't appears in the toolbar if the user does not have edit Users rights for both users
-Select one item from the list, if the user does not have edit rights for Users, verify no Deactivate button appears
-Select one item from the list, verify the Deactivate button appears in the toolbar if the user has edit rights for Users
-Click on New Report, verify Task Report is an option
-Verify you can add columns (columns: Name, Assignments, Duration, Pln Hrs, Predecessor, Start On, Due On, and % Complete)
-Verify you can delete any columns in the preview, but the last one doesn't have x-close button
-Verify under Tasks, Predecessors is an option
-Verify there are assignments listed in the Assignments column if a assignments exist on the task
-Verify there is a duration listed in the Duration column if a duration exists on the task
-Verify there are 0 or # of planned hours input into the task under Pln Hrs column
-Verify there is a populated date for Start On
-Verify there is a populated date for Due On
-Verify '%-Complete' column has status bar depicting how far along the task completion is
-Verify there is a predecessor listed in the Predecessors column if a predecessor exists on the task
-Edit report, add a column to the end and save, Verify this does not affect or change any data in any of the existing columns
-Verify if filter on Task report is set to object 'Entered By', field 'ID', 'Equal', '$$USER.ID', should see all tasks entered by the logged in user
-Verify if filter on Task report is set to object 'Entered By', field 'Name', 'Contains', '$$USER.name', should see all tasks entered by the logged in user
-Verify if filter on Task report is set to object 'Entered By', field 'Name', 'Contains', '$$USER.name', should see all tasks entered by the logged in user
-Verify if filter on Task report is set to object 'Access Level', field 'ID', 'Equal', '$$USER.accessLevelID', should see all tasks where entered by those users having same 'Access Level' as logged in user
-Verify if filter on Task report is set to object 'Access Level', field 'Name', 'Equal', '$$USER.accessLevelID', 'Name' will change to 'ID, should see all tasks entered by those users having same 'Access Level' as logged in user
-Verify if filter on Project report is set to object 'Project', field 'Company ID', 'Equal', '$$USER.companyID', should see all tasks where 'Company ID' is same as the logged in user's company
-Verify if filter on Task report is set to object 'Assigned To', field 'Home Group ID', 'Equal' '$$USER.homeGroupID', should see all tasks the logged in user's home group
-Verify if filter on Task report is set to object 'Group', field ' Name', 'Equal', '$$USER.homegroupID', ' Name' will change to 'ID', should see all tasks of the logged in user's home group
-Verify if filter on Task report is set to object 'Assigned To', field 'Role ID', 'Equal' '$$USER.roleID', should see all tasks where 'Assigned Role ID' is logged in user's role id
-Verify if filter on Task report is set to object 'Job Role', field 'Name', 'Equal' '$$USER.roleID', Name will change to 'ID', should see all tasks where 'Job Role' is same as logged in user
-Verify if filter on Task report is set to object 'Assigned To', field 'Home Team ID', 'Equal' '$$USER.homeTeamID', should see all tasks the logged in user's home team
-Verify if filter on Task report is set to object 'Task', field ' Last Updated By ID', 'Equal', '$$USER.ID', should see all tasks last updated by the logged in user
-Verify if filter on Task report is set to object 'Task', field ' Entered By ID', 'Equal' '$$USER.ID', should see all tasks entered by logged in user
-Verify if filter on Document report is set to object 'Document', field ' Checked Out By ID', 'Equal', '$$USER.ID', should see all documents checked out by the logged in user
-Verify if filter on Hour report is set to object 'Hour', field 'Approved By ID', 'Equal', '$$USER.ID', should see all hours approved by the logged in user
-Verify if filter on Task report is set to object 'Assigned To', field ' Manager ID', 'Equal', '$$USER.ID', should see all tasks where the the logged user is the assigned manager
-Verify if filter on Project report is set to object 'Project', field 'Owner ID', 'Equal' '$$USER.ID', should see all projects of the the logged in user
-Verify if filter on Project report is set to object ‘Project’, field ‘Sponsor ID’, ‘Equal’ ‘$$USER.ID’, should see all projects logged in user is the assigned sponsor
-Verify error message is displayed in the Details tab if user with access level w/o rights to View/Edit Finance Fields builds and runs Project (Financial Data) Report (see under Description)
-Verify error message is NOT displayed in the Matrix tab if user with access level w/ rights to Edit/View Finance Fields builds and runs Project (Financial Data) Report (see under Description)
-Verify error message is NOT displayed in the Matrix tab if user with access level set to View, but not Edit Finance Fields builds and runs Project (Financial Data) Report (see under Description)
-Verify error message is NOT displayed in the Matrix tab if user with access level with rights to Edit but not View Finance Fields builds and runs Project (Financial Data) Report (see under Description)
-Verify error message is displayed in the Matrix tab if user with access level w/o rights to View/Edit Finance Fields builds and runs Project (Financial Data) Report (see under Description)
-Verify icons in the 'View Icons' column in Document report have tooltip on mouse over
-Verify report will run when filter is set to a preset ENUM value other than report primary object
-Verify report will run when filter is set to multiple preset ENUM values other than report primary object
-Verify report will run when filter is set to multiple custom preset ENUM values other than report primary object
-Verify report will run when filter is set to a custom preset ENUM value other than report primary object
-Verify preset ENUM value selections will retain on report save and edit
-Verify custom preset ENUM value selections will retain on report save and edit
-Verify column sort order set in the report builder will persist in the delivered report
-Verify report default columns sort order set in the report builder is retained when Refresh Report arrow button is pressed
-Verify report default columns sort order set in the report builder is retained when browser page is refreshed
-Verify report default columns sort order set in the report builder is retained when paginating in report pages (see under Description)
-Verify/VB report/NN default/NN columns/NNS sort/RB order/VBP set/VBN in/IN the/DT report/NN builder/NN is/VBZ retained/VBN when/WRB 'Showing/PRP '/POS is/NNS set/VBD to/TO show/VB more/JJR results/NNS (/( see/VB under/IN Description/NNP )/)
-Verify/VB report/NN default/NN columns/NNS sort/RB order/VBP set/VBN in/IN the/DT report/NN builder/NN is/VBZ retained/VBN when/WRB 'Showing/PRP '/POS is/NNS set/VBD to/TO show/VB All/RB results/NNS (/( see/VB under/IN Description/NNP )/)
+Verify/VB Title/NN text/NN is/VBZ the/DT Name/NN of/IN the/DT Report/NN
+Verify/VB long/RB report/VB Title/NN will/MD wrap/VB to/TO fit/VB the/DT container/NN
+Verify/VB all/DT type/NN of/IN characters/NNS can/MD be/VB used/VBN in/IN the/DT Title/NN
+Verify/VB report/NN Title/NN is/VBZ displayed/VBN at/IN the/DT top/NN container/NN
+Verify/VB Description/NN with/IN multiple/JJ lines/NNS is/VBZ displayed/VBN below/IN report/NN title/NN
+Verify/VB long/RB Description/NN wo/IN CR/NNP will/MD wrap/VB to/TO fit/VB the/DT container/NN
+Verify/VB in/IN long/RB Description/NN ellipsis/NN and/CC More/JJR link/NN will/MD be/VB added/VBN to/TO fit/VB the/DT container/NN
+Verify/VB click/NN on/IN More/JJR link/NN will/MD display/VB long/JJ descriptions/NNS in/IN full/JJ in/IN the/DT container/NN
+Verify/VB More/JJR link/NN will/MD toggle/VB to/TO Less/RBR link/NN when/WRB whole/JJ long/JJ description/NN is/VBZ displayed/VBN
+Verify/VB report/NN description/NN ,/, if/IN specified/VBN ,/, is/VBZ displayed/VBN below/IN Title/NN container/NN
+Verify/VB clicking/NN Refresh/VB button/NN re-runs/VBZ the/DT report/NN
+Verify/VB clicking/NN 'Show/NN Filters/NNS '/POS link/NN will/MD display/VB the/DT system/NN filters/NNS selected/VBN in/IN the/DT report/NN builder/NN and/CC the/DT report/NN description/NN wo/MD n't/RB be/VB removed/VBN
+Verify/VB clicking/NN 'Show/NN Filters/NNS '/POS link/NN will/MD display/VB the/DT custom/NN made/VBD filters/NNS selected/VBN in/IN the/DT report/NN builder/NN and/CC the/DT report/NN description/NN wo/MD n't/RB be/VB removed/VBN
+Verify/VB applied/VBN ENUM/NNP filters/NNS are/VBP displayed/VBN with/IN comma/NN separator/NN (/( The/DT filter/NN that/WDT have/VBP multiple/JJ values/NNS should/MD be/VB visible/JJ as/IN comma/NN separated/VBN )/)
+Verify/VB 'Show/NN Filters/NNS '/POS link/NN label/NN will/MD toggle/VB to/TO 'Hide/NN Filters/NNS '/POS label/NN when/WRB applied/VBN filters/NNS are/VBP displayed/VBN
+Verify/VB clicking/NN 'Hide/NN Filters/NNS '/POS link/NN will/MD hide/VB the/DT filters/NNS seleted/IN in/IN the/DT report/NN builder/NN and/CC the/DT report/NN description/NN wo/MD n't/RB be/VB removed/VBN
+Verify/VB 'Hide/NN Filters/NNS '/POS link/NN label/NN will/MD toggle/VB to/TO 'Show/NN Filters/NNS '/POS label/NN when/WRB applied/VBN filters/NNS are/VBP hidden/VBN
+Verify/VB 'Show/NN Filters/NNS '/POS link/NN is/VBZ displayed/VBN only/RB when/WRB filter/NN is/VBZ set/VBN in/IN the/DT report/NN builder/NN
+Verify/VB multiple/JJ filter/NN values/NNS entered/VBD in/IN the/DT text/NN mode/NN with/IN modifier/NN 'in/NN '/POS correctly/RB displayed/VBN when/WRB 'Show/NN Filters/NNS '/'' link/NN is/VBZ selected/VBN
+Verify/VB filter/NN entered/VBN in/IN the/DT text/NN mode/NN with/IN modifier/NN 'notblank/, '/'' correctly/RB displayed/VBN when/WRB 'Show/NN Filters/NNS '/'' link/NN is/VBZ selected/VBN
+Verify/VB long/RB filter/NN name/NN will/MD have/VB ellipsis/NN to/TO fit/VB the/DT size/NN of/IN the/DT drop/NN down/NN header/NN
+Verify/VB long/RB filter/NN name/NN will/MD have/VB ellipsis/NN to/TO fit/VB the/DT size/NN of/IN the/DT drop/NN down/NN list/NN
+Verify/VB long/RB name/NN is/VBZ wrapping/VBG and/CC displayed/VBN in/IN full/JJ in/IN the/DT tooltip/NN on/IN mouse/NN over/IN in/IN the/DT filter/NN dropdown/NN list/NN
+Click/NN opens/VBZ a/DT drop/NN down/NN box/NN of/IN available/JJ filters/NNS
+Clicking/NN filter/NN from/IN list/NN ,/, applies/VBZ filter/NN to/TO data/NNS ,/, refreshes/VBZ panel/NN ,/, shows/VBZ new/JJ data/NNS
+Verify/VB long/RB view/NN name/NN will/MD have/VB ellipsis/NN to/TO fit/VB the/DT size/NN of/IN the/DT drop/NN down/NN header/NN
+Verify/VB long/RB view/NN name/NN will/MD have/VB ellipsis/NN to/TO fit/VB the/DT size/NN of/IN the/DT drop/NN down/NN list/NN
+Verify/VB long/RB name/NN is/VBZ wrapping/VBG and/CC displayed/VBN in/IN full/JJ in/IN the/DT tooltip/NN on/IN mouse/NN over/IN in/IN the/DT view/NN dropdown/NN list/NN
+Click/NN opens/VBZ a/DT drop/NN down/NN box/NN of/IN available/JJ views/NNS
+Click/NN view/NN from/IN list/NN ,/, applies/VBZ view/NN to/TO data/NNS ,/, refreshes/VBZ panel/NN ,/, shows/VBZ new/JJ data/NNS
+Verify/VB long/RB grouping/VBG name/NN will/MD have/VB ellipsis/NN to/TO fit/VB the/DT size/NN of/IN the/DT drop/NN down/NN header/NN
+Verify/VB long/RB grouping/VBG name/NN will/MD have/VB ellipsis/NN to/TO fit/VB the/DT size/NN of/IN the/DT drop/NN down/NN list/NN
+Verify/VB long/RB name/NN is/VBZ wrapping/VBG and/CC displayed/VBN in/IN full/JJ in/IN the/DT tooltip/NN on/IN mouse/NN over/IN in/IN the/DT grouping/NN dropdown/NN list/NN
+Click/NN opens/VBZ a/DT drop/NN down/NN box/NN of/IN available/JJ groupings/NNS
+Click/NN grouping/NN from/IN list/NN ,/, applies/VBZ grouping/VBG to/TO data/NNS ,/, refreshes/VBZ panel/NN ,/, shows/VBZ new/JJ data/NNS
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Edit/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ edit/VB rights/NNS for/IN Projects/NNS
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, if/IN the/DT user/NN does/VBZ not/RB have/VB edit/VB rights/NNS for/IN Projects/NNS ,/, verify/VB no/DT Edit/NN button/NN appears/VBZ
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, click/NN the/DT Edit/NN button/NN ,/, verify/VB it/PRP opens/VBZ the/DT single/JJ edit/NN lightbox/NN
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Edit/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ edit/VB rights/NNS for/IN Projects/NNS
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, if/IN the/DT user/NN does/VBZ not/RB have/VB edit/VB rights/NNS for/IN Projects/NNS ,/, verify/VB no/DT Edit/NN button/NN appears/VBZ
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, click/NN the/DT Edit/NN button/NN ,/, verify/VB it/PRP opens/VBZ the/DT bulk-edit/NN lightbox/NN
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Edit/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ edit/NN rights/NNS for/IN Tasks/NNS
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, if/IN the/DT user/NN does/VBZ not/RB have/VB edit/VB rights/NNS for/IN Tasks/NNS ,/, verify/VB no/DT Edit/NN button/NN appears/VBZ
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, click/NN the/DT Edit/NN button/NN ,/, verify/VB it/PRP opens/VBZ the/DT single/JJ edit/NN lightbox/NN
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Edit/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ edit/NN rights/NNS for/IN Tasks/NNS
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, if/IN the/DT user/NN does/VBZ not/RB have/VB edit/NN rights/NNS for/IN Tasks/NNS ,/, verify/VB no/DT Edit/NN button/NN appears/VBZ
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, click/NN the/DT Edit/VB button/NN ,/, verify/VB it/PRP opens/VBZ the/DT bulk-edit/NN lightbox/NN
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Edit/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ edit/NN rights/NNS for/IN Issues/NNS
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, if/IN the/DT user/NN does/VBZ not/RB have/VB edit/NN rights/NNS for/IN Issues/NNS ,/, verify/VB no/DT Edit/NN button/NN appears/VBZ
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, click/NN the/DT Edit/NN button/NN ,/, verify/VB it/PRP opens/VBZ the/DT single/JJ edit/NN lightbox/NN
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, verify/VB Edit/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ edit/NN rights/NNS for/IN Issues/NNS
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, if/IN the/DT user/NN does/VBZ not/RB have/VB edit/NN rights/NNS for/IN Issues/NNS ,/, verify/VB no/DT Edit/NN button/NN appears/VBZ
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, click/NN the/DT Edit/NN button/NN ,/, verify/VB it/PRP opens/VBZ the/DT bulk-edit/NN lightbox/NN
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Edit/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ edit/NN rights/NNS for/IN Hours/NNS
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, if/IN the/DT user/NN does/VBZ not/RB have/VB edit/NN rights/NNS for/IN Hours/NNS ,/, verify/VB no/DT Edit/NN button/NN appears/VBZ
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, click/NN the/DT Edit/NN button/NN ,/, verify/VB it/PRP opens/VBZ the/DT single/JJ edit/NN lightbox/NN
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Edit/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ edit/NN rights/NNS for/IN Hours/NNS
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, if/IN the/DT user/NN does/VBZ not/RB have/VB edit/NN rights/NNS for/IN Hours/NNS ,/, verify/VB no/DT Edit/NN button/NN appears/VBZ
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, click/NN the/DT Edit/NN button/NN ,/, verify/VB it/PRP opens/VBZ the/DT bulk-edit/NN lightbox/NN
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Edit/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ edit/NN rights/NNS for/IN Users/NNS
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, if/IN the/DT user/NN does/VBZ not/RB have/VB edit/NN rights/NNS for/IN Users/NNS ,/, verify/VB no/DT Edit/NN button/NN appears/VBZ
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, click/NN the/DT Edit/NN button/NN ,/, verify/VB it/PRP opens/VBZ the/DT single/JJ edit/NN lightbox/NN
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Edit/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ edit/NN rights/NNS for/IN Users/NNS
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, if/IN the/DT user/NN does/VBZ not/RB have/VB edit/NN rights/NNS for/IN Users/NNS ,/, verify/VB no/DT Edit/NN button/NN appears/VBZ
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, click/NN the/DT Edit/NN button/NN ,/, verify/VB it/PRP opens/VBZ the/DT bulk-edit/NN lightbox/NN
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Delete/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ delete/NN rights/NNS for/IN Projects/NNS
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, if/IN the/DT user/NN does/VBZ not/RB have/VB delete/NN rights/NNS for/IN Projects/NNS ,/, verify/VB no/DT Delete/NN button/NN appears/VBZ
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, click/NN the/DT Delete/NN button/NN ,/, verify/VB it/PRP opens/VBZ 'Delete/NN Project/NN '/POS popup/NN box/NN
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Delete/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ delete/NN rights/NNS for/IN both/DT Projects/NNS
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, if/IN the/DT user/NN does/VBZ not/RB have/VB delete/NN rights/NNS for/IN both/DT Projects/NNS ,/, verify/VB no/DT Delete/NN button/NN appears/VBZ
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, click/NN the/DT Delete/NN button/NN ,/, verify/VB 'Delete/NN Projects/NNS '/POS popup/NN box/NN opens/VBZ
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Delete/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ delete/NN rights/NNS for/IN Tasks/NNS
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, if/IN the/DT user/NN does/VBZ not/RB have/VB delete/NN rights/NNS for/IN Tasks/NNS ,/, verify/VB no/DT Delete/NN button/NN appears/VBZ
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, click/NN the/DT Delete/NN button/NN ,/, verify/VB it/PRP opens/VBZ 'Delete/NN Task/NN '/POS popup/NN box/NN
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Delete/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ delete/NN rights/NNS for/IN both/DT Tasks/NNS
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, if/IN the/DT user/NN does/VBZ not/RB have/VB delete/NN rights/NNS for/IN both/DT Tasks/NNS ,/, verify/VB no/DT Delete/NN button/NN appears/VBZ
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, click/NN the/DT Delete/NN button/NN ,/, verify/VB 'Delete/NN Tasks/NNS '/'' popup/NN box/NN opens/VBZ
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Delete/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ delete/NN rights/NNS for/IN Issues/NNS
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, if/IN the/DT user/NN does/VBZ not/RB have/VB delete/NN rights/NNS for/IN Issues/NNS ,/, verify/VB no/DT Delete/NN button/NN appears/VBZ
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, click/NN the/DT Delete/NN button/NN ,/, verify/VB it/PRP opens/VBZ 'Delete/NN Issue/NN '/'' popup/NN box/NN
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Delete/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ delete/NN rights/NNS for/IN both/DT Issues/NNS
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, if/IN the/DT user/NN does/VBZ not/RB have/VB delete/NN rights/NNS for/IN both/DT Issues/NNS ,/, verify/VB no/DT Delete/NN button/NN appears/VBZ
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, click/NN the/DT Delete/NN button/NN ,/, verify/VB 'Delete/NN Issues/NNS '/'' popup/NNS box/NN opens/VBZ
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Delete/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ delete/NN rights/NNS for/IN both/DT Issues/NNS
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, if/IN the/DT user/NN does/VBZ not/RB have/VB delete/NN rights/NNS for/IN both/DT Issues/NNS ,/, verify/VB no/DT Delete/NN button/NN appears/VBZ
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, click/NN the/DT Delete/NN button/NN ,/, verify/VB 'Delete/NN Issues/NNS '/'' popup/NN box/NN opens/VBZ
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Delete/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ delete/NN rights/NNS for/IN Hours/NNS
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, if/IN the/DT user/NN does/VBZ not/RB have/VB delete/NN rights/NNS for/IN Hours/NNS ,/, verify/VB no/DT Delete/NN button/NN appears/VBZ
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, click/VB the/DT Delete/NN button/NN ,/, verify/VB it/PRP opens/VBZ 'Delete/NN Hour/NN '/POS popup/NN box/NN
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Delete/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ delete/NN rights/NNS for/IN both/DT Hours/NNS
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, click/VB the/DT Delete/NN button/NN ,/, verify/VB 'Delete/NN Hours/NNS '/'' popup/NN box/NN opens/VBZ
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Delete/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ delete/NN rights/NNS for/IN Users/NNS
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, if/IN the/DT user/NN does/VBZ not/RB have/VB delete/NN rights/NNS for/IN Users/NNS ,/, verify/VB no/DT Delete/NN button/NN appears/VBZ
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, click/VB the/DT Delete/VB button/NN ,/, verify/VB it/PRP opens/VBZ 'Delete/NN Person/NN '/POS popup/NN box/NN
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Delete/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ delete/NN rights/NNS for/IN both/DT Users/NNS
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, if/IN the/DT user/NN does/VBZ not/RB have/VB delete/NN rights/NNS for/IN both/DT Users/NNS ,/, verify/VB no/DT Delete/NN button/NN appears/VBZ
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, click/VB the/DT Delete/NN button/NN ,/, verify/VB 'Delete/NN People/NNS '/'' popup/NN box/NN opens/VBZ
+Verify/VB clicking/NN 'Cancel/NN '/'' button/NN on/IN the/DT bottom/NN of/IN the/DT Copy/NN lightbox/NN will/MD NOT/RB copy/VB selected/VBN item/NN (/( s/VB )/) to/IN the/DT designated/VBN destination/NN and/CC close/VB the/DT lightbox/NN
+Verify/VB that/DT when/WRB lightbox/NN opens/VBZ ,/, Destination/NN Project/NN type/NN ahead/RB has/VBZ focus/NN and/CC parent/NN project/NN name/NN is/VBZ displayed/VBN if/IN one/CD child/NN in/IN the/DT list/NN was/VBD selected/VBN
+Verify/VB that/DT when/WRB lightbox/NN opens/VBZ ,/, Destination/NN Project/NN type/NN ahead/RB has/VBZ focus/NN and/CC parent/NN project/NN name/NN is/VBZ NOT/RB displayed/VBN if/IN more/RBR than/IN one/CD child/NN in/IN the/DT list/NN was/VBD selected/VBN
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, click/VB the/DT 'Copy/NN to/TO '/'' button/NN under/IN 'More/JJR '/POS dropdown/NN ,/, verify/VB it/PRP opens/VBZ 'Copy/NN Issue/NN '/POS lightbox/NN
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT 'Copy/NN to/TO '/'' button/NN appears/VBZ in/IN the/DT toolbar/NN under/IN 'More/JJR '/POS dropdown/NN
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, click/VB the/DT 'Copy/NN to/TO '/'' button/NN under/IN 'More/JJR '/POS dropdown/NN ,/, verify/VB 'Copy/NN Issues/NNS '/POS lightbox/NN opens/VBZ
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT 'Copy/NN to/TO '/'' button/NN appears/VBZ in/IN the/DT toolbar/NN under/IN More/JJR dropdown/NN
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, click/VB the/DT 'Copy/NN to/TO '/'' button/NN under/IN 'More/JJR '/POS dropdown/NN ,/, verify/VB it/PRP opens/VBZ 'Copy/NN Task/NN '/POS lightbox/NN
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT 'Copy/NN to/TO '/'' button/NN appears/VBZ in/IN the/DT toolbar/NN under/IN 'More/JJR '/POS dropdown/NN
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, click/VB the/DT 'Copy/NN to/TO '/'' button/NN under/IN 'More/JJR '/POS dropdown/NN ,/, verify/VB 'Copy/NN Tasks/NNS '/POS lightbox/NN opens/VBZ
+Verify/VB clicking/NN 'Cancel/NN '/'' button/NN on/IN the/DT bottom/NN of/IN the/DT Move/NN lightbox/NN will/MD NOT/RB move/VB selected/VBN item/NN (/( s/VB )/) to/IN the/DT designated/VBN destination/NN and/CC close/VB the/DT lightbox/NN
+Clicking/NN More-/JJR >/SYM Move/VB will/MD open/VB Move/VB lightbox/NN with/IN destination/NN project/NN type/NN ahead/RB having/VBG focus/NN
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT 'Move/NN to/TO '/'' button/NN appears/VBZ in/IN the/DT toolbar/NN under/IN More/JJR dropdown/NN
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, click/VB the/DT 'Move/NN to/TO '/'' button/NN under/IN 'More/JJR '/POS dropdown/NN ,/, verify/VB it/PRP opens/VBZ 'Move/NN Issue/NN '/POS lightbox/NN
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT 'Move/NN to/TO '/'' button/NN appears/VBZ in/IN the/DT toolbar/NN under/IN 'More/JJR '/POS dropdown/NN
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT 'Move/NN to/TO '/'' button/NN appears/VBZ in/IN the/DT toolbar/NN under/IN More/JJR dropdown/NN
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, click/VB the/DT 'Move/NN to/TO '/'' button/NN under/IN 'More/JJR '/POS dropdown/NN ,/, verify/VB it/PRP opens/VBZ 'Move/NN Task/NN '/POS lightbox/NN
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT 'Move/NN to/TO '/'' button/NN appears/VBZ in/IN the/DT toolbar/NN under/IN 'More/JJR '/POS dropdown/NN
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, click/VB the/DT 'Move/NN to/TO '/'' button/NN under/IN 'More/JJR '/POS dropdown/NN ,/, verify/VB 'Move/NN Tasks/NNS '/POS lightbox/NN opens/VBZ
+Verify/VB click/NN on/IN More/JJR button/NN opens/VBZ dropdown/NN list/NN with/IN 'Copy/VB To'/TO ,/, 'Move/VB To'/TO ,/, and/CC Delete/VB options/NNS in/IN the/DT Task/NN report/NN
+Select/VB one/CD item/NN in/IN the/DT Task/NN report/NN list/NN ,/, verify/VB the/DT More/JJR button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN user/NN has/VBZ Add/NN rights/NNS for/IN Tasks/NNS
+Select/VB one/CD item/NN in/IN the/DT Issue/NN report/NN list/NN ,/, verify/VB the/DT More/JJR button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN user/NN has/VBZ Add/NN rights/NNS for/IN Issues/NNS
+Verify/VB More/JJR button/NN does/VBZ n't/RB appear/VB on/IN the/DT toolbar/NN if/IN user/NN does/VBZ n't/RB have/VB Add/VB rights/NNS and/CC Delete/VB is/VBZ only/RB one/CD option/NN
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, click/VB the/DT Deactivate/NN button/NN ,/, verify/VB 'Deactivate/NN '/'' popup/NN box/NN opens/VBZ
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Deactivate/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ edit/NN Users/NNS rights/NNS for/IN both/DT users/NNS
+Select/VB more/JJR than/IN one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Deactivate/NN button/NN does/VBZ n't/RB appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN does/VBZ not/RB have/VB edit/NN Users/NNS rights/NNS for/IN both/DT users/NNS
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, if/IN the/DT user/NN does/VBZ not/RB have/VB edit/NN rights/NNS for/IN Users/NNS ,/, verify/VB no/DT Deactivate/NN button/NN appears/VBZ
+Select/VB one/CD item/NN from/IN the/DT list/NN ,/, verify/VB the/DT Deactivate/NN button/NN appears/VBZ in/IN the/DT toolbar/NN if/IN the/DT user/NN has/VBZ edit/NN rights/NNS for/IN Users/NNS
+Click/VB on/IN New/NN Report/NN ,/, verify/VB Task/NN Report/NN is/VBZ an/DT option/NN
+Verify/VB you/PRP can/MD add/VB columns/NNS (/( columns/NNS :/: Name/NN ,/, Assignments/NNS ,/, Duration/NN ,/, Pln/NN Hrs/NN ,/, Predecessor/NN ,/, Start/VB On/IN ,/, Due/VB On/IN ,/, and/CC %/NN Complete/JJ )/)
+Verify/VB you/PRP can/MD delete/VB any/DT columns/NNS in/IN the/DT preview/NN ,/, but/CC the/DT last/JJ one/PRP does/VBZ n't/RB have/VB x-close/NN button/NN
+Verify/VB under/IN Tasks/NNS ,/, Predecessors/NNS is/VBZ an/DT option/NN
+Verify/VB there/RB are/VBP assignments/NNS listed/VBN in/IN the/DT Assignments/NNS column/NN if/IN a/DT assignments/NNS exist/VBP on/IN the/DT task/NN
+Verify/VB there/RB is/VBZ a/DT duration/NN listed/VBN in/IN the/DT Duration/NN column/NN if/IN a/DT duration/NN exists/VBZ on/IN the/DT task/NN
+Verify/VB there/RB are/VBP 0/CD or/CC #/# of/IN planned/VBN hours/NNS input/NN into/IN the/DT task/NN under/IN Pln/NN Hrs/NN column/NN
+Verify/VB there/RB is/VBZ a/DT populated/VBN date/NN for/IN Start/VB On/IN
+Verify/VB there/RB is/VBZ a/DT populated/VBN date/NN for/IN Due/VB On/IN
+Verify/VB '%-Complete/NN '/POS column/NN has/VBZ status/NN bar/NN depicting/VBG how/WRB far/RB along/IN the/DT task/NN completion/NN is/VBZ
+Verify/VB there/RB is/VBZ a/DT predecessor/NN listed/VBN in/IN the/DT Predecessors/NNS column/NN if/IN a/DT predecessor/NN exists/VBZ on/IN the/DT task/NN
+Edit/VB report/NN ,/, add/VB a/DT column/NN to/TO the/DT end/NN and/CC save/VB ,/, Verify/VB this/DT does/VBZ not/RB affect/VB or/CC change/VB any/DT data/NNS in/IN any/DT of/IN the/DT existing/VBG columns/NNS
+Verify/VB if/IN filter/NN on/IN Task/NN report/NN is/VBZ set/VBN to/TO object/NN 'Entered/VBN By'/IN ,/, field/NN 'ID'/NN ,/, 'Equal'/VB ,/, '$$USER.ID'/NN ,/, should/MD see/VB all/DT tasks/NNS entered/VBN by/IN the/DT logged/VBN in/IN user/NN
+Verify/VB if/IN filter/NN on/IN Task/NN report/NN is/VBZ set/VBN to/TO object/NN 'Entered/VBN By'/IN ,/, field/NN 'Name'/NN ,/, 'Contains'/VBZ ,/, '$$USER.name'/NN ,/, should/MD see/VB all/DT tasks/NNS entered/VBN by/IN the/DT logged/VBN in/IN user/NN
+Verify/VB if/IN filter/NN on/IN Task/NN report/NN is/VBZ set/VBN to/TO object/NN 'Entered/VBN By'/IN ,/, field/NN 'Name'/NN ,/, 'Contains'/VBZ ,/, '$$USER.name'/NN ,/, should/MD see/VB all/DT tasks/NNS entered/VBN by/IN the/DT logged/VBN in/IN user/NN
+Verify/VB if/IN filter/NN on/IN Task/NN report/NN is/VBZ set/VBN to/TO object/NN 'Access/NN Level'/NN ,/, field/NN 'ID'/NN ,/, 'Equal'/VB ,/, '$$USER.accessLevelID'/NN ,/, should/MD see/VB all/DT tasks/NNS where/WRB entered/VBN by/IN those/DT users/NNS having/VBG same/JJ 'Access/NN Level'/NN as/IN logged/VBN in/IN user/NN
+Verify/VB if/IN filter/NN on/IN Task/NN report/NN is/VBZ set/VBN to/TO object/NN 'Access/NN Level'/NN ,/, field/NN 'Name'/NN ,/, 'Equal'/VB ,/, '$$USER.accessLevelID'/NN ,/, 'Name'/NN will/NN change/NN to/TO 'ID/NN ,/, should/MD see/VB all/DT tasks/NNS entered/VBN by/IN those/DT users/NNS having/VBG same/JJ 'Access/NN Level/NN '/POS as/IN logged/VBN in/IN user/NN
+Verify/VB if/IN filter/NN on/IN Project/NN report/NN is/VBZ set/VBN to/TO object/NN 'Project'/NN ,/, field/NN 'Company/NN ID'/NN ,/, 'Equal'/VB ,/, '$$USER.companyID'/NN ,/, should/MD see/VB all/DT tasks/NNS where/WRB 'Company/NN ID/NN '/'' is/VBZ same/JJ as/IN the/DT logged/VBN in/IN user/NN 's/POS company/NN
+Verify/VB if/IN filter/NN on/IN Task/NN report/NN is/VBZ set/VBN to/TO object/NN 'Assigned/VBN To'/TO ,/, field/NN 'Home/NN Group/NN ID'/NN ,/, 'Equal/VB '/'' '$$USER.homeGroupID'/NN ,/, should/MD see/VB all/DT tasks/NNS the/DT logged/VBD in/IN user/NN 's/POS home/NN group/NN
+Verify/VB if/IN filter/NN on/IN Task/NN report/NN is/VBZ set/VBN to/TO object/NN 'Group'/NN ,/, field/NN '/POS Name'/NN ,/, 'Equal'/VB ,/, '$$USER.homegroupID'/NN ,/, '/'' Name/NN '/POS will/NN change/VB to/TO 'ID'/NN ,/, should/MD see/VB all/DT tasks/NNS of/IN the/DT logged/VBN in/IN user/NN 's/POS home/NN group/NN
+Verify/VB if/IN filter/NN on/IN Task/NN report/NN is/VBZ set/VBN to/TO object/NN 'Assigned/VBN To'/TO ,/, field/NN 'Role/NN ID'/NN ,/, 'Equal/VB '/'' '$$USER.roleID'/NN ,/, should/MD see/VB all/DT tasks/NNS where/WRB 'Assigned/VBN Role/NN ID/NN '/POS is/NNS logged/VBD in/IN user/NN 's/POS role/NN id/NN
+Verify/VB if/IN filter/NN on/IN Task/NN report/NN is/VBZ set/VBN to/TO object/NN 'Job/NN Role'/NN ,/, field/NN 'Name'/NN ,/, 'Equal/VB '/'' '$$USER.roleID'/NN ,/, Name/NN will/MD change/VB to/TO 'ID'/NN ,/, should/MD see/VB all/DT tasks/NNS where/WRB 'Job/NN Role/NN '/POS is/VBZ same/JJ as/IN logged/VBN in/IN user/NN
+Verify/VB if/IN filter/NN on/IN Task/NN report/NN is/VBZ set/VBN to/TO object/NN 'Assigned/VBN To'/TO ,/, field/NN 'Home/NN Team/NN ID'/NN ,/, 'Equal/VB '/'' '$$USER.homeTeamID'/NN ,/, should/MD see/VB all/DT tasks/NNS the/DT logged/VBD in/IN user/NN 's/POS home/NN team/NN
+Verify/VB if/IN filter/NN on/IN Task/NN report/NN is/VBZ set/VBN to/TO object/NN 'Task'/NN ,/, field/NN '/POS Entered/VBD By/IN ID'/NN ,/, 'Equal/VB '/'' '$$USER.ID'/NN ,/, should/MD see/VB all/DT tasks/NNS entered/VBD by/IN logged/VBN in/IN user/NN
+Verify/VB if/IN filter/NN on/IN Hour/NN report/NN is/VBZ set/VBN to/TO object/NN 'Hour'/NN ,/, field/NN 'Approved/VBN By/IN ID'/NN ,/, 'Equal'/VB ,/, '$$USER.ID'/NN ,/, should/MD see/VB all/DT hours/NNS approved/VBD by/IN the/DT logged/VBN in/IN user/NN
+Verify/VB if/IN filter/NN on/IN Project/NN report/NN is/VBZ set/VBN to/TO object/NN 'Project'/NN ,/, field/NN 'Owner/NN ID'/NN ,/, 'Equal/VB '/'' '$$USER.ID'/NN ,/, should/MD see/VB all/DT projects/NNS of/IN the/DT logged/VBN in/IN user/NN
+Verify/VB if/IN filter/NN on/IN Project/NN report/NN is/VBZ set/VBN to/TO object/NN ‘Project’/NN ,/, field/NN ‘Sponsor/NN ID’/NN ,/, ‘Equal’/VB ‘$$USER.ID’/NN ,/, should/MD see/VB all/DT projects/NNS logged/VBN in/IN user/NN is/VBZ the/DT assigned/VBN sponsor/NN
+Verify/VB error/NN message/NN is/VBZ displayed/VBN in/IN the/DT Details/NNS tab/NN if/IN user/NN with/IN access/NN level/NN wo/IN rights/NNS to/TO View/Edit/VB Finance/NN Fields/NNS builds/VBZ and/CC runs/VBZ Project/NN (/( Financial/NN Data/NN )/) Report/NN (/( see/VB under/IN Description/NN )/)
+Verify/VB error/NN message/NN is/VBZ NOT/RB displayed/VBN in/IN the/DT Matrix/NN tab/NN if/IN user/NN with/IN access/NN level/NN w/IN rights/NNS to/TO Edit/View/VB Finance/NNP Fields/NNP builds/VBZ and/CC runs/VBZ Project/NNP (/( Financial/NNP Data/NNP )/) Report/NNP (/( see/VB under/IN Description/NNP )/)
+Verify/VB error/NN message/NN is/VBZ NOT/RB displayed/VBN in/IN the/DT Matrix/NN tab/NN if/IN user/NN with/IN access/NN level/NN set/VBN to/TO View/VB ,/, but/CC not/RB Edit/VB Finance/NN Fields/NNS builds/VBZ and/CC runs/VBZ Project/NN (/( Financial/NN Data/NN )/) Report/NN (/( see/VB under/IN Description/NN )/)
+Verify/VB error/NN message/NN is/VBZ NOT/RB displayed/VBN in/IN the/DT Matrix/NN tab/NN if/IN user/NN with/IN access/NN level/NN with/IN rights/NNS to/TO Edit/VB but/CC not/RB View/NN Finance/NN Fields/NN builds/VBZ and/CC runs/VBZ Project/NN (/( Financial/NN Data/NN )/) Report/NN (/( see/VB under/IN Description/NN )/)
+Verify/VB error/NN message/NN is/VBZ displayed/VBN in/IN the/DT Matrix/NN tab/NN if/IN user/NN with/IN access/NN level/NN wo/IN rights/NNS to/TO View/Edit/VB Finance/NN Fields/NN builds/VBZ and/CC runs/VBZ Project/NN (/( Financial/NN Data/NN )/) Report/NN (/( see/VB under/IN Description/NN )/)
+Verify/VB icons/NNS in/IN the/DT 'View/VB Icons/IN '/'' column/NN in/IN Document/NN report/NN have/VBP tooltip/NN on/IN mouse/VB over/IN
+Verify/VB report/NN will/MD run/VB when/WRB filter/NN is/VBZ set/VBN to/TO a/DT preset/JJ ENUM/NNP value/NN other/JJ than/IN report/NN primary/JJ object/NN
+Verify/VB report/NN will/MD run/VB when/WRB filter/NN is/VBZ set/VBN to/TO multiple/JJ preset/JJ ENUM/NNP values/NNS other/JJ than/IN report/NN primary/JJ object/NN
+Verify/VB report/NN will/MD run/VB when/WRB filter/NN is/VBZ set/VBN to/TO multiple/JJ custom/NN preset/JJ ENUM/NNP values/NNS other/JJ than/IN report/NN primary/JJ object/NN
+Verify/VB report/NN will/MD run/VB when/WRB filter/NN is/VBZ set/VBN to/TO a/DT custom/NN preset/JJ ENUM/NNP value/NN other/JJ than/IN report/NN primary/JJ object/NN
+Verify/VB preset/JJ ENUM/NNPS value/NN selections/NNS will/MD retain/VB on/IN report/VB save/VB and/CC edit/VB
+Verify/VB custom/JJ preset/JJ ENUM/NNP value/NN selections/NNS will/MD retain/VB on/IN report/VB save/VB and/CC edit/VB
+Verify/VB column/NN sort/NN order/NN set/VBN in/IN the/DT report/NN builder/NN will/MD persist/VB in/IN the/DT delivered/VBN report/NN
+Verify/VB report/NN default/NN columns/NNS sort/NN order/NN set/VBN in/IN the/DT report/NN builder/NN is/VBZ retained/VBN when/WRB Refresh/VB Report/NN arrow/NN button/NN is/VBZ pressed/VBN
+Verify/VB report/NN default/NN columns/NNS sort/NN order/NN set/VBN in/IN the/DT report/NN builder/NN is/VBZ retained/VBN when/WRB browser/NN page/NN is/VBZ refreshed/VBN
+Verify/VB report/NN default/NN columns/NNS sort/NN order/NN set/VBN in/IN the/DT report/NN builder/NN is/VBZ retained/VBN when/WRB paginating/VBZ in/IN report/NN pages/NNS (/( see/VB under/IN Description/NNP )/)
+Verify/VB report/NN default/NN columns/NNS sort/NN order/NN set/VBN in/IN the/DT report/NN builder/NN is/VBZ retained/VBN when/WRB 'Showing/VBZ '/POS is/NNS set/VBD to/TO show/VB more/JJR results/NNS (/( see/VB under/IN Description/NNP )/)
+Verify/VB report/NN default/NN columns/NNS sort/NN order/NN set/VBN in/IN the/DT report/NN builder/NN is/VBZ retained/VBN when/WRB 'Showing/VBZ '/POS is/NNS set/VBD to/TO show/VB All/RB results/NNS (/( see/VB under/IN Description/NNP )/)
 Verify/VB that/DT report/NN retains/VBZ default/NN sorting/VBG when/WRB navigating/VBG back/RB to/TO first/JJ page/NN
-Verify/VB report/NN sort/RB order/NN set/VBN in/IN a/DT selected/JJ column/NN in/IN report/NN details/NNS page/NN is/VBZ retained/VBN when/WRB Refresh/VB Report/NNP arrow/NN button/NN is/VBZ pressed/VBN
-Verify/VB report/NN sort/RB order/NN set/VBN in/IN a/DT selected/JJ column/NN in/IN report/NN details/NNS page/NN is/VBZ reset/JJ to/TO the/DT default/NN sort/RB order/NN set/VBN in/IN the/DT report/NN builder/NN when/WRB browser/JJR page/NN is/VBZ refreshed/VBN
-Verify/VB report/NN sort/RB order/NN set/VBN in/IN a/DT selected/JJ column/NN in/IN report/NN details/NNS page/NN is/VBZ retained/VBN when/WRB paginating/PRP in/IN report/NN pages/NNS (/( see/VB under/IN Description/NNP )/)
-Verify/VB report/NN order/NN set/VBN in/IN a/DT selected/JJ column/NN in/IN report/NN details/NNS page/NN is/VBZ retained/VBN when/WRB 'Showing/PRP '/POS is/NNS set/VBD to/TO show/VB more/JJR results/NNS (/( see/VB under/IN Description/NNP )/)
-Verify/VB report/NN set/VBN order/NN set/VBN in/IN a/DT selected/JJ column/NN in/IN report/NN details/NNS page/NN is/VBZ retained/VBN when/WRB 'Showing/PRP '/POS is/NNS set/VBD to/TO show/VB All/RB results/NNS (/( see/VB under/IN Description/NNP )/)
-Verify/VB sort/RB order/NN arrow/NN icon/NN in/IN the/DT column/NN title/NN is/VBZ retained/VBN when/WRB paginating/PRP in/IN report/NN pages/NNS
-Verify/VB sort/RB order/NN arrow/NN icon/NN in/IN the/DT column/NN title/NN is/VBZ retained/VBN when/WRB showing/VBG more/RB results/NNS
-Verify/VB sort/RB order/NN arrow/NN icon/NN in/IN the/DT column/NN title/NN is/VBZ retained/VBN when/WRB showing/VBG all/DT results/NNS
-Verify/VB sort/RB order/NN arrow/NN icon/NN in/IN the/DT column/NN title/NN is/VBZ retained/VBN when/WRB Refresh/VB button/NN is/VBZ pressed/VBN
+Verify/VB report/NN sort/NN order/NN set/VBN in/IN a/DT selected/JJ column/NN in/IN report/NN details/NNS page/NN is/VBZ retained/VBN when/WRB Refresh/VB Report/NN arrow/NN button/NN is/VBZ pressed/VBN
+Verify/VB report/NN sort/NN order/NN set/VBN in/IN a/DT selected/JJ column/NN in/IN report/NN details/NNS page/NN is/VBZ reset/VB to/TO the/DT default/NN sort/NN order/NN set/VBN in/IN the/DT report/NN builder/NN when/WRB browser/NN page/NN is/VBZ refreshed/VBN
+Verify/VB report/NN sort/NN order/NN set/VBN in/IN a/DT selected/JJ column/NN in/IN report/NN details/NNS page/NN is/VBZ retained/VBN when/WRB paginating/VBG in/IN report/NN pages/NNS (/( see/VB under/IN Description/NN )/)
+Verify/VB report/NN order/NN set/VBN in/IN a/DT selected/JJ column/NN in/IN report/NN details/NNS page/NN is/VBZ retained/VBN when/WRB 'Showing/VBG '/POS is/VBZ set/VBD to/TO show/VB more/JJR results/NNS (/( see/VB under/IN Description/NN )/)
+Verify/VB report/NN set/VBN order/NN set/VBN in/IN a/DT selected/JJ column/NN in/IN report/NN details/NNS page/NN is/VBZ retained/VBN when/WRB 'Showing/VBG '/POS is/VBZ set/VBD to/TO show/VB All/RB results/NNS (/( see/VB under/IN Description/NN )/)
+Verify/VB sort/NN order/NN arrow/NN icon/NN in/IN the/DT column/NN title/NN is/VBZ retained/VBN when/WRB paginating/VBG in/IN report/NN pages/NNS
+Verify/VB sort/NN order/NN arrow/NN icon/NN in/IN the/DT column/NN title/NN is/VBZ retained/VBN when/WRB showing/VBG more/RB results/NNS
+Verify/VB sort/NN order/NN arrow/NN icon/NN in/IN the/DT column/NN title/NN is/VBZ retained/VBN when/WRB showing/VBG all/DT results/NNS
+Verify/VB sort/NN order/NN arrow/NN icon/NN in/IN the/DT column/NN title/NN is/VBZ retained/VBN when/WRB Refresh/NN button/NN is/VBZ pressed/VBN
 Verify/VB in/IN a/DT large/JJ report/NN with/IN </SYM 2000/CD items/NNS ,/, All/DT </SYM n/SYM >/SYM is/NNS displayed/VBN in/IN the/DT pagination/NN control/NN
-Verify/VB report/NN pagination/IN control/NN dropdown/, has/VBZ 2000/CD option/NN in/IN a/DT large/JJ report/NN with/IN over/IN 2000/CD items/NNS
+Verify/VB report/NN pagination/IN control/NN dropdown/NN has/VBZ 2000/CD option/NN in/IN a/DT large/JJ report/NN with/IN over/IN 2000/CD items/NNS
 Verify/VB page/NN number/NN buttons/NNS and/CC previous/next/NN arrow/NN buttons/NNS are/VBP displayed/VBN when/WRB 2000/CD items/NNS in/IN a/DT large/JJ report/NN are/VBP displayed/VBN
 Verify/VB user/NN is/VBZ able/JJ to/TO navigate/VB on/IN pages/NNS in/IN a/DT large/JJ report/NN using/VBG page/NN buttons/NNS and/CC each/DT page/NN will/MD display/VB 2000/CD items/NNS if/IN that/DT many/JJ are/VBP available/JJ in/IN a/DT large/JJ report/NN
 Verify/VB user/NN is/VBZ able/JJ to/TO navigate/VB on/IN pages/NNS in/IN a/DT large/JJ report/NN using/VBG previous/next/NN arrow/NN buttons/NNS and/CC each/DT page/NN will/MD display/VB 2000/CD items/NNS if/IN that/DT many/JJ are/VBP available/JJ in/IN a/DT large/JJ report/NN
-Verify/VB column/NN with/IN custom/NN parameter/NN of/IN currency/NN type/NN and/CC aggregate/JJ set/NN to/TO COUNT/VB will/MD show/VB correct/JJ summary/NN value/NN in/IN the/DT grouping/NN bar/NN on/IN the/DT report/NN details/NNS page/NN
-Verify/VB column/NN with/IN custom/NN parameter/NN of/IN currency/NN type/NN and/CC aggregate/JJ set/NN to/TO SUM/NN will/MD show/VB correct/JJ summary/NN value/NN in/IN the/DT grouping/NN bar/NN on/IN the/DT report/NN details/NNS page/NN
-Verify/VB column/NN with/IN custom/NN parameter/NN of/IN currency/NN type/NN and/CC aggregate/JJ set/NN to/TO AVERAGE/JJ will/NN show/NN correct/JJ summary/NN value/NN in/IN the/DT grouping/NN bar/NN on/IN the/DT report/NN details/NNS page/NN
-Verify/VB column/NN with/IN custom/NN parameter/NN of/IN currency/NN type/NN and/CC aggregate/JJ set/NN to/TO MINIMUM/JJ will/NN show/NN correct/JJ summary/NN value/NN in/IN the/DT grouping/NN bar/NN on/IN the/DT report/NN details/NNS page/NN
-Verify/VB column/NN with/IN custom/NN parameter/NN of/IN currency/NN type/NN and/CC aggregate/JJ set/NN to/TO MAXIMUM/JJ will/NN show/NN correct/JJ summary/NN value/NN in/IN the/DT grouping/NN bar/NN on/IN the/DT report/NN details/NNS page/NN
+Verify/VB column/NN with/IN custom/NN parameter/NN of/IN currency/NN type/NN and/CC aggregate/JJ set/VB to/TO COUNT/NN will/MD show/VB correct/JJ summary/NN value/NN in/IN the/DT grouping/NN bar/NN on/IN the/DT report/NN details/NNS page/NN
+Verify/VB column/NN with/IN custom/NN parameter/NN of/IN currency/NN type/NN and/CC aggregate/JJ set/VB to/TO SUM/NN will/MD show/VB correct/JJ summary/NN value/NN in/IN the/DT grouping/NN bar/NN on/IN the/DT report/NN details/NNS page/NN
+Verify/VB column/NN with/IN custom/NN parameter/NN of/IN currency/NN type/NN and/CC aggregate/JJ set/VB to/TO AVERAGE/NN will/NN show/NN correct/JJ summary/NN value/NN in/IN the/DT grouping/NN bar/NN on/IN the/DT report/NN details/NNS page/NN
+Verify/VB column/NN with/IN custom/NN parameter/NN of/IN currency/NN type/NN and/CC aggregate/JJ set/VB to/TO MINIMUM/NN will/NN show/NN correct/JJ summary/NN value/NN in/IN the/DT grouping/NN bar/NN on/IN the/DT report/NN details/NNS page/NN
+Verify/VB column/NN with/IN custom/NN parameter/NN of/IN currency/NN type/NN and/CC aggregate/JJ set/VB to/TO MAXIMUM/NN will/NN show/NN correct/JJ summary/NN value/NN in/IN the/DT grouping/NN bar/NN on/IN the/DT report/NN details/NNS page/NN
 Verify/VB if/IN value/NN in/IN a/DT custom/NN parameter/NN of/IN currency/NN type/NN is/VBZ left/VBN blank/JJ it/PRP 's/VBZ set/VBN to/TO 0/CD and/CC when/IN aggregate/JJ is/VBZ set/VBN to/TO MINIMUM/JJ ,/, zero/CD will/NN be/VB displayed/VBN in/IN the/DT grouping/NN bar/NN on/IN the/DT report/NN details/NNS page/NN
-Verify/VB column/NN with/IN number/NN type/NN field/NN and/CC aggregate/JJ set/NN to/TO COUNT/VB will/MD show/VB correct/JJ summary/NN value/NN in/IN the/DT grouping/NN bar/NN on/IN the/DT report/NN details/NNS page/NN
-Tech/NN Approach/NN :/: Comment/NN by/IN Reply/NN :/: Posting/VBG comments/NNS by/IN replying/VBG system/JJ emails/NNS without/IN POP/NNP accounts/NNS
-Complete/JJ Service/NNP Component/NN Checklist/NN
-Review/VB Security/NNP requirements/NNS
+Verify/VB column/NN with/IN number/NN type/NN field/NN and/CC aggregate/JJ set/VB to/TO COUNT/NN will/MD show/VB correct/JJ summary/NN value/NN in/IN the/DT grouping/NN bar/NN on/IN the/DT report/NN details/NNS page/NN
+Tech/NN Approach/NN :/: Comment/VB by/IN Reply/NN :/: Posting/VBG comments/NNS by/IN replying/VBG system/JJ emails/NNS without/IN POP/NNP accounts/NNS
+Complete/VB Service/NN Component/NN Checklist/NN
+Review/VB Security/NN requirements/NNS
 Review/VB Datastore/NN requirements/NNS
 Create/VB load/NN testing/NN plan/NN (/( if/IN necessary/JJ )/)
 Logical/JJ Design/NN Diagram/NN
-Dev/VBD Maven/NN Project/NNP &/CC Repo/NNP
-QA/NN Maven/NN Project/NNP &/CC Repo/NNP
+Dev/NN Maven/NNP Project/NN &/CC Repo/NN
+QA/NN Maven/NNP Project/NN &/CC Repo/NN
 System/NN Engineering/NN Tasks/NNS (/( fill/VB in/IN subtasks/NN )/)
 Bespin/NNP Jobs/NNS
-Provision/NN test/NN infrastructure/environments/NN
-Provision/NN production/NN infrasctructure/environments/NN
+Provision/VB test/VB infrastructure/environments/NNS
+Provision/VB production/NN infrasctructure/environments/NNS
 Set/VB up/RP health/NN check/NN
 Feature/NN Deployment/NN
 Verify/VB that/DT in/IN Setup/NN >/SYM Email/NN >/SYM Setup/NN >/SYM Incoming/JJ Mail/NN section/NN has/VBZ only/RB 1/CD checkbox/NNS labeled/VBN "/" Enable/VB users/NNS to/TO post/VB comments/NNS by/IN replying/VBG to/TO email/NN notifications/NNS "/"
-Verify/VB that/DT if/NN the/DT customer/NN has/VBZ already/RB setup/VBN POP/NNP Accont/NNP ,/, POP/NNP settings/NNS section/NN will/MD still/RB be/VB displayed/VBN in/IN Setup/NN >/SYM Email/NN >/SYM Setup/NN
-Verify/VB there/RB is/VBZ a/DT warning/NN message/NN above/IN POP/NNP email/NN settings/NNS with/IN blue/JJ background/NN and/CC outline/NN ,/, containing/VBG the/DT info/NN icon/NN ,/, switch/NN suggestion/NN message/NN and/CC Switch/NN Now/RB button/NN to/TO the/DT right/NN of/IN the/DT message/NN (/( see/VB desc/NNP )/)
-Verify/VB that/DT clicking/NN on/IN Switch/NN Now/RB button/NN will/MD pop-up/NN "/" Remove/VB POP/NNP Account/NN "/" lightbox/NN
-Verify/VB the/DT lightbox/NN has/VBZ close/RB 'x/JJ '/'' button/NN ,/, warning/VBG icon/NN and/CC message/NN (/( see/VB desc/NNP )/) ,/, Switch/NN Now/RB and/CC Cancel/VB links/NNS
-Verify/VB that/DT selecting/VBG Switch/NN Now/RB button/NN ,/, all/DT previous/JJ POP/NNP Email/NN fields/NNS will/MD no/RB longer/RB be/VB available/JJ ,/, and/CC the/DT user/NN will/MD only/RB see/VB "/" Enable/VB users/NNS to/TO post/VB comments/NNS by/IN replying/VBG to/TO email/NN notifications/NNS "/" checkbox/NN under/IN Incoming/JJ Email/NN section/NN
-Verify/VB that/DT selecting/VBG Cancel/VB will/NN close/RB the/DT lightbox/MD and/CC leave/VB all/DT POP/NNP Email/NN fields/NNS and/CC switch/NN suggestion/NN available/JJ for/IN the/DT customer/NN
-Verify/VB that/DT selecting/VBG close/NN 'x/IN '/'' will/MD close/VB the/DT lightbox/MD and/CC leave/VB all/DT POP/NNP Email/NN fields/NNS and/CC the/DT switch/NN suggestion/NN available/JJ for/IN the/DT customer/NN ./.
-Verify/VB that/DT if/NN the/DT customer/NN has/VBZ deselected/NN Incoming/JJ Email/NN checkbox/NN in/IN setup/NN ,/, the/DT sent/VBN notifications/NNS will/MD NOT/RB contain/VB any/DT indication/NN about/IN posting/VBG comments/NNS by/IN replying/VBG
-Verify/VB that/DT sent/VBN emails/NNS will/MD not/RB have/VB IDs/RB appended/VBN to/TO the/DT end/NN of/IN the/DT email/NN subject/NN ,/, even/RB when/WRB the/DT incoming/JJ email/NN checkbox/NNP is/VBZ checked/VBN ./.
-Verify/VB that/DT when/WRB the/DT user/NN selects/VBZ Reply/NN from/IN the/DT sent/VBN notification/NN ,/, the/DT "/" To/TO "/" field/NN will/MD be/VB populated/VBN with/IN an/DT alias/NN and/CC unique/JJ Email/NN address/NN (/( see/VB desc/NNP)/)
-Verify/VB that/DT when/WRB Incoming/JJ Email/NN checkbox/NN is/VBZ checked/VBN in/IN setup/NN ,/, and/CC a/DT user/NN replies/VBZ to/TO AtTask/NNP email/NNP ,/, the/DT relpied/NN text/NN will/MD be/VB added/VBN as/IN an/DT update/comment/NN to/TO the/DT object/NN for/IN which/WDT the/DT email/NNP was/VBD sent/VBN
+Verify/VB that/DT if/IN the/DT customer/NN has/VBZ already/RB setup/VBN POP/NNP Accont/NN ,/, POP/NNP settings/NNS section/NN will/MD still/RB be/VB displayed/VBN in/IN Setup/NN >/SYM Email/NN >/SYM Setup/NN
+Verify/VB there/RB is/VBZ a/DT warning/NN message/NN above/IN POP/NNP email/NN settings/NNS with/IN blue/JJ background/NN and/CC outline/NN ,/, containing/VBG the/DT info/NN icon/NN ,/, switch/NN suggestion/NN message/NN and/CC Switch/NN Now/RB button/NN to/TO the/DT right/NN of/IN the/DT message/NN (/( see/VB desc/NN )/)
+Verify/VB that/DT clicking/VBG on/IN Switch/VB Now/RB button/NN will/MD pop-up/VB "/" Remove/VB POP/NNP Account/NN "/" lightbox/NN
+Verify/VB the/DT lightbox/NN has/VBZ close/RB 'x/JJ '/'' button/NN ,/, warning/NN icon/NN and/CC message/NN (/( see/VB desc/NN )/) ,/, Switch/NN Now/RB and/CC Cancel/VB links/NNS
+Verify/VB that/DT selecting/VBG Switch/VB Now/RB button/NN ,/, all/DT previous/JJ POP/NNP Email/NN fields/NNS will/MD no/RB longer/RB be/VB available/JJ ,/, and/CC the/DT user/NN will/MD only/RB see/VB "/" Enable/VB users/NNS to/TO post/VB comments/NNS by/IN replying/VBG to/TO email/NN notifications/NNS "/" checkbox/NN under/IN Incoming/JJ Email/NN section/NN
+Verify/VB that/DT selecting/VBG Cancel/NN will/MD close/VB the/DT lightbox/NN and/CC leave/VB all/DT POP/NNP Email/NN fields/NNS and/CC switch/VB suggestion/NN available/JJ for/IN the/DT customer/NN
+Verify/VB that/DT selecting/VBG close/NN 'x/NN '/'' will/MD close/VB the/DT lightbox/NN and/CC leave/VB all/DT POP/NNP Email/NN fields/NNS and/CC the/DT switch/VB suggestion/NN available/JJ for/IN the/DT customer/NN ./.
+Verify/VB that/DT if/IN the/DT customer/NN has/VBZ deselected/VBN Incoming/JJ Email/NN checkbox/NN in/IN setup/NN ,/, the/DT sent/VBN notifications/NNS will/MD NOT/RB contain/VB any/DT indication/NN about/IN posting/VBG comments/NNS by/IN replying/VBG
+Verify/VB that/DT sent/VBN emails/NNS will/MD not/RB have/VB IDs/NNS appended/VBN to/TO the/DT end/NN of/IN the/DT email/NN subject/NN ,/, even/RB when/WRB the/DT incoming/JJ email/NN checkbox/NN is/VBZ checked/VBN ./.
+Verify/VB that/DT when/WRB the/DT user/NN selects/VBZ Reply/VB from/IN the/DT sent/VBN notification/NN ,/, the/DT "/" To/TO "/" field/NN will/MD be/VB populated/VBN with/IN an/DT alias/NN and/CC unique/JJ Email/NN address/NN (/( see/VB desc/NN)/)
+Verify/VB that/DT when/WRB Incoming/JJ Email/NN checkbox/NN is/VBZ checked/VBN in/IN setup/NN ,/, and/CC a/DT user/NN replies/VBZ to/TO AtTask/NNP email/NNP ,/, the/DT relpied/NN text/NN will/MD be/VB added/VBN as/IN an/DT update/comment/NN to/TO the/DT object/NN for/IN which/WDT the/DT email/NN was/VBD sent/VBN
 Verify/VB that/DT documents/NNS attached/VBN to/TO the/DT replied/VBN email/NN will/MD be/VB attached/VBN to/TO the/DT replied/VBN items/NNS in/IN AtTask/NNP
-Verify/VB that/DT if/NN the/DT reply/NN email/NN has/VBZ large/JJ documents/NNS attached/VBN ,/, those/DT be/VB attached/VBN to/TO the/DT appropriate/JJ objects/NNS in/IN AtTask/NNP
+Verify/VB that/DT if/IN the/DT reply/NN email/NN has/VBZ large/JJ documents/NNS attached/VBN ,/, those/DT be/VB attached/VBN to/TO the/DT appropriate/JJ objects/NNS in/IN AtTask/NNP
 verify/VB users/NNS will/MD be/VB able/JJ to/TO attach/VB different/JJ document/NN types/NNS to/TO objects/NNS by/IN attaching/VBG the/DT document/NN to/TO the/DT replied/VBN email/NN ./.
 Verify/VB that/DT avatars/NN and/CC other/JJ images/NNS from/IN the/DT email/NN will/MD not/RB be/VB posted/VBN as/IN attachments/NNS to/TO attask/VB objects/NNS after/IN replying/VBG to/TO email/NN
-Verify/VB that/DT if/NN the/DT replied/VBD text/NN contains/VBZ urls/NNS or/CC email/NN adrresses/NNP ,/, those/DT will/MD be/VB posted/VBN as/IN links/NNS in/IN posted/VBN updates/NNS ./.
-Verify/VB that/DT if/NN Incoming/JJ Email/NN checkbox/NNP is/VBZ enabled/VBN in/IN Setup/NN ,/, and/CC an/DT External/NNP license/NN user/NN replies/VBZ to/TO an/DT email/NN ,/, the/DT reply/NN will/MD be/VB posted/VBN as/IN an/DT update/comment/NN for/IN the/DT replied/VBD item/NN
-Verify/VB that/DT if/NN the/DT update/NN was/VBD added/VBN by/IN External/NNP user/NN via/IN reply/NN ,/, then/RB user/NN 's/VBZ email/NN address/NN will/MD be/VB shown/VBN instead/RB of/IN update/comment/NN 's/POS entered/VBN by/IN user/NN name/NN
-Verify/VB that/DT added/VBN updates/comments/RB will/MD have/VB timestamp/VBN ,/, Like/IN and/CC Comment/NN links/NNS ./.
-Verify/VB that/DT if/NN a/DT Help/NN Desk/NN Requestor/NN user/NN replies/VBZ to/TO an/DT email/NN ,/, the/DT reply/NN will/MD be/VB posted/VBN as/IN an/DT update/comment/NN for/IN the/DT corresponding/JJ object/NN in/IN AtTask/DT
+Verify/VB that/DT if/IN the/DT replied/VBD text/NN contains/VBZ urls/NNS or/CC email/NN adrresses/NN ,/, those/DT will/MD be/VB posted/VBN as/IN links/NNS in/IN posted/VBN updates/NNS ./.
+Verify/VB that/DT if/IN Incoming/JJ Email/NN checkbox/NN is/VBZ enabled/VBN in/IN Setup/NN ,/, and/CC an/DT External/NN license/NN user/NN replies/VBZ to/TO an/DT email/NN ,/, the/DT reply/NN will/MD be/VB posted/VBN as/IN an/DT update/comment/NN for/IN the/DT replied/VBD item/NN
+Verify/VB that/DT if/IN the/DT update/NN was/VBD added/VBN by/IN External/NN user/NN via/IN reply/NN ,/, then/RB user/NN 's/POS email/NN address/NN will/MD be/VB shown/VBN instead/RB of/IN update/comment/NN 's/POS entered/VBN by/IN user/NN name/NN
+Verify/VB that/DT added/VBN updates/comments/NN will/MD have/VB timestamp/NN ,/, Like/NN and/CC Comment/NN links/NNS ./.
+Verify/VB that/DT if/IN a/DT Help/NN Desk/NN Requestor/NN user/NN replies/VBZ to/TO an/DT email/NN ,/, the/DT reply/NN will/MD be/VB posted/VBN as/IN an/DT update/comment/NN for/IN the/DT corresponding/JJ object/NN in/IN AtTask/NNP
 Verify/VB the/DT posted/VBN update/NN will/MD contain/VB only/RB the/DT replied/VBD text/NN and/CC no/DT other/JJ details/NNS from/IN the/DT sent/VBN email/NN
-Verify/VB when/WRB an/DT update/NN is/VBZ posted/VBN through/IN replying/VBG via/IN email/NN ,/, notifications/NNS will/MD be/VB sent/VBN to/TO appropriate/JJ users/NNS about/IN the/DT new/JJ update/comment/NN ./. (/( see/VB desc/NNP )/)
-Verify/VB that/DT if/NN the/DT user/NN has/VBZ removed/VBN the/DT field/NN from/IN Tracked/VBN Fields/NNS in/IN Setup/NN ,/, the/DT replied/VBD text/NN will/MD be/VB posted/VBN as/IN a/DT separate/JJ update/NN on/IN object/NN 's/POS Updates/NNS tab/NN (/( see/VB desc/NNP )/)
+Verify/VB when/WRB an/DT update/NN is/VBZ posted/VBN through/IN replying/VBG via/IN email/NN ,/, notifications/NNS will/MD be/VB sent/VBN to/TO appropriate/JJ users/NNS about/IN the/DT new/JJ update/comment/NN ./. (/( see/VB desc/NN )/)
+Verify/VB that/DT if/IN the/DT user/NN has/VBZ removed/VBN the/DT field/NN from/IN Tracked/VBN Fields/NNS in/IN Setup/NN ,/, the/DT replied/JJ text/NN will/MD be/VB posted/VBN as/IN a/DT separate/JJ update/NN on/IN object/NN 's/POS Updates/NNS tab/NN (/( see/VB desc/NN )/)
 Verify/VB that/DT the/DT user/NN can/MD reply/VB several/JJ times/NNS to/TO the/DT same/JJ email/NN and/CC all/DT replies/NNS will/MD be/VB posted/VBN as/IN comments/updates/NN ./.
-Verify/VB that/DT if/NN the/DT event/NN for/IN which/WDT email/NN notification/NN was/VBD sent/VBN to/TO the/DT user/NN has/VBZ a/DT journal/NN entry/NN ,/, and/CC the/DT user/NN replies/VBZ to/TO that/DT email/NN ,/, the/DT replied/VBD text/NN will/MD be/VB added/VBN as/IN a/DT comment/NN to/TO the/DT journal/NN entry/NN on/IN Updates/NNS tab/NN (/( see/VB desc/NNP )/)
-Verify/VB that/DT replying/VBG to/TO a/DT notification/NN sent/VBD for/IN "/" Calendar/NN Share/NN Add/VB to/TO Team/NNP "/" event/NN handler/NN ,/, the/DT replied/VBD text/NN will/MD NOT/RB be/VB added/VBN as/IN an/DT update/NN on/IN any/DT object/NN
-Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" The/DT due/JJ date/NN changes/NNS on/IN a/DT task/NN I/PRP 'm/VBP assigned/VBN to/TO "/" event/NN handler/NN will/MD post/VB the/DT replied/VBD text/NN as/IN a/DT comment/NN on/IN due/JJ date/NN change/NN journal/NN entry/NN on/IN task/NN 's/POS Updates/NNS tab/NN
-Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" A/LS task/NN on/IN a/DT project/NN I/PRP own/VBP gets/VBZ behind/IN "/" event/NN handler/NN will/MD post/VB the/DT replied/VBD text/NN as/IN an/DT update/NN on/IN the/DT task/NN
-Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" A/LS task/NN on/IN a/DT project/NN I/PRP sponsor/VBP gets/VBZ behind/IN "/" event/NN handler/NN will/MD post/VB the/DT replied/VBD text/NN as/IN an/DT update/NN on/IN the/DT task/NN
-Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" The/DT status/FW changes/NNS on/IN a/DT task/NN I/PRP 'm/VBP assigned/VBN to/TO "/" event/NN handler/NN will/MD post/VB the/DT replied/VBD text/NN as/IN a/DT comment/NN on/IN status/NN change/NN journal/NN entry/NN on/IN task/NN 's/POS Updates/NNS tab/NN
-Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" My/PRP$ timesheet/NN is/VBZ approved/VBN "/" event/NN handler/NN will/MD post/VB the/DT replied/VBD text/NN as/IN a/DT comment/NN on/IN approval/NN decision/NN journal/NN entry/NN on/IN timesheet/NN
-Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" My/PRP$ timesheet/NN is/VBZ rejected/VBN "/" event/NN handler/NN will/MD post/VB the/DT replied/VBD text/NN as/IN a/DT comment/NN on/IN approval/NN decision/NN journal/NN entry/NN on/IN timesheet/NN
-Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" My/PRP$ timesheet/NN is/VBZ re-opened/NN "/" event/NN handler/NN will/MD post/VB the/DT replied/VBD text/NN as/IN a/DT comment/NN on/IN approval/NN decision/NN journal/NN entry/NN on/IN timesheet/NN
-Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN I/PRP need/VBP to/TO approve/VB a/DT timesheet/NN "/" event/NN handler/NN will/MD post/VB the/DT replied/VBD text/NN as/IN a/DT comment/NN on/IN timesheet/NN submission/NN journal/NN entry/NN on/IN the/DT timesheet/NN page/NN
-Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" When/WRB a/DT new/JJ user/NN is/VBZ created/VBN in/IN attask/NNP ,/, email/NN the/DT user/NN "/" event/NN handler/NN will/MD NOT/RB post/VB the/DT replied/VBD text/NN as/IN an/DT update/NN on/IN any/DT object/NN
+Verify/VB that/DT if/IN the/DT event/NN for/IN which/WDT email/NN notification/NN was/VBD sent/VBN to/TO the/DT user/NN has/VBZ a/DT journal/NN entry/NN ,/, and/CC the/DT user/NN replies/VBZ to/TO that/DT email/NN ,/, the/DT replied/VBD text/NN will/MD be/VB added/VBN as/IN a/DT comment/NN to/TO the/DT journal/NN entry/NN on/IN Updates/NNS tab/NN (/( see/VB desc/NN )/)
+Verify/VB that/DT replying/VBG to/TO a/DT notification/NN sent/VBD for/IN "/" Calendar/NN Share/NN Add/VB to/TO Team/NN "/" event/NN handler/NN ,/, the/DT replied/VBD text/NN will/MD NOT/RB be/VB added/VBN as/IN an/DT update/NN on/IN any/DT object/NN
+Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" The/DT due/JJ date/NN changes/NNS on/IN a/DT task/NN I/PRP 'm/VBP assigned/VBN to/TO "/" event/NN handler/NN will/MD post/VB the/DT replied/JJ text/NN as/IN a/DT comment/NN on/IN due/JJ date/NN change/NN journal/NN entry/NN on/IN task/NN 's/POS Updates/NNS tab/NN
+Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" A/DT task/NN on/IN a/DT project/NN I/PRP own/VBP gets/VBZ behind/IN "/" event/NN handler/NN will/MD post/VB the/DT replied/JJ text/NN as/IN an/DT update/NN on/IN the/DT task/NN
+Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" A/DT task/NN on/IN a/DT project/NN I/PRP sponsor/VBP gets/VBZ behind/IN "/" event/NN handler/NN will/MD post/VB the/DT replied/JJ text/NN as/IN an/DT update/NN on/IN the/DT task/NN
+Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" The/DT status/NN changes/VBZ on/IN a/DT task/NN I/PRP 'm/VBP assigned/VBN to/TO "/" event/NN handler/NN will/MD post/VB the/DT replied/JJ text/NN as/IN a/DT comment/NN on/IN status/NN change/NN journal/NN entry/NN on/IN task/NN 's/POS Updates/NNS tab/NN
+Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" My/PRP$ timesheet/NN is/VBZ approved/VBN "/" event/NN handler/NN will/MD post/VB the/DT replied/JJ text/NN as/IN a/DT comment/NN on/IN approval/NN decision/NN journal/NN entry/NN on/IN timesheet/NN
+Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" My/PRP$ timesheet/NN is/VBZ rejected/VBN "/" event/NN handler/NN will/MD post/VB the/DT replied/JJ text/NN as/IN a/DT comment/NN on/IN approval/NN decision/NN journal/NN entry/NN on/IN timesheet/NN
+Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" My/PRP$ timesheet/NN is/VBZ re-opened/VBN "/" event/NN handler/NN will/MD post/VB the/DT replied/JJ text/NN as/IN a/DT comment/NN on/IN approval/NN decision/NN journal/NN entry/NN on/IN timesheet/NN
+Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN I/PRP need/VBP to/TO approve/VB a/DT timesheet/NN "/" event/NN handler/NN will/MD post/VB the/DT replied/JJ text/NN as/IN a/DT comment/NN on/IN timesheet/NN submission/NN journal/NN entry/NN on/IN the/DT timesheet/NN page/NN
+Verify/VB that/DT replying/VBG to/TO an/DT email/NN sent/VBD for/IN "/" When/WRB a/DT new/JJ user/NN is/VBZ created/VBN in/IN attask/NNP ,/, email/NN the/DT user/NN "/" event/NN handler/NN will/MD NOT/RB post/VB the/DT replied/JJ text/NN as/IN an/DT update/NN on/IN any/DT object/NN

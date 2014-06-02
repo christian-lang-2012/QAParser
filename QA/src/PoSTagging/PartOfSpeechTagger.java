@@ -108,24 +108,33 @@ public class PartOfSpeechTagger {
     private Set<PartOfSpeechTag> analyzeWordForPossibleTags(String word){
         Map<PartOfSpeechTag, Integer> tagCount = new HashMap<PartOfSpeechTag, Integer>();
         Set<PartOfSpeechTag> mostLikelyTags = new HashSet<PartOfSpeechTag>();
-        String ending = word.substring(word.length()-2);
-        for(String taggedWord : tagTable.getAllWords()){
-            if(taggedWord.endsWith(ending)){
-                for(PartOfSpeechTag tag : tagTable.getWordTags(taggedWord)){
-                    if(!tagCount.containsKey(tag))
-                        tagCount.put(tag,1);
-                    else tagCount.put(tag,tagCount.get(tag)+1);
+        if(isNumeric(word)){
+            mostLikelyTags.add(PartOfSpeechTag.CD);
+        }
+        else if(word.length() > 1){
+            String ending = word.substring(word.length()-2);
+            for(String taggedWord : tagTable.getAllWords()){
+                if(taggedWord.endsWith(ending)){
+                    for(PartOfSpeechTag tag : tagTable.getWordTags(taggedWord)){
+                        if(!tagCount.containsKey(tag))
+                            tagCount.put(tag,1);
+                        else tagCount.put(tag,tagCount.get(tag)+1);
+                    }
                 }
             }
-        }
 
-        int numTags = tagCount.size();
-        for(int i = 0; i < Math.min(numTags,4); i++){
-            PartOfSpeechTag max = getMaxTag(tagCount);
-            mostLikelyTags.add(max);
-            tagCount.remove(max);
+            int numTags = tagCount.size();
+            for(int i = 0; i < Math.min(numTags,4); i++){
+                PartOfSpeechTag max = getMaxTag(tagCount);
+                mostLikelyTags.add(max);
+                tagCount.remove(max);
+            }
         }
         return mostLikelyTags;
+    }
+
+    private boolean isNumeric(String word){
+        return word.matches("-?\\d+(\\.\\d+)?");
     }
 
     private PartOfSpeechTag getMaxTag(Map<PartOfSpeechTag,Integer> tagCount){
