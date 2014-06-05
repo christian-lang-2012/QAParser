@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38acffdf-a05f-4133-88ca-b49ab63a60e4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/BDDScenario.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/BDDStory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/translator/TaskToBDDStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="QA Parser.iws" />
@@ -69,6 +73,7 @@
     <file path="$USER_HOME$/QA/src/Models/PhraseTreeData.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401829035795" ignored="false" />
     <file path="/PhraseTreeData.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401829035357" ignored="false" />
     <file path="$USER_HOME$/QA/src/Models/PhraseData.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401831255156" ignored="false" />
+    <file path="/workspace.xml" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1402003862337" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,19 +133,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestApp.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TestApp.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="63" selection-start="1839" selection-end="1839" vertical-scroll-proportion="0.0">
+            <state line="31" column="15" selection-start="755" selection-end="755" vertical-scroll-proportion="0.3075995">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhraseChunker.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PhraseChunker.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PhraseChunking/PhraseChunker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="184" column="44" selection-start="6003" selection-end="6003" vertical-scroll-proportion="0.30036187">
+            <state line="194" column="94" selection-start="6334" selection-end="6334" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#818#826#0" expanded="true" />
                 <element signature="e#944#962#0" expanded="true" />
@@ -187,8 +192,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="414" />
-    <option name="y" value="155" />
+    <option name="x" value="557" />
+    <option name="y" value="168" />
     <option name="width" value="1043" />
     <option name="height" value="997" />
   </component>
@@ -287,6 +292,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="translator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QA Parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="PoSTagging" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -356,20 +379,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="QA Parser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="QA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -564,7 +573,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="414" y="155" width="1043" height="997" extended-state="0" />
+    <frame x="557" y="168" width="1043" height="997" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -583,7 +592,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3303122" sideWeight="0.8900344" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3303122" sideWeight="0.9689234" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3757159" sideWeight="0.47712418" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -653,21 +662,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/neural/FeedforwardNetwork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="39" selection-start="4060" selection-end="4060" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/neural/FeedForwardLayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="295" selection-end="295" vertical-scroll-proportion="-0.24965326" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/json/JSONArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="19" selection-start="4282" selection-end="4282" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/attask/api/StreamClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="151" column="0" selection-start="6145" selection-end="6145" vertical-scroll-proportion="0.0" />
@@ -732,27 +726,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="63" selection-start="1839" selection-end="1839" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="64" selection-start="12977" selection-end="12977" vertical-scroll-proportion="0.28950542">
+        <state line="158" column="64" selection-start="13658" selection-end="13658" vertical-scroll-proportion="0.4207459">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PhraseChunking/PhraseChunker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="184" column="44" selection-start="6003" selection-end="6003" vertical-scroll-proportion="0.30036187">
+        <state line="194" column="94" selection-start="6334" selection-end="6334" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#818#826#0" expanded="true" />
             <element signature="e#944#962#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/BDDScenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="137" selection-end="137" vertical-scroll-proportion="0.16033255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/BDDStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="137" selection-end="137" vertical-scroll-proportion="0.16033255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/translator/TaskToBDDStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="310" selection-end="310" vertical-scroll-proportion="0.16033255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="15" selection-start="755" selection-end="755" vertical-scroll-proportion="0.3075995">
+          <folding />
         </state>
       </provider>
     </entry>
