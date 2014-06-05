@@ -10,14 +10,22 @@ package Models;
 public class VPGrammar {
 
     private static String[] tagPatterns = {
-            "(<VB.?>)+(<TO>)?"+NPGrammar.getPatterns()[0],
-            "(<VB.?>)+(<TO>)?"+NPGrammar.getPatterns()[1],
-            "(<VB.?>)+(<TO>)?"+NPGrammar.getPatterns()[2],
-            "(<VB.?>)+(<TO>)?"+NPGrammar.getPatterns()[3],
-            "(<VB.?>)+(<TO>)?"+NPGrammar.getPatterns()[4],
-            "(<VB.?>)+(<TO>)?"+NPGrammar.getPatterns()[5],
-            "(<VB.?>)+(<TO>)?"+NPGrammar.getPatterns()[6],
-            "(<VB.?>)+"
+            "(<MD>)?(<VB.?>)+((<IN>)||(<TO>))?~NP~",
+            "(<MD>)?(<VB.?>)+",
+            "~ADVP~<VB.?>~NP~~PP~",
+            "<VB.?>~S~",
+            "<TO>~VP~",
+            "<VB.?>~ADJP~~PP~",
+            "<VB.?>~NP~~PP~",
+            "<VB.?><RB>~VP~",
+            "<VB.?><CC><VB.?>~NP~",
+            "<VB.?>~PP~~S~",
+            "<VB.?>~NP~~ADVP~",
+            "~ADVP~<VB.?>~PP~",
+            "~ADVP~<VB.?>~NP~",
+            "~VP~<CC>~VP~",
+            "<VB.?>~ADJP~",
+            "~VP~~PP~"
     };
 
     public static String[] getPatterns(){

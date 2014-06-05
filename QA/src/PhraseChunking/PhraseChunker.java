@@ -13,122 +13,207 @@ import java.util.regex.*;
  * To change this template use File | Settings | File Templates.
  */
 public class PhraseChunker {
-	private List<WordTagPair> taggedWords;
-	private List<String> nounPhrases;
-    private List<String> verbPhrases;
-    private int start = 0;
+    private List<Tree<PhraseData>> phraseTrees;
 
-	public PhraseChunker(List<WordTagPair> taggedWords){
-	  	this.taggedWords = taggedWords;
-		nounPhrases = new ArrayList<String>();
-        verbPhrases = new ArrayList<String>();
-		findNounPhrases();
-        findVerbPhrases();
-	}
+    public PhraseChunker(List<WordTagPair> taggedWords){
+        phraseTrees = new ArrayList<Tree<PhraseData>>();
+        for(WordTagPair wtp : taggedWords){
+            PhraseData data = new PhraseData("<"+wtp.getTag().name()+">",wtp.getWord());
+            Tree<PhraseData> phraseTree = new Tree<PhraseData>(data);
+            phraseTrees.add(phraseTree);
+        }
 
-	public List<String> getNounPhrases(){
-		return nounPhrases;
-	}
-
-    public List<String> getVerbPhrases(){
-        return verbPhrases;
+        generateParseTree();
     }
 
-	private void findNounPhrases(){
-		String tags = "";
-		for(WordTagPair pair : taggedWords)
-			tags += "<"+pair.getTag().name()+">";
-		for(String pattern : NPGrammar.getPatterns()){
-            start = 0;
-			Pattern p = Pattern.compile(pattern);
-			Matcher m = p.matcher(tags);
-			while(m.find())
-				parsePhrases(m.group(), "noun");
-		}
-	}
+    public List<String> getPhrases(){
+        ArrayList<String> phrases = new ArrayList<String>();
+        Node<PhraseData> root = phraseTrees.get(0).getRoot();
+        List<Node<PhraseData>> nodes = new ArrayList<Node<PhraseData>>();
+        nodes.add(root);
 
-    private void findVerbPhrases(){
-        String tags = "";
-        for(WordTagPair pair : taggedWords)
-            tags += "<"+pair.getTag().name()+">";
-        for(String pattern : VPGrammar.getPatterns()){
-            start = 0;
+        while(nodes.size() > 0){
+            Node<PhraseData> next = nodes.get(0);
+            if(next.getData().getRegex().equals("~S~"))
+                phrases.add(getWordsInNode(next));
+            removeNodeAndAddChildren(nodes,next);
+        }
+
+        return phrases;
+    }
+
+    private void removeNodeAndAddChildren(List<Node<PhraseData>> list, Node<PhraseData> node){
+        list.remove(node);
+        for(Node<PhraseData> child : node.getChildren())
+            list.add(child);
+    }
+    private String getWordsInNode(Node<PhraseData> node){
+        String word = "";
+        if(node.getData().getWord() != null)
+            word = node.getData().getWord();
+        else
+            for(Node<PhraseData> child : node.getChildren())  word += getWordsInNode(child)+" ";
+        return word.trim();
+    }
+
+    private void generateParseTree(){
+        while(phraseTrees.size() > 1){
+            boolean found;
+
+            do{
+                found = findAdjectivePhrases();
+            }while(found);
+
+            do{
+                found = findAdverbPhrases();
+            }while(found);
+
+            do{
+                found = findNounPhrases();
+            }while(found);
+
+            do{
+                found = findPrepositionalPhrases();
+            }while(found);
+
+            do{
+                found = findVerbPhrases();
+            }while(found);
+
+            do{
+                found = findSentences();
+            }while(found);
+        }
+    }
+
+    private String getTreeRegex(List<Tree<PhraseData>> phraseTrees){
+        String sentence = "";
+        for(Tree<PhraseData> phraseTree : phraseTrees){
+            sentence += phraseTree.getRoot().getData().getRegex();
+        }
+        return sentence;
+    }
+
+    private List<Tree<PhraseData>> getTreesToCombine(String regex){
+        List<Tree<PhraseData>> treesToCombine = new ArrayList<Tree<PhraseData>>();
+        for(Tree<PhraseData> phraseTree : phraseTrees){
+            treesToCombine.add(phraseTree);
+            String curRegex = getTreeRegex(treesToCombine);
+            if(curRegex.contains(regex)){
+                Tree<PhraseData> tree = null;
+                while(curRegex.contains(regex)){
+                    tree = treesToCombine.remove(0);
+                    curRegex = getTreeRegex(treesToCombine);
+                }
+                treesToCombine.add(0,tree);
+                break;
+            }
+        }
+        return treesToCombine;
+    }
+
+    private void combineTrees(List<Tree<PhraseData>> trees, String regex){
+        PhraseData data = new PhraseData(regex);
+        Tree<PhraseData> tree = new Tree<PhraseData>(data);
+        Node<PhraseData> root = tree.getRoot();
+
+        for(Tree<PhraseData> phraseTree : trees){
+            root.add(phraseTree.getRoot());
+        }
+        phraseTrees.add(phraseTrees.indexOf(trees.get(0)), tree);
+
+        for(Tree<PhraseData> phraseTree : trees){
+            phraseTrees.remove(phraseTree);
+        }
+    }
+
+    private boolean findNounPhrases(){
+        boolean npFound = false;
+        for(String pattern : NPGrammar.getPatterns()){
+            String sentence = getTreeRegex(phraseTrees);
             Pattern p = Pattern.compile(pattern);
-            Matcher m = p.matcher(tags);
-            while(m.find())
-                parsePhrases(m.group(), "verb");
+            Matcher m = p.matcher(sentence);
+            while(m.find()) {
+                List<Tree<PhraseData>> trees = getTreesToCombine(m.group());
+                combineTrees(trees,"~NP~");
+                npFound = true;
+            }
         }
+        return npFound;
     }
 
-	private void parsePhrases(String match, String type){
-		List<WordTagPair> wordsToAdd;
-
-		String[] tags = match.replace("<","").replace(">"," ").split(" +");
-		boolean foundMatch;
-
-		do{
-			foundMatch = true;
-			wordsToAdd = new ArrayList<WordTagPair>();
-			start = getIndexOfTagInPhrases(start, tags[0]);
-			for(int i = start; i < (start+tags.length); i++){
-				wordsToAdd.add(taggedWords.get(i));
-			}
-
-			for(int i = 0; i < tags.length; i++){
-				if(!wordsToAdd.get(i).getTag().name().equals(tags[i]))
-					foundMatch = false;
-			}
-			start+=1;
-		}while(!foundMatch);
-
-		String phrase = "";
-
-		for(WordTagPair pair : wordsToAdd)
-			phrase += pair.getWord()+" ";
-        if(type.equals("noun"))
-		    addNounPhrase(phrase.trim());
-        else if(type.equals("verb"))
-            addVerbPhrase(phrase.trim());
-	}
-
-	private int getIndexOfTagInPhrases(int startIndex, String tag){
-		for(int i = startIndex; i < taggedWords.size(); i++){
-			if(taggedWords.get(i).getTag().name().equals(tag)){
-				return i;
-			}
-		}
-		return -1;
-	}
-
-    private void addNounPhrase(String nounPhrase){
-        List<String> toRemove = new ArrayList<String>();
-        boolean add = true;
-        for(int i = 0; i < nounPhrases.size(); i++){
-            if(nounPhrases.get(i).contains(nounPhrase))
-                add = false;
-            else if(nounPhrase.contains(nounPhrases.get(i)))
-                toRemove.add(nounPhrases.get(i));
+    private boolean findVerbPhrases(){
+        boolean vpFound = false;
+        for(String pattern : VPGrammar.getPatterns()){
+            String sentence = getTreeRegex(phraseTrees);
+            Pattern p = Pattern.compile(pattern);
+            Matcher m = p.matcher(sentence);
+            while(m.find()) {
+                List<Tree<PhraseData>> trees = getTreesToCombine(m.group());
+                combineTrees(trees,"~VP~");
+                vpFound = true;
+            }
         }
-        if(add){
-            for(String remove : toRemove)
-                nounPhrases.remove(remove);
-            nounPhrases.add(nounPhrase);
-        }
+        return vpFound;
     }
 
-    private void addVerbPhrase(String verbPhrase){
-        List<String> toRemove = new ArrayList<String>();
-        boolean add = true;
-        for(int i = 0; i < verbPhrases.size(); i++){
-            if(verbPhrases.get(i).contains(verbPhrase))
-                add = false;
-            else if(verbPhrase.contains(verbPhrases.get(i)))
-                toRemove.add(verbPhrases.get(i));
+    private boolean findAdjectivePhrases(){
+        boolean adjpFound = false;
+        for(String pattern : ADJPGrammar.getPatterns()){
+            String sentence = getTreeRegex(phraseTrees);
+            Pattern p = Pattern.compile(pattern);
+            Matcher m = p.matcher(sentence);
+            while(m.find()) {
+                List<Tree<PhraseData>> trees = getTreesToCombine(m.group());
+                combineTrees(trees,"~ADJP~");
+                adjpFound = true;
+            }
         }
-        if(add){
-            for(String remove : toRemove)
-                verbPhrases.remove(remove);
-            verbPhrases.add(verbPhrase);
+        return adjpFound;
+    }
+
+    private boolean findAdverbPhrases(){
+        boolean advpFound = false;
+        for(String pattern : ADVPGrammar.getPatterns()){
+            String sentence = getTreeRegex(phraseTrees);
+            Pattern p = Pattern.compile(pattern);
+            Matcher m = p.matcher(sentence);
+            while(m.find()) {
+                List<Tree<PhraseData>> trees = getTreesToCombine(m.group());
+                combineTrees(trees,"~ADVP~");
+                advpFound = true;
+            }
         }
+        return advpFound;
+    }
+
+    private boolean findPrepositionalPhrases(){
+        boolean ppFound = false;
+        for(String pattern : PPGrammar.getPatterns()){
+            String sentence = getTreeRegex(phraseTrees);
+            Pattern p = Pattern.compile(pattern);
+            Matcher m = p.matcher(sentence);
+            while(m.find()) {
+                List<Tree<PhraseData>> trees = getTreesToCombine(m.group());
+                combineTrees(trees,"~PP~");
+                ppFound = true;
+            }
+        }
+        return ppFound;
+    }
+
+    private boolean findSentences(){
+        boolean sentenceFound = false;
+        for(String pattern : SentenceGrammar.getPatterns()){
+            String sentence = getTreeRegex(phraseTrees);
+            Pattern p = Pattern.compile(pattern);
+            Matcher m = p.matcher(sentence);
+            while(m.find()) {
+                List<Tree<PhraseData>> trees = getTreesToCombine(m.group());
+                combineTrees(trees,"~S~");
+                sentenceFound = true;
+            }
+        }
+        return sentenceFound;
     }
 }

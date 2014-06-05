@@ -65,15 +65,12 @@ public class TestApp {
                 System.out.println(pair);
 
             System.out.println();
-            System.out.println("----------Noun Phrases----------");
+            System.out.println("----------Phrases----------");
             PhraseChunker pChunker = new PhraseChunker(taggedWords);
-            for (String np : pChunker.getNounPhrases())
-                System.out.println(np);
+            for (String p : pChunker.getPhrases())
+                System.out.println(p);
 
-            System.out.println();
-            System.out.println("----------Verb Phrases----------");
-            for (String vp : pChunker.getVerbPhrases())
-                System.out.println(vp);
+
 
 
             System.out.println();

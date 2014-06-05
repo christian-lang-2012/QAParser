@@ -9,16 +9,29 @@ package Models;
  */
 public class NPGrammar {
 	private static String[] tagPatterns = {
-//		"((<DT>)|(<PP\\$>))?(<JJ>)*(<NN>)", //chunk determiner/possessive, adjectives and nouns
-//        "(<RB.?>)*((<DT>)|(<CD>)|(<PRP\\$>))?((<JJ.?>)|(<NN.?>))*(<NN.?><IN>(<DT>)?)?((<RB.?>)|(<JJ.?>)|(<NN.?>))*((<NN.?>)|(<PRP>))"
-            "(<NN[^<]*>)+",
             "(<RB.?>)?<CD>(<NN[^<]*>)+",
             "(<RB.?>)?<DT>(<NN[^<]*>)+",
             "((<PRP\\$>)||(<DT>)||(<CD>))?(<RB.?>)*(<JJ.?>)*(<NN[^<]*>)+",
             "<JJ.?><IN>(<NN[^<])+",
-            "<IN>((<PRP\\$>)||(<DT>))?(<NN[^<]*>)+",
+            "((<PRP\\$>)||(<DT>))?(<NN[^<]*>)+",
+            "~NP~~PP~",
+            "<DT><NNP><CD><NN>",
+            "~NP~(<NN[^<]*>)+",
+            "<NNP><POS>",
+            "<VB[^<]*><NN[^<]*>",
+            "<NN[^<]*><CC><NN[^<]*>",
+            "~NP~~VP~",
+            "<CD>",
+            "~NP~<CC>~NP~",
+            "~NP~~PP~",
+            "~ADJP~~NP~",
+           // "~NP~~NP~",
+            "<NNP><CD>",
+            "<DT><VB.?><NN[^<]*>",
+            "(<NN[^<]*>)+",
             "<PRP>",
-            "<TO><VB>"
+            "<TO><VB>",
+            "<DT>~VP~"
 	};
 
 	public static String[] getPatterns(){

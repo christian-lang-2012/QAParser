@@ -2,6 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38acffdf-a05f-4133-88ca-b49ab63a60e4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/ADJPGrammar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/ADVPGrammar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/PPGrammar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/PhraseData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/SentenceGrammar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/NPGrammar.java" afterPath="$PROJECT_DIR$/src/Models/NPGrammar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PhraseChunking/PhraseChunker.java" afterPath="$PROJECT_DIR$/src/PhraseChunking/PhraseChunker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestApp.java" afterPath="$PROJECT_DIR$/src/TestApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/VPGrammar.java" afterPath="$PROJECT_DIR$/src/Models/VPGrammar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/TagTableData/precedingPosFrequencies.txt" afterPath="$PROJECT_DIR$/Data/TagTableData/precedingPosFrequencies.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/TagTableData/precedingTwoPosFrequencies.txt" afterPath="$PROJECT_DIR$/Data/TagTableData/precedingTwoPosFrequencies.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/TagTableData/tagFrequencies.txt" afterPath="$PROJECT_DIR$/Data/TagTableData/tagFrequencies.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/TagTableData/wordTagFrequencies.txt" afterPath="$PROJECT_DIR$/Data/TagTableData/wordTagFrequencies.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="QA Parser.iws" />
@@ -25,10 +38,10 @@
     <file path="$USER_HOME$/.gconf/apps/gedit-2/plugins/%gconf.xml" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1398718978090" ignored="false" />
     <file path="$USER_HOME$/.gconf/apps/gedit-2/preferences/ui/statusbar/%gconf.xml" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1398718978090" ignored="false" />
     <file path="/TagTable.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1400877827022" ignored="false" />
-    <file path="/TestApp.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401485696100" ignored="false" />
-    <file path="/PartOfSpeechTagger.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401392955138" ignored="false" />
+    <file path="/TestApp.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1402002179118" ignored="false" />
+    <file path="/PartOfSpeechTagger.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1402002232583" ignored="false" />
     <file path="/TagProbability.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1400537066550" ignored="false" />
-    <file path="/fragment.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1398889602544" ignored="false" />
+    <file path="/fragment.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1402002123458" ignored="false" />
     <file path="/Tree.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1398974559155" ignored="false" />
     <file path="/Node.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1400535714375" ignored="false" />
     <file path="/NounPhrase.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1399325966526" ignored="false" />
@@ -41,14 +54,14 @@
     <file path="/NounPhraseChunker.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1400095211814" ignored="false" />
     <file path="/manualRegressionTests.txt" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401744166686" ignored="false" />
     <file path="/VPGrammar.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1400623502055" ignored="false" />
-    <file path="/PhraseChunker.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1400618249294" ignored="false" />
+    <file path="/PhraseChunker.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401833266625" ignored="false" />
     <file path="/WordPossibleTags.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1400790584388" ignored="false" />
     <file path="$PROJECT_DIR$/src/neural/activation/ActivationSigmoid.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401217538541" ignored="false" />
     <file path="$PROJECT_DIR$/src/neural/activation/ActivationLinear.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401217538541" ignored="false" />
     <file path="$PROJECT_DIR$/src/neural/activation/ActivationTANH.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401217539019" ignored="false" />
     <file path="/HubSearch.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401219566676" ignored="false" />
     <file path="/Task.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401390189124" ignored="false" />
-    <file path="/Dummy.txt" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401739554568" ignored="false" />
+    <file path="/Dummy.txt" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1402001989332" ignored="false" />
     <file path="/JSONParser.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401303434670" ignored="false" />
     <file path="/Unzipper.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401304452862" ignored="false" />
     <file path="/StreamClient.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401311478213" ignored="false" />
@@ -59,6 +72,16 @@
     <file path="/Overridden Method Body.txt.ft" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401389696148" ignored="false" />
     <file path="/TaskRetriever.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401477955652" ignored="false" />
     <file path="$USER_HOME$/QA/src/PoSTagging/PartOfSpeechTagger.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401744357896" ignored="false" />
+    <file path="$USER_HOME$/QA/src/PhraseChunking/PhraseChunker.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401833266625" ignored="false" />
+    <file path="$USER_HOME$/QA/src/TestApp.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401833170946" ignored="false" />
+    <file path="$USER_HOME$/QA/src/Models/ADJPGrammar.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401825170949" ignored="false" />
+    <file path="$USER_HOME$/QA/src/Models/NPGrammar.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401825245517" ignored="false" />
+    <file path="$USER_HOME$/QA/src/Models/PPGrammar.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401827118488" ignored="false" />
+    <file path="$USER_HOME$/QA/src/Models/SentenceGrammar.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401825326324" ignored="false" />
+    <file path="$USER_HOME$/QA/src/Models/VPGrammar.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401827422542" ignored="false" />
+    <file path="$USER_HOME$/QA/src/Models/PhraseTreeData.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401829035795" ignored="false" />
+    <file path="/PhraseTreeData.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401829035357" ignored="false" />
+    <file path="$USER_HOME$/QA/src/Models/PhraseData.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401831255156" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +96,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -107,7 +131,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -118,20 +141,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestApp.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TestApp.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="28" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0">
+            <state line="56" column="63" selection-start="1839" selection-end="1839" vertical-scroll-proportion="0.42098916">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PartOfSpeechTagger.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/PoSTagging/PartOfSpeechTagger.java">
+      <file leaf-file-name="PhraseChunker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PhraseChunking/PhraseChunker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="166" column="68" selection-start="5628" selection-end="5628" vertical-scroll-proportion="0.1313253">
-              <folding />
+            <state line="177" column="45" selection-start="5696" selection-end="5696" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#818#826#0" expanded="true" />
+                <element signature="e#944#962#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/gather/GatherForTraining.java" />
         <option value="$PROJECT_DIR$/src/Util/NetworkUtil.java" />
         <option value="$PROJECT_DIR$/src/commonIO/JSONParser.java" />
         <option value="$PROJECT_DIR$/src/JSONParser/CDL.java" />
@@ -167,17 +192,18 @@
         <option value="$PROJECT_DIR$/src/Models/Task.java" />
         <option value="$PROJECT_DIR$/src/taskRetriever/TaskRetriever.java" />
         <option value="$PROJECT_DIR$/src/neural/FeedforwardNetwork.java" />
-        <option value="$PROJECT_DIR$/src/TestApp.java" />
         <option value="$PROJECT_DIR$/Data/AtTask Samples/manualRegressionTests.txt" />
+        <option value="$PROJECT_DIR$/src/PhraseChunking/PhraseChunker.java" />
+        <option value="$PROJECT_DIR$/src/TestApp.java" />
         <option value="$PROJECT_DIR$/src/PoSTagging/PartOfSpeechTagger.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="66" />
-    <option name="y" value="52" />
-    <option name="width" value="807" />
-    <option name="height" value="998" />
+    <option name="x" value="514" />
+    <option name="y" value="64" />
+    <option name="width" value="1043" />
+    <option name="height" value="997" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -207,7 +233,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -226,6 +252,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -304,7 +332,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Data" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -322,7 +354,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AtTask Samples" />
+              <option name="myItemId" value="TagTableData" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -336,14 +368,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="Data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,17 +388,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Models" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Data/TagTableData" />
+      <recent name="$PROJECT_DIR$/src/Models" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/JSONParser" />
       <recent name="$PROJECT_DIR$/Data/AtTask Samples" />
-      <recent name="$PROJECT_DIR$/Data/Brown Corpus" />
-      <recent name="$PROJECT_DIR$/Data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/org/json" />
@@ -412,6 +445,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -438,19 +484,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -530,32 +563,32 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="52" width="807" height="998" extended-state="4" />
-    <editor active="false" />
+    <frame x="514" y="64" width="1043" height="997" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.372919" sideWeight="0.6008855" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09507445" sideWeight="0.5137255" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4332893" sideWeight="0.8900344" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3303122" sideWeight="0.8900344" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3757159" sideWeight="0.47712418" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31844217" sideWeight="0.49009246" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -619,35 +652,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Config/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="109" selection-end="109" vertical-scroll-proportion="0.19626169" />
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-7-oracle/jre/lib/rt.jar!/org/jcp/xml/dsig/internal/dom/XMLDSigRI.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/json/JSONObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="577" column="0" selection-start="20600" selection-end="20600" vertical-scroll-proportion="0.029880479">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="21" selection-start="663" selection-end="663" vertical-scroll-proportion="0.9961165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/NPTableData/SampleNounPhrases.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-30.84898" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/neural/FeedforwardNetwork.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="135" column="39" selection-start="4060" selection-end="4060" vertical-scroll-proportion="0.0" />
@@ -660,16 +664,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/json/JSONArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="19" selection-start="4282" selection-end="4282" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="108" column="19" selection-start="4282" selection-end="4282" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/attask/api/StreamClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="0" selection-start="6145" selection-end="6145" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="151" column="0" selection-start="6145" selection-end="6145" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/AtTask Samples/goodPracticeData">
@@ -677,25 +677,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/AtTask Samples/manualRegressionTests.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="457" column="0" selection-start="85359" selection-end="85359" vertical-scroll-proportion="0.75524473">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/taskRetriever/TaskRetriever.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="20" selection-start="1979" selection-end="1979" vertical-scroll-proportion="0.6727899">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="28" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="75" column="20" selection-start="1979" selection-end="1979" vertical-scroll-proportion="0.6727899" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PoSTagging/TagTable.java">
@@ -707,14 +691,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/AtTask Samples/manualRegressionTests.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="436" column="33" selection-start="80670" selection-end="80670" vertical-scroll-proportion="0.40920398">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/ADJPGrammar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="189" selection-end="189" vertical-scroll-proportion="0.16523868">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/SentenceGrammar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="67" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/PhraseData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="50" selection-start="491" selection-end="491" vertical-scroll-proportion="0.43560606">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PhraseChunking/PhraseChunker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="177" column="45" selection-start="5696" selection-end="5696" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#818#826#0" expanded="true" />
+            <element signature="e#944#962#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PoSTagging/PartOfSpeechTagger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="68" selection-start="5628" selection-end="5628" vertical-scroll-proportion="0.1313253">
+        <state line="19" column="47" selection-start="404" selection-end="404" vertical-scroll-proportion="0.28950542">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/TagTableData/precedingPosFrequencies.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="63" selection-start="1839" selection-end="1839" vertical-scroll-proportion="0.42098916">
           <folding />
         </state>
       </provider>
