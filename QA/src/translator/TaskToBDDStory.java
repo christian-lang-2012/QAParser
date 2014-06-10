@@ -28,16 +28,11 @@ public class TaskToBDDStory {
 
         BDDScenario scenario = new BDDScenario();
 
-        for (String np : pChunker.getNounPhrases()){
+        for (String np : pChunker.getPhrases()){
             scenario.addUserStoryToScenario(np);
         }
 
         story.addScenario(scenario);
-
-
-        for (String vp : pChunker.getVerbPhrases()){
-            System.out.println(vp);
-        }
 
         return story;
 

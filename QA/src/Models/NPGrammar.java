@@ -30,8 +30,9 @@ public class NPGrammar {
             "<DT><VB.?><NN[^<]*>",
             "(<NN[^<]*>)+",
             "<PRP>",
-            "<TO><VB>",
-            "<DT>~VP~"
+            "<TO><VB>~NP~",
+            "<DT>~VP~",
+            "<DT>~NP~"
 	};
 
 	public static String[] getPatterns(){

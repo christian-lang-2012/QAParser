@@ -16,13 +16,14 @@ public class SentenceGrammar {
             "~S~<CC>~S~",
             "~ADVP~~NP~~VP~",
             "<CC>~NP~~VP~",
-            //"~S~~S~",
             "~NP~~VP~~PP~",
             "~S~<WRB>~S~",
             "~S~<IN>~S~",
             "~VP~<DT>~S~",
             "~S~<IN>~VP~",
-            "~PP~~VP~"
+            "~PP~~VP~",
+            "<WRB>~S~",
+            "~VP~~S~"
     };
 
     public static String[] getPatterns(){

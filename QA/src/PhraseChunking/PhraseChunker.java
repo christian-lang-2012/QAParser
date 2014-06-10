@@ -28,18 +28,74 @@ public class PhraseChunker {
 
     public List<String> getPhrases(){
         ArrayList<String> phrases = new ArrayList<String>();
-        Node<PhraseData> root = phraseTrees.get(0).getRoot();
-        List<Node<PhraseData>> nodes = new ArrayList<Node<PhraseData>>();
-        nodes.add(root);
+        for(Tree<PhraseData> tree : phraseTrees){
+            Node<PhraseData> root = tree.getRoot();
+            List<Node<PhraseData>> nodes = new ArrayList<Node<PhraseData>>();
+            nodes.add(root);
 
-        while(nodes.size() > 0){
-            Node<PhraseData> next = nodes.get(0);
-            if(next.getData().getRegex().equals("~S~"))
-                phrases.add(getWordsInNode(next));
-            removeNodeAndAddChildren(nodes,next);
+            while(nodes.size() > 0){
+                Node<PhraseData> next = nodes.get(0);
+                if(next.getData().getRegex().equals("~S~"))
+                    addUniqueElement(phrases,getWordsInNode(next));
+                removeNodeAndAddChildren(nodes,next);
+            }
         }
 
         return phrases;
+    }
+
+    public List<String> getNounPhrases(){
+        ArrayList<String> np = new ArrayList<String>();
+        for(Tree<PhraseData> tree : phraseTrees){
+            Node<PhraseData> root = tree.getRoot();
+            List<Node<PhraseData>> nodes = new ArrayList<Node<PhraseData>>();
+            nodes.add(root);
+
+            while(nodes.size() > 0){
+                Node<PhraseData> next = nodes.get(0);
+                if(next.getData().getRegex().equals("~NP~"))
+                    addUniqueElement(np,getWordsInNode(next));
+                removeNodeAndAddChildren(nodes,next);
+            }
+        }
+
+        return np;
+    }
+
+    public List<String> getVerbPhrases(){
+        ArrayList<String> vp = new ArrayList<String>();
+        for(Tree<PhraseData> tree : phraseTrees){
+            Node<PhraseData> root = tree.getRoot();
+            List<Node<PhraseData>> nodes = new ArrayList<Node<PhraseData>>();
+            nodes.add(root);
+
+            while(nodes.size() > 0){
+                Node<PhraseData> next = nodes.get(0);
+                if(next.getData().getRegex().equals("~VP~"))
+                    addUniqueElement(vp,getWordsInNode(next));
+                removeNodeAndAddChildren(nodes,next);
+            }
+        }
+
+        return vp;
+    }
+
+    private void addUniqueElement(List<String> list, String element){
+        boolean exists = false;
+        int indexToRemove = -1;
+
+        for(String item : list)
+            if(item.contains(element))
+                exists = true;
+            else if(element.contains(item))
+                indexToRemove = list.indexOf(item);
+
+        if(!exists && indexToRemove == -1)
+            list.add(element);
+        else if(indexToRemove != -1){
+            list.remove(indexToRemove);
+            list.add(indexToRemove,element);
+        }
     }
 
     private void removeNodeAndAddChildren(List<Node<PhraseData>> list, Node<PhraseData> node){
@@ -57,9 +113,10 @@ public class PhraseChunker {
     }
 
     private void generateParseTree(){
-        while(phraseTrees.size() > 1){
+        int iterations = 0;
+        while(phraseTrees.size() > 1 && iterations < 5){
             boolean found;
-
+            iterations++;
             do{
                 found = findAdjectivePhrases();
             }while(found);
