@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38acffdf-a05f-4133-88ca-b49ab63a60e4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/NPGrammar.java" afterPath="$PROJECT_DIR$/src/Models/NPGrammar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/FailureTransition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/Subtree.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PhraseChunking/PhraseChunker.java" afterPath="$PROJECT_DIR$/src/PhraseChunking/PhraseChunker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/SentenceGrammar.java" afterPath="$PROJECT_DIR$/src/Models/SentenceGrammar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/translator/TaskToBDDStory.java" afterPath="$PROJECT_DIR$/src/translator/TaskToBDDStory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestApp.java" afterPath="$PROJECT_DIR$/src/TestApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/VPGrammar.java" afterPath="$PROJECT_DIR$/src/Models/VPGrammar.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -31,7 +30,7 @@
     <file path="$USER_HOME$/.gconf/apps/gedit-2/plugins/%gconf.xml" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1398718978090" ignored="false" />
     <file path="$USER_HOME$/.gconf/apps/gedit-2/preferences/ui/statusbar/%gconf.xml" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1398718978090" ignored="false" />
     <file path="/TagTable.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1400877827022" ignored="false" />
-    <file path="/TestApp.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1402348569887" ignored="false" />
+    <file path="/TestApp.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1402515050401" ignored="false" />
     <file path="/PartOfSpeechTagger.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1402002232583" ignored="false" />
     <file path="/TagProbability.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1400537066550" ignored="false" />
     <file path="/fragment.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1402341398214" ignored="false" />
@@ -47,14 +46,14 @@
     <file path="/NounPhraseChunker.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1400095211814" ignored="false" />
     <file path="/manualRegressionTests.txt" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401744166686" ignored="false" />
     <file path="/VPGrammar.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1400623502055" ignored="false" />
-    <file path="/PhraseChunker.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1402424015738" ignored="false" />
+    <file path="/PhraseChunker.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1402514945859" ignored="false" />
     <file path="/WordPossibleTags.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1400790584388" ignored="false" />
     <file path="$PROJECT_DIR$/src/neural/activation/ActivationSigmoid.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401217538541" ignored="false" />
     <file path="$PROJECT_DIR$/src/neural/activation/ActivationLinear.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401217538541" ignored="false" />
     <file path="$PROJECT_DIR$/src/neural/activation/ActivationTANH.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401217539019" ignored="false" />
     <file path="/HubSearch.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401219566676" ignored="false" />
     <file path="/Task.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401390189124" ignored="false" />
-    <file path="/Dummy.txt" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1402423051687" ignored="false" />
+    <file path="/Dummy.txt" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1402512398870" ignored="false" />
     <file path="/JSONParser.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401303434670" ignored="false" />
     <file path="/Unzipper.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401304452862" ignored="false" />
     <file path="/StreamClient.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401311478213" ignored="false" />
@@ -77,6 +76,8 @@
     <file path="$USER_HOME$/QA/src/Models/PhraseData.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1401831255156" ignored="false" />
     <file path="/workspace.xml" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1402003862337" ignored="false" />
     <file path="/TaskToBDDStory.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1402340123522" ignored="false" />
+    <file path="/Subtree.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1402425998658" ignored="false" />
+    <file path="/FailureTransition.java" changelist="38acffdf-a05f-4133-88ca-b49ab63a60e4" time="1402436381936" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +85,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/QA Parser$TestApp.coverage" NAME="TestApp Coverage Results" MODIFIED="1402429788697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -92,6 +96,22 @@
   </component>
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/PhraseChunking/PhraseChunker.java" line="123" class="PhraseChunking.PhraseChunker" package="PhraseChunking">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -126,22 +146,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/PhraseChunking/PhraseChunker.java" line="120" class="PhraseChunking.PhraseChunker" package="PhraseChunking">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -151,26 +155,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestApp.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TestApp.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="3" selection-start="2157" selection-end="2157" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="46" column="5" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.43485618">
+              <folding>
+                <element signature="e#598#604#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhraseChunker.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PhraseChunker.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PhraseChunking/PhraseChunker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="197" column="41" selection-start="6407" selection-end="6407" vertical-scroll-proportion="0.6132879">
+            <state line="120" column="54" selection-start="4078" selection-end="4078" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#818#826#0" expanded="true" />
                 <element signature="e#988#1006#0" expanded="true" />
-                <element signature="e#1455#1463#0" expanded="true" />
-                <element signature="e#1625#1643#0" expanded="true" />
-                <element signature="e#2083#2091#0" expanded="true" />
-                <element signature="e#2253#2271#0" expanded="true" />
+                <element signature="e#1512#1520#0" expanded="true" />
+                <element signature="e#1682#1700#0" expanded="true" />
+                <element signature="e#2140#2148#0" expanded="true" />
+                <element signature="e#2310#2328#0" expanded="true" />
+                <element signature="e#3857#3876#0" expanded="true" />
+                <element signature="e#3940#3964#0" expanded="true" />
+                <element signature="e#7284#7302#0" expanded="true" />
+                <element signature="e#7403#7415#0" expanded="true" />
+                <element signature="e#9954#9978#0" expanded="true" />
+                <element signature="e#10514#10538#0" expanded="true" />
+                <element signature="e#11079#11103#0" expanded="true" />
+                <element signature="e#11645#11669#0" expanded="true" />
+                <element signature="e#12218#12242#0" expanded="true" />
+                <element signature="e#12776#12800#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -194,8 +210,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/JSONParser/zip/Keep.java" />
-        <option value="$PROJECT_DIR$/src/JSONParser/zip/Zipper.java" />
         <option value="$PROJECT_DIR$/src/com/attask/api/StreamClient.java" />
         <option value="$PROJECT_DIR$/src/TasksManager/TasksManager.java" />
         <option value="$PROJECT_DIR$/src/Models/Task.java" />
@@ -206,18 +220,20 @@
         <option value="$PROJECT_DIR$/src/translator/TaskToBDDStory.java" />
         <option value="$PROJECT_DIR$/src/PoSTagging/PartOfSpeechTagger.java" />
         <option value="$PROJECT_DIR$/src/Models/NPGrammar.java" />
-        <option value="$PROJECT_DIR$/src/Models/VPGrammar.java" />
-        <option value="$PROJECT_DIR$/src/TestApp.java" />
         <option value="$PROJECT_DIR$/src/Models/SentenceGrammar.java" />
+        <option value="$PROJECT_DIR$/src/Models/Subtree.java" />
+        <option value="$PROJECT_DIR$/src/Models/VPGrammar.java" />
+        <option value="$PROJECT_DIR$/src/Models/FailureTransition.java" />
+        <option value="$PROJECT_DIR$/src/TestApp.java" />
         <option value="$PROJECT_DIR$/src/PhraseChunking/PhraseChunker.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1615" />
-    <option name="height" value="1026" />
+    <option name="x" value="116" />
+    <option name="y" value="102" />
+    <option name="width" value="1043" />
+    <option name="height" value="997" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -435,12 +451,14 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="QA Parser" />
       <envs />
+      <RunnerSettings RunnerId="Cover" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Cover" />
       <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -577,7 +595,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1615" height="1026" extended-state="6" />
+    <frame x="116" y="102" width="1043" height="997" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -585,7 +603,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3727064" sideWeight="0.6008855" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5" sideWeight="0.6008855" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09507445" sideWeight="0.5137255" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -597,11 +615,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20958467" sideWeight="0.68479466" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31520534" sideWeight="0.47712418" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3303122" sideWeight="0.71215594" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28784403" sideWeight="0.47712418" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971245" sideWeight="0.68590456" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -666,35 +685,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Data/AtTask Samples/manualRegressionTests.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="436" column="33" selection-start="80670" selection-end="80670" vertical-scroll-proportion="0.40920398" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/ADJPGrammar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="189" selection-end="189" vertical-scroll-proportion="0.16523868">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/PhraseData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="50" selection-start="491" selection-end="491" vertical-scroll-proportion="0.43560606">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/TagTableData/precedingPosFrequencies.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="64" selection-start="13658" selection-end="13658" vertical-scroll-proportion="0.4207459" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/BDDScenario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="137" selection-end="137" vertical-scroll-proportion="0.16033255">
@@ -737,13 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/VPGrammar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="24" selection-start="773" selection-end="773" vertical-scroll-proportion="0.8123791">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/PPGrammar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="10" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
@@ -751,30 +734,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/SentenceGrammar.java">
+    <entry file="file://$PROJECT_DIR$/src/Models/Subtree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="20" selection-start="647" selection-end="647" vertical-scroll-proportion="0.7035647">
+        <state line="34" column="31" selection-start="680" selection-end="680" vertical-scroll-proportion="0.58553386">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="19" selection-start="5841" selection-end="5841" vertical-scroll-proportion="1.0037314">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestApp.java">
+    <entry file="file://$PROJECT_DIR$/src/Models/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="3" selection-start="2157" selection-end="2157" vertical-scroll-proportion="0.0">
+        <state line="12" column="13" selection-start="211" selection-end="211" vertical-scroll-proportion="0.32846716">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="189" selection-end="189" vertical-scroll-proportion="0.24635036">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/FailureTransition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="73" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.792517">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/SentenceGrammar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="4" selection-start="390" selection-end="390" vertical-scroll-proportion="0.42179263">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/VPGrammar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="21" selection-start="796" selection-end="796" vertical-scroll-proportion="0.7644991">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PhraseChunking/PhraseChunker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="197" column="41" selection-start="6407" selection-end="6407" vertical-scroll-proportion="0.6132879">
+        <state line="120" column="54" selection-start="4078" selection-end="4078" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#818#826#0" expanded="true" />
             <element signature="e#988#1006#0" expanded="true" />
-            <element signature="e#1455#1463#0" expanded="true" />
-            <element signature="e#1625#1643#0" expanded="true" />
-            <element signature="e#2083#2091#0" expanded="true" />
-            <element signature="e#2253#2271#0" expanded="true" />
+            <element signature="e#1512#1520#0" expanded="true" />
+            <element signature="e#1682#1700#0" expanded="true" />
+            <element signature="e#2140#2148#0" expanded="true" />
+            <element signature="e#2310#2328#0" expanded="true" />
+            <element signature="e#3857#3876#0" expanded="true" />
+            <element signature="e#3940#3964#0" expanded="true" />
+            <element signature="e#7284#7302#0" expanded="true" />
+            <element signature="e#7403#7415#0" expanded="true" />
+            <element signature="e#9954#9978#0" expanded="true" />
+            <element signature="e#10514#10538#0" expanded="true" />
+            <element signature="e#11079#11103#0" expanded="true" />
+            <element signature="e#11645#11669#0" expanded="true" />
+            <element signature="e#12218#12242#0" expanded="true" />
+            <element signature="e#12776#12800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="5" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.43485618">
+          <folding>
+            <element signature="e#598#604#0" expanded="true" />
           </folding>
         </state>
       </provider>

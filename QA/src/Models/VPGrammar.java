@@ -26,7 +26,8 @@ public class VPGrammar {
             "~VP~<CC>~VP~",
             "<VB.?>~ADJP~",
             "~VP~~PP~",
-            "<VB.?>~VP~"
+            "<VB.?>~VP~",
+            "~NP~~VP~"
     };
 
     public static String[] getPatterns(){
