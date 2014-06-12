@@ -12,6 +12,8 @@ import java.util.List;
  * Created with IntelliJ IDEA.
  * User: christianlang
  * Date: 5/14/14
+ *
+ * Self-explanatory
  */
 public class FeedforwardNetwork {
 

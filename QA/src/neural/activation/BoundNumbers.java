@@ -4,6 +4,8 @@ package neural.activation;
  * Created with IntelliJ IDEA.
  * User: christianlang
  * Date: 5/14/14
+ *
+ * A simple class that prevents numbers from being too big or too small.
  */
 public class BoundNumbers {
 

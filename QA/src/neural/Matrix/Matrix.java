@@ -102,12 +102,6 @@ public class Matrix implements Cloneable, Serializable
         return true;
     }
 
-    /**
-     *
-     * @param array
-     * @param index
-     * @return The new index after this matrix has been read.
-     */
     public int fromPackedArray(Double[] array, int index) {
 
         for (int r = 0; r < getRows(); r++) {

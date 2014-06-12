@@ -26,7 +26,7 @@ public class TaskRetriever {
     }
 
     private void login(){
-        //TODO: Change these to current user and password
+        //TODO: Change these to current user and password whenever a new enterprise project starts
         String username = "christianlang";
         String password = "inmelet13";
 
