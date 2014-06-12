@@ -10,6 +10,8 @@ import neural.activation.ActivationSigmoid;
  * Created with IntelliJ IDEA.
  * User: christianlang
  * Date: 5/14/14
+ *
+ * A feedforward neural network layer
  */
 public class FeedForwardLayer {
     private double fire[];

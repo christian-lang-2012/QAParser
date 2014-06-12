@@ -6,6 +6,8 @@ import java.util.ArrayList;
  * Created with IntelliJ IDEA.
  * User: christianlang
  * Date: 6/2/14
+ *
+ * This is a basic model for the Behavior Driven Development story.
  */
 public class BDDStory {
 

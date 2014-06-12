@@ -4,6 +4,8 @@ package neural;
  * Created with IntelliJ IDEA.
  * User: christianlang
  * Date: 5/14/14
+ *
+ * Class designated to calculating the error percantage across the neural network
  */
 public class ErrorCalculation {
     private double globalError;

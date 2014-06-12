@@ -9,8 +9,6 @@ import java.util.*;
  * Created with IntelliJ IDEA.
  * User: jacobdaniel
  * Date: 5/5/14
- * Time: 1:59 PM
- * To change this template use File | Settings | File Templates.
  */
 public class NPTable {
 	private List<NounPhrase> sampleNounPhrases;

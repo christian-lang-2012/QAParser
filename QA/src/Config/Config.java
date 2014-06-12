@@ -4,6 +4,10 @@ package Config;
  * Created with IntelliJ IDEA.
  * User: christianlang
  * Date: 5/14/14
+ *
+ * This is a configuration file for the Neural Network.
+ * It contains the default input, output sizes, the default hidden layer neuron count,
+ * and acceptable error range.
  */
 public class Config {
 

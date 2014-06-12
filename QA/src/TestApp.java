@@ -67,9 +67,6 @@ public class TestApp {
             for (String p : pChunker.getPhrases())
                 System.out.println(p);
 
-
-
-
             System.out.println();
             System.out.println("----------End of Task #: " + i + "----------");
             System.out.println();

@@ -4,6 +4,8 @@ package neural.Matrix;
  * Created with IntelliJ IDEA.
  * User: christianlang
  * Date: 5/14/14
+ *
+ * Util class that converts trues and falses to 1 and 0
  */
 public class BiPolarUtil {
     public static double bipolar2double(final boolean b) {
