@@ -11,13 +11,13 @@ import java.util.*;
  * User: jacobdaniel
  * Date: 4/29/14
  * Time: 3:25 PM
- * To change this template use File | Settings | File Templates.
+ * PartOfSpeechTagger parses a sentence and tags each word using stochastic tagging
  */
 public class PartOfSpeechTagger {
 	private String[] words;
 	private Tree<TagProbability> tagProbabilityTree;
 	private TagTable tagTable;
-	private final int K = 2;
+	private final int K = 2;//K represents how many children can be added in A-Star method
 	private List<WordTagPair> taggedWords;
 
   	public PartOfSpeechTagger(){
@@ -29,6 +29,11 @@ public class PartOfSpeechTagger {
 		return taggedWords;
 	}
 
+    /**
+     * Parse a sentence, generate tree representing all possible tag combinations,
+     * pick the best sequence based on probability
+     * @param sentence
+     */
 	public void parseSentence(String sentence){
 	 	sentence = sentence.replace("!","").replace("?","").replace(".","").replace(",","")
                  .replace("-","").replace("(","").replace(")","").replace("/"," ").trim().toLowerCase();
@@ -47,11 +52,17 @@ public class PartOfSpeechTagger {
         //findMostProbableTagSequenceExhaustive();
 	}
 
+    /**
+     * Populate tree with all possible tag sequences
+     * @param leaves
+     * @param words
+     */
 	private void populateTree(List<Node<TagProbability>> leaves, List<String> words){
 		Node<TagProbability> parent = leaves.get(0).getParent();
 		List<TagProbability> tagProbabilities;
 		if(parent != null) {
 			for(Node<TagProbability> leaf : leaves){
+                //Approximation: Only consider the top half most likely tags to improve performance
 				tagProbabilities = getTopHalfProbs(calculatePossibleTagProbabilities(words.get(0), leaf.getData().getTag(), parent.getData().getTag()));
                 for(TagProbability tp : tagProbabilities){
                     leaf.add(new Node<TagProbability>(tp));
@@ -74,16 +85,22 @@ public class PartOfSpeechTagger {
 				for(String word : words)
 					wordsCopy.add(word);
                 if(leaf.getChildren().size() > 0){
+                    //Recurse on children
 				    populateTree(leaf.getChildren(),wordsCopy);
                 }
 			}
 		}
 	}
 
+    /**
+     * Takes a list of tag probilities and returns the top half
+     * @param probs
+     * @return
+     */
     private List<TagProbability> getTopHalfProbs(List<TagProbability> probs){
         List<TagProbability> topHalf = new ArrayList<TagProbability>();
         for(TagProbability tp : probs){
-            if(topHalf.size() < (probs.size()/2+1))
+            if(topHalf.size() < Math.max((probs.size()/2+1),3))
                 topHalf.add(tp);
             else{
                 TagProbability smallest = getSmallestTagProbability(topHalf);
@@ -105,6 +122,11 @@ public class PartOfSpeechTagger {
         return smallest;
     }
 
+    /**
+     * Takes a word and returns the most likely tags based on word ending
+     * @param word
+     * @return
+     */
     private Set<PartOfSpeechTag> analyzeWordForPossibleTags(String word){
         Map<PartOfSpeechTag, Integer> tagCount = new HashMap<PartOfSpeechTag, Integer>();
         Set<PartOfSpeechTag> mostLikelyTags = new HashSet<PartOfSpeechTag>();
@@ -112,11 +134,12 @@ public class PartOfSpeechTagger {
             mostLikelyTags.add(PartOfSpeechTag.CD);
         }
         else if(word.length() > 1){
+            //Consider last two letters
             String ending = word.substring(word.length()-2);
             for(String taggedWord : tagTable.getAllWords()){
                 if(taggedWord.endsWith(ending)){
                     for(PartOfSpeechTag tag : tagTable.getWordTags(taggedWord)){
-                        if(!tagCount.containsKey(tag))
+                        if(!tagCount.containsKey(tag)) //if a word has same ending it may be correct tag
                             tagCount.put(tag,1);
                         else tagCount.put(tag,tagCount.get(tag)+1);
                     }
@@ -124,6 +147,7 @@ public class PartOfSpeechTagger {
             }
 
             int numTags = tagCount.size();
+            //pick the top 4 tags based on frequency
             for(int i = 0; i < Math.min(numTags,4); i++){
                 PartOfSpeechTag max = getMaxTag(tagCount);
                 mostLikelyTags.add(max);
@@ -149,20 +173,31 @@ public class PartOfSpeechTagger {
         return maxTag;
     }
 
+    /**
+     * Finds the probability of all possible tags for a word based on previous two tags
+     * and Corpus frequencies
+     * @param word
+     * @param previous
+     * @param previousPrevious
+     * @return
+     */
 	private List<TagProbability> calculatePossibleTagProbabilities(String word, PartOfSpeechTag previous, PartOfSpeechTag previousPrevious){
 		ArrayList<TagProbability> tagProbabilities = new ArrayList<TagProbability>();
 		Set<PartOfSpeechTag> possibleTags = new HashSet<PartOfSpeechTag>();
 
 		if(tagTable.isWordInTable(word)){
+            //the word is known, get all its possible tags from tag table
 			for(PartOfSpeechTag tag : tagTable.getWordTags(word))
 				possibleTags.add(tag);
 		}
 
         if(possibleTags.isEmpty()){
+            //the word is unknown, get all its possible tags based on ending
             possibleTags = analyzeWordForPossibleTags(word);
         }
 
         if(possibleTags.isEmpty()){
+            //the word is unknown and its ending could not be matched, consider it a noun, verb, adverb, or adjective
             possibleTags.add(PartOfSpeechTag.NN);
             possibleTags.add(PartOfSpeechTag.VB);
             possibleTags.add(PartOfSpeechTag.JJ);
@@ -171,12 +206,20 @@ public class PartOfSpeechTagger {
 
 
 		for(PartOfSpeechTag tag : possibleTags){
+            /**
+             * Probability is represented as two separate probabilities. TagHistoryProbability is the probability that
+             * a sequence of tags shows up in the table. Ex) Probability that the current word is a noun given that the
+             * previous two words were verb noun. LexicalProbability is the probability that the current word is a given
+             * part of speech. Ex) Probability that race is a noun.
+             */
 			float tagHistoryProbability;
 			float lexicalProbability;
 			if(previous == null)
+                //No previous tags to reference, guess tag based on tag frequency in table
 				tagHistoryProbability = 1.0f * tagTable.getTagFrequency(tag) / tagTable.getTotalFrequency();
 			else if(previousPrevious != null){
                 if(tagTable.isTagPrecededByTags(previousPrevious,previous,tag))
+                    //+1 and +36 are there for smoothing
                     tagHistoryProbability = 1.0f * (tagTable.getPrecedingTagsFrequency(previousPrevious,previous,tag) +1)/ (tagTable.getPrecedingTagFrequency(previousPrevious,previous)*tagTable.getTagFrequency(tag)+36);
                 else tagHistoryProbability = 1.0f / (tagTable.getPrecedingTagFrequency(previousPrevious,previous)*tagTable.getTagFrequency(tag)+36);
             }
@@ -220,6 +263,9 @@ public class PartOfSpeechTagger {
 		}
 	}
 
+    /**
+     * Find the most likely sequence of tags in tree
+     */
 	private void findMostProbableTagSequenceAStar(){
 		Node<TagProbability> next = tagProbabilityTree.getRoot();
 		List<Node<TagProbability>> nodes = new ArrayList<Node<TagProbability>>();
@@ -268,6 +314,11 @@ public class PartOfSpeechTagger {
 		return maxNode;
 	}
 
+    /**
+     * Remove node from list and add all children
+     * @param node
+     * @param list
+     */
 	private void removeNodeAndAddChildrenToList(Node<TagProbability> node, List<Node<TagProbability>> list){
 		List<Node<TagProbability>> children = node.getChildren();
 		list.remove(node);
@@ -279,6 +330,11 @@ public class PartOfSpeechTagger {
 		}
 	}
 
+    /**
+     * Remove node from list and add K best children
+     * @param node
+     * @param list
+     */
 	private void removeNodeAndAddBestKChildrenToList(Node<TagProbability> node, List<Node<TagProbability>> list){
 		List<Node<TagProbability>> children = node.getChildren();
 		list.remove(node);

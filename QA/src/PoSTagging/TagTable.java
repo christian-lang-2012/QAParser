@@ -10,7 +10,7 @@ import java.util.*;
  * User: jacobdaniel
  * Date: 4/28/14
  * Time: 3:10 PM
- * To change this template use File | Settings | File Templates.
+ * TagTable analyzes the Corpus data and stores them in files. The files are then read into tables at runtime.
  */
 public class TagTable {
 	private Map<PartOfSpeechTag, Integer> tagFrequencies;
@@ -101,6 +101,7 @@ public class TagTable {
 	}
 
 	private void getDataFromCorpus(){
+        //Read data in Penn Treebank Samples
 		File rootDir = new File("Data/Penn Treebank Samples");
 		File[] files = rootDir.listFiles();
 
@@ -108,6 +109,7 @@ public class TagTable {
 			readFile(file);
 		}
 
+        //Read data in AtTask Samples
         rootDir = new File("Data/AtTask Samples");
         files = rootDir.listFiles();
         for(File file : files){
@@ -115,6 +117,9 @@ public class TagTable {
         }
 	}
 
+    /**
+     * Read data analysis files into tables
+     */
 	private void getDataFromFiles(){
 		try {
 			BufferedReader reader = new BufferedReader((new FileReader(new File("Data/TagTableData/tagFrequencies.txt"))));
@@ -213,6 +218,9 @@ public class TagTable {
 		}
 	}
 
+    /**
+     * Write data analysis to files for later use
+     */
 	private void printToFiles(){
 		try {
 			BufferedWriter writer = new BufferedWriter(new FileWriter(("Data/TagTableData/tagFrequencies.txt")));
@@ -281,6 +289,10 @@ public class TagTable {
 		}
 	}
 
+    /**
+     * Generate tables from pre-tagged data
+     * @param line
+     */
 	private void parseLine(String line){
 		line = line.replace("\t","").replace("[","").replace("]","").replace("=","").trim();
 		String[] words = line.split(" ");

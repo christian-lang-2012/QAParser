@@ -5,7 +5,7 @@ package Models;
  * User: jacobdaniel
  * Date: 5/19/14
  * Time: 1:54 PM
- * To change this template use File | Settings | File Templates.
+ * VPGrammar is a regex grammar for finding verb phrases
  */
 public class VPGrammar {
 

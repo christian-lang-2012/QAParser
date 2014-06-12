@@ -5,7 +5,7 @@ package Models;
  * User: jacobdaniel
  * Date: 5/29/14
  * Time: 2:26 PM
- * To change this template use File | Settings | File Templates.
+ * SentenceGrammar is a regex grammar for finding sentences
  */
 public class SentenceGrammar {
     public static String[] tagPatterns = {

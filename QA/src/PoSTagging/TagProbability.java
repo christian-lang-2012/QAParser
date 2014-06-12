@@ -7,7 +7,7 @@ import Models.*;
  * User: jacobdaniel
  * Date: 4/30/14
  * Time: 12:42 PM
- * To change this template use File | Settings | File Templates.
+ * TagProbability holds a tag, word, and probability
  */
 public class TagProbability {
 	private PartOfSpeechTag tag;

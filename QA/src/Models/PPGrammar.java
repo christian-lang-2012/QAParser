@@ -5,7 +5,7 @@ package Models;
  * User: jacobdaniel
  * Date: 5/30/14
  * Time: 1:11 PM
- * To change this template use File | Settings | File Templates.
+ * PPGrammar is a regex grammar for finding prepositional phrases
  */
 public class PPGrammar {
     private static String[] tagPatterns = {

@@ -7,7 +7,7 @@ import java.util.*;
  * User: jacobdaniel
  * Date: 5/5/14
  * Time: 1:46 PM
- * To change this template use File | Settings | File Templates.
+ * NOT USED
  */
 public class NounPhrase {
 	private List<PartOfSpeechTag> tags;

@@ -5,7 +5,7 @@ package Models;
  * User: jacobdaniel
  * Date: 4/28/14
  * Time: 2:51 PM
- * To change this template use File | Settings | File Templates.
+ * PartOfSpeechTag contains all PoS tags from Penn Treebank
  */
 public enum PartOfSpeechTag {
 	CC,

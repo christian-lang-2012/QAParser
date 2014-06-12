@@ -8,7 +8,8 @@ import java.util.List;
  * User: jacobdaniel
  * Date: 6/10/14
  * Time: 12:34 PM
- * To change this template use File | Settings | File Templates.
+ * Subtree represents a phrase containing other phrases or words
+ * A subtree has a type: NP, VP, ADJP, ADVP, PP, S
  */
 public class Subtree<T> {
     private List<T> subtrees;

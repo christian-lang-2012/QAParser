@@ -5,7 +5,7 @@ package Models;
  * User: jacobdaniel
  * Date: 5/8/14
  * Time: 1:35 PM
- * To change this template use File | Settings | File Templates.
+ * NPGrammar is a regex grammar for finding noun phrases
  */
 public class NPGrammar {
 	private static String[] tagPatterns = {

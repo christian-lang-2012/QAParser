@@ -10,7 +10,7 @@ import java.util.*;
  * User: jacobdaniel
  * Date: 5/5/14
  * Time: 1:59 PM
- * To change this template use File | Settings | File Templates.
+ * NOT USED
  */
 public class NPTable {
 	private List<NounPhrase> sampleNounPhrases;
